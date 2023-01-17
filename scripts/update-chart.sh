@@ -44,9 +44,19 @@ GITHUB_REPO=${GITHUB_REPO:-$DEFAULT_GITHUB_REPO}
 DEFAULT_COMMIT_TARGET_BRANCH="main"
 COMMIT_TARGET_BRANCH=${COMMIT_TARGET_BRANCH:-$DEFAULT_COMMIT_TARGET_BRANCH}
 
+# DEPENDENCY_DIFF is an enumeration for storing how the chart depedencies have
+# changed between the last and current versions of the parent chart. Storing the
+# values as integers allows the script to compare values using mathematical
+# operators.
+DEPENDENCY_DIFF_PATCH="0"
+DEPENDENCY_DIFF_MINOR="1"
+DEPENDENCY_DIFF_MAJOR="2"
+
 source "$TEST_INFRA_LIB_DIR/common.sh"
 
-_upgrade_dependency_versions() {
+_upgrade_dependency_and_chart_versions() {
+    local parent_chart_diff="$DEPENDENCY_DIFF_PATCH"
+
     pushd "$WORKSPACE_DIR" >/dev/null
         local controller_names=$(find . -maxdepth 1 -name "*-controller" -type d | cut -d"/" -f2)
     popd >/dev/null
@@ -72,12 +82,29 @@ _upgrade_dependency_versions() {
             echo -e "Adding $chart_name as a new dependency \t $chart_version"
 
             _add_chart_dependency $chart_name $chart_version $service_name
+
+            # For new chart dependencies, upgrade the minor version
+            parent_chart_diff="$DEPENDENCY_DIFF_MINOR"
+
         elif [[ "$existing_version" != "$chart_version" ]]; then
             echo -e "Upgrading $chart_name \t $chart_version"
 
             _upgrade_chart_dependency $chart_name $chart_version $service_name
+
+            # Determine the difference in semver
+            local semver_diff="$(_get_semver_diff $existing_version $chart_version)"
+            if [[ "$semver_diff" -gt "$parent_chart_diff" ]]; then
+                parent_chart_diff="$semver_diff"
+            fi
         fi
     done
+    
+    local current_chart_version="$(yq '.version' $PARENT_CHART_CONFIG)"
+    local new_chart_version="$(_increment_chart_version $current_chart_version $parent_chart_diff)"
+
+    echo "Updating chart from version $current_chart_version to $new_chart_version"
+
+    VERSION="$new_chart_version" yq --inplace '.version = env(VERSION)' $PARENT_CHART_CONFIG
 }
 
 _get_chart_dependency_version() {
@@ -85,6 +112,47 @@ _get_chart_dependency_version() {
 
     local dependency_version="$(NAME=$__dependency_name yq '.dependencies[] | select(.name == env(NAME)) | .version' $PARENT_CHART_CONFIG)"
     echo "$dependency_version"
+}
+
+_get_semver_diff() {
+    local __current_version=$1
+    local __new_version=$2
+
+    local trimmed_current="$(echo "$__current_version" | cut -c2-)"
+    local trimmed_new="$(echo "$__new_version" | cut -c2-)"
+
+    if [[ "$(echo "$trimmed_current" | cut -d"." -f1)" != "$(echo "$trimmed_new" | cut -d"." -f1)" ]]; then
+        echo "$DEPENDENCY_DIFF_MAJOR"
+    elif [[ "$(echo "$trimmed_current" | cut -d"." -f2)" != "$(echo "$trimmed_new" | cut -d"." -f2)" ]]; then
+        echo "$DEPENDENCY_DIFF_MINOR"
+    elif [[ "$(echo "$trimmed_current" | cut -d"." -f3)" != "$(echo "$trimmed_new" | cut -d"." -f3)" ]]; then
+        echo "$DEPENDENCY_DIFF_PATCH"
+    else
+        echo ""
+    fi
+}
+
+_increment_chart_version() {
+    local __current_version=$1
+    local __patch_diff=$2
+
+    local current_major="$(echo "$__current_version" | cut -d"." -f1)"
+    local current_minor="$(echo "$__current_version" | cut -d"." -f2)"
+    local current_patch="$(echo "$__current_version" | cut -d"." -f3)"
+
+    # Increment the largest diff number and reset any smaller parts
+    if [[ "$__patch_diff" == "$DEPENDENCY_DIFF_PATCH" ]]; then
+        current_patch="$((current_patch + 1))"
+    elif [[ "$__patch_diff" == "$DEPENDENCY_DIFF_MINOR" ]]; then
+        current_patch="0"
+        current_minor="$((current_minor + 1))"
+    elif [[ "$__patch_diff" == "$DEPENDENCY_DIFF_MAJOR" ]]; then
+        current_patch="0"
+        current_minor="0"
+        current_major="$((current_major + 1))"
+    fi
+
+    echo "${current_major}.${current_minor}.${current_patch}"
 }
 
 _add_chart_dependency() {
@@ -128,7 +196,7 @@ _commit_chart_changes() {
 
     # Add all the files & create a GitHub commit
     git add .
-    COMMIT_MSG="Updating chart dependencies"
+    COMMIT_MSG="Updating chart dependencies" # TODO: Add a more descriptive commit message using the version diffs
     echo "Adding commit with message: '$COMMIT_MSG' ... "
     git commit -m "$COMMIT_MSG" >/dev/null
 
@@ -139,11 +207,8 @@ _commit_chart_changes() {
 }
 
 run() {
-    # Determine the relevant version updates to the chart
-    _upgrade_dependency_versions
-
-    # Update the parent chart version
-    # TODO
+    # Upgrade all the version numbers
+    _upgrade_dependency_and_chart_versions
 
     # Rebuild the chart
     _rebuild_chart_dependencies
