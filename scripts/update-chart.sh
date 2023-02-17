@@ -58,11 +58,13 @@ _upgrade_dependency_and_chart_versions() {
     local parent_chart_diff="$DEPENDENCY_DIFF_PATCH"
 
     pushd "$WORKSPACE_DIR" >/dev/null
-        local controller_names=$(find . -maxdepth 1 -name "*-controller" -type d | cut -d"/" -f2)
+        local controller_names
+        controller_names=$(find . -maxdepth 1 -name "*-controller" -type d | cut -d"/" -f2)
     popd >/dev/null
 
     for controller_name in $controller_names; do
-        local service_name=$(echo "$controller_name"| sed 's/-controller$//g')
+        local service_name
+        service_name=$(echo "$controller_name"| sed 's/-controller$//g')
         local controller_dir="$WORKSPACE_DIR/$controller_name"
 
         local controller_chart="$controller_dir/helm/Chart.yaml"
@@ -71,17 +73,18 @@ _upgrade_dependency_and_chart_versions() {
         fi
 
         # Determine if the chart is in GA
-        chart_major_version="$(yq '.version | split(".") | .[0] | sub("v(\d+)", "$1")' $controller_chart)"
+        chart_major_version="$(yq '.version | split(".") | .[0] | sub("v(\d+)", "$1")' "$controller_chart")"
         [[ "$chart_major_version" == "0" ]] && continue
 
-        chart_name="$(yq '.name' $controller_chart)"
-        chart_version="$(yq '.version' $controller_chart)"
+        chart_name="$(yq '.name' "$controller_chart")"
+        chart_version="$(yq '.version' "$controller_chart")"
 
-        local existing_version="$(_get_chart_dependency_version $chart_name)"
+        local existing_version
+        existing_version="$(_get_chart_dependency_version "$chart_name")"
         if [[ "$existing_version" == "" ]]; then
             echo -e "Adding $chart_name as a new dependency \t $chart_version"
 
-            _add_chart_dependency $chart_name $chart_version $service_name
+            _add_chart_dependency "$chart_name" "$chart_version" "$service_name"
 
             # For new chart dependencies, upgrade the minor version
             parent_chart_diff="$DEPENDENCY_DIFF_MINOR"
@@ -89,28 +92,32 @@ _upgrade_dependency_and_chart_versions() {
         elif [[ "$existing_version" != "$chart_version" ]]; then
             echo -e "Upgrading $chart_name \t $chart_version"
 
-            _upgrade_chart_dependency $chart_name $chart_version $service_name
+            _upgrade_chart_dependency "$chart_name" "$chart_version" "$service_name"
 
             # Determine the difference in semver
-            local semver_diff="$(_get_semver_diff $existing_version $chart_version)"
+            local semver_diff
+            semver_diff="$(_get_semver_diff "$existing_version" "$chart_version")"
             if [[ "$semver_diff" -gt "$parent_chart_diff" ]]; then
                 parent_chart_diff="$semver_diff"
             fi
         fi
     done
     
-    local current_chart_version="$(yq '.version' $PARENT_CHART_CONFIG)"
-    local new_chart_version="$(_increment_chart_version $current_chart_version $parent_chart_diff)"
+    local current_chart_version
+    local new_chart_version
+    current_chart_version="$(yq '.version' "$PARENT_CHART_CONFIG")"
+    new_chart_version="$(_increment_chart_version "$current_chart_version" "$parent_chart_diff")"
 
     echo "Updating chart from version $current_chart_version to $new_chart_version"
 
-    VERSION="$new_chart_version" yq --inplace '.version = env(VERSION)' $PARENT_CHART_CONFIG
+    VERSION="$new_chart_version" yq --inplace '.version = env(VERSION)' "$PARENT_CHART_CONFIG"
 }
 
 _get_chart_dependency_version() {
     local __dependency_name=$1
 
-    local dependency_version="$(NAME=$__dependency_name yq '.dependencies[] | select(.name == env(NAME)) | .version' $PARENT_CHART_CONFIG)"
+    local dependency_version
+    dependency_version="$(NAME=$__dependency_name yq '.dependencies[] | select(.name == env(NAME)) | .version' "$PARENT_CHART_CONFIG")"
     echo "$dependency_version"
 }
 
@@ -118,8 +125,11 @@ _get_semver_diff() {
     local __current_version=$1
     local __new_version=$2
 
-    local trimmed_current="$(echo "$__current_version" | cut -c2-)"
-    local trimmed_new="$(echo "$__new_version" | cut -c2-)"
+    local trimmed_current
+    local trimmed_new
+
+    trimmed_current="$(echo "$__current_version" | cut -c2-)"
+    trimmed_new="$(echo "$__new_version" | cut -c2-)"
 
     if [[ "$(echo "$trimmed_current" | cut -d"." -f1)" != "$(echo "$trimmed_new" | cut -d"." -f1)" ]]; then
         echo "$DEPENDENCY_DIFF_MAJOR"
@@ -136,9 +146,13 @@ _increment_chart_version() {
     local __current_version=$1
     local __patch_diff=$2
 
-    local current_major="$(echo "$__current_version" | cut -d"." -f1)"
-    local current_minor="$(echo "$__current_version" | cut -d"." -f2)"
-    local current_patch="$(echo "$__current_version" | cut -d"." -f3)"
+    local current_major
+    local current_minor
+    local current_patch
+
+    current_major="$(echo "$__current_version" | cut -d"." -f1)"
+    current_minor="$(echo "$__current_version" | cut -d"." -f2)"
+    current_patch="$(echo "$__current_version" | cut -d"." -f3)"
 
     # Increment the largest diff number and reset any smaller parts
     if [[ "$__patch_diff" == "$DEPENDENCY_DIFF_PATCH" ]]; then
@@ -167,7 +181,7 @@ _add_chart_dependency() {
         "version": env(VERSION),
         "repository": "oci://public.ecr.aws/aws-controllers-k8s",
         "condition": (env(SERVICE_NAME) + ".enabled")
-    }' $PARENT_CHART_CONFIG
+    }' "$PARENT_CHART_CONFIG"
 }
 
 _upgrade_chart_dependency() {
@@ -175,13 +189,14 @@ _upgrade_chart_dependency() {
     local __dependency_version=$2
     local __service_name=$3
 
-    NAME=$__dependency_name yq --inplace 'del(.dependencies[] | select(.name == env(NAME)))' $PARENT_CHART_CONFIG
+    NAME=$__dependency_name yq --inplace 'del(.dependencies[] | select(.name == env(NAME)))' "$PARENT_CHART_CONFIG"
 
-    _add_chart_dependency $__dependency_name $__dependency_version $__service_name
+    _add_chart_dependency "$__dependency_name" "$__dependency_version" "$__service_name"
 }
 
 _rebuild_chart_dependencies() {
-    local ecr_pw=$(aws ecr-public get-login-password --region us-east-1)
+    local ecr_pw
+    ecr_pw=$(aws ecr-public get-login-password --region us-east-1)
     echo "$ecr_pw" | helm registry login -u AWS --password-stdin public.ecr.aws
 
     helm dependency update
@@ -192,7 +207,7 @@ _commit_chart_changes() {
     git remote add upstream "https://github.com/$GITHUB_ORG/$GITHUB_REPO.git" >/dev/null || :
 
     git fetch --all >/dev/null
-    git checkout -b $COMMIT_TARGET_BRANCH upstream/$COMMIT_TARGET_BRANCH >/dev/null || :
+    git checkout -b "$COMMIT_TARGET_BRANCH" "upstream/$COMMIT_TARGET_BRANCH" >/dev/null || :
 
     # Add all the files & create a GitHub commit
     git add .
