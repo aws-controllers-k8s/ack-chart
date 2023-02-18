@@ -1,19 +1,7 @@
 apiVersion: v2
 name: ack-root-chart
-description: A Helm chart containing all ACK charts as sub-charts 
+description: A Helm chart containing all ACK charts as sub-charts
 type: application
-version: 0.1.0
-appVersion: "1.16.0"
-dependencies:
-- name: s3-chart
-  version: v0.1.0
-  repository: "oci://public.ecr.aws/aws-controllers-k8s"
-  condition: s3-chart.enabled
-- name: iam-chart
-  version: v0.0.15
-  repository: "oci://public.ecr.aws/aws-controllers-k8s"
-  condition: iam-chart.enabled
-- name: ec2-chart
-  version: v0.0.15
-  repository: "oci://public.ecr.aws/aws-controllers-k8s"
-  condition: ec2-chart.enabled
+version: 1.0.0
+appVersion: "1.0.0"
+dependencies: []
