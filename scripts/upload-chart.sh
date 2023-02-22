@@ -31,6 +31,8 @@ PACKAGE_DIR="$ROOT_DIR/build/"
 
 PARENT_CHART_CONFIG="$ROOT_DIR/Chart.yaml"
 
+source "$TEST_INFRA_LIB_DIR/common.sh"
+
 _get_chart_version() {
     local chart_version
     chart_version="$(yq '.version' "$PARENT_CHART_CONFIG")"
@@ -94,6 +96,15 @@ run() {
 
     exit 0
 }
+
+ensure_binaries() {
+    check_is_installed "yq"
+    check_is_installed "helm"
+    check_is_installed "aws"
+    check_is_installed "$CONTAINER_BUILDER"
+}
+
+ensure_binaries
 
 # The purpose of the `return` subshell command in this script is to determine
 # whether the script was sourced, or whether it is being executed directly.

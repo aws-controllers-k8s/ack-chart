@@ -32,6 +32,7 @@ WORKSPACE_DIR="$ROOT_DIR/.."
 TEST_INFRA_LIB_DIR="$WORKSPACE_DIR/test-infra/scripts/lib"
 
 PARENT_CHART_CONFIG="$ROOT_DIR/Chart.yaml"
+PARENT_CHART_VALUES="$ROOT_DIR/values.yaml"
 
 LOCAL_GIT_BRANCH="main"
 
@@ -85,6 +86,7 @@ _upgrade_dependency_and_chart_versions() {
             echo -e "Adding $chart_name as a new dependency \t $chart_version"
 
             _add_chart_dependency "$chart_name" "$chart_version" "$service_name"
+            _add_chart_values_section "$service_name"
 
             # For new chart dependencies, upgrade the minor version
             parent_chart_diff="$DEPENDENCY_DIFF_MINOR"
@@ -202,6 +204,14 @@ _rebuild_chart_dependencies() {
     helm dependency update
 }
 
+_add_chart_values_section() {
+    local __service_name=$1
+
+    SERVICE_NAME=$__service_name yq --inplace '.[env(SERVICE_NAME)+"-chart"] += {
+        "enabled": false
+    }' "$PARENT_CHART_VALUES"
+}
+
 _commit_chart_changes() {
     echo "Adding git remote ... "
     git remote add upstream "https://github.com/$GITHUB_ORG/$GITHUB_REPO.git" >/dev/null || :
@@ -226,10 +236,10 @@ run() {
     _upgrade_dependency_and_chart_versions
 
     # Rebuild the chart
-    _rebuild_chart_dependencies
+    # _rebuild_chart_dependencies
 
     # Create a new commit and push the changes
-    _commit_chart_changes
+    # _commit_chart_changes
 
     exit 0
 }
