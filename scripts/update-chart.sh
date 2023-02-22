@@ -236,10 +236,10 @@ run() {
     _upgrade_dependency_and_chart_versions
 
     # Rebuild the chart
-    # _rebuild_chart_dependencies
+    _rebuild_chart_dependencies
 
     # Create a new commit and push the changes
-    # _commit_chart_changes
+    _commit_chart_changes
 
     exit 0
 }
