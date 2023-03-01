@@ -3,9 +3,8 @@
 # update-chart.sh handles creating a new version of the parent chart, updating
 # its dependencies and pushing the chart into the repository.
 
-# In order to compare chart dependencies, we transform the information into a
-# JSON map of service to version. Then we can use jq, which has more powerful
-# comparison operators than bash to determine the difference.
+# Example usage:
+# GITHUB_TOKEN=<pat> ./update-chart.sh
 
 set -Eeo pipefail
 
@@ -21,8 +20,8 @@ Environment variables:
                         Defaults to 'aws-controllers-k8s'
   GITHUB_REPO:          Name of the GitHub repository where committed changes to
                         the chart will be pushed.
-                        Defaults to 'ack-parent-chart'
-  GITHUB_TOKEN:        Personal Access Token for '$GITHUB_ACTOR'
+                        Defaults to 'ack-chart'
+  GITHUB_TOKEN:         Personal Access Token for '$GITHUB_ACTOR'
 "
 
 SCRIPTS_DIR="$( cd "$( dirname "${BASH_SOURCE[0]}" )" >/dev/null 2>&1 && pwd )"
@@ -39,7 +38,7 @@ LOCAL_GIT_BRANCH="main"
 DEFAULT_GITHUB_ORG="aws-controllers-k8s"
 GITHUB_ORG=${GITHUB_ORG:-$DEFAULT_GITHUB_ORG}
 
-DEFAULT_GITHUB_REPO="ack-parent-chart"
+DEFAULT_GITHUB_REPO="ack-chart"
 GITHUB_REPO=${GITHUB_REPO:-$DEFAULT_GITHUB_REPO}
 
 DEFAULT_COMMIT_TARGET_BRANCH="main"
@@ -65,17 +64,22 @@ _upgrade_dependency_and_chart_versions() {
 
     for controller_name in $controller_names; do
         local service_name
-        service_name=$(echo "$controller_name"| sed 's/-controller$//g')
+        service_name="${controller_name//-controller/}"
         local controller_dir="$WORKSPACE_DIR/$controller_name"
 
         local controller_chart="$controller_dir/helm/Chart.yaml"
         if [[ ! -f "$controller_chart" ]]; then
+            >&2 echo "Skipping $controller_name - no Chart.yaml found"
             continue
         fi
 
         # Determine if the chart is in GA
+        # shellcheck disable=SC2016
         chart_major_version="$(yq '.version | split(".") | .[0] | sub("v(\d+)", "$1")' "$controller_chart")"
-        [[ "$chart_major_version" == "0" ]] && continue
+        if [[ "$chart_major_version" == "0" ]]; then
+        >&2 echo "Skipping $controller_name - no GA releases"
+            continue
+        fi
 
         chart_name="$(yq '.name' "$controller_chart")"
         chart_version="$(yq '.version' "$controller_chart")"
@@ -92,7 +96,7 @@ _upgrade_dependency_and_chart_versions() {
             parent_chart_diff="$DEPENDENCY_DIFF_MINOR"
 
         elif [[ "$existing_version" != "$chart_version" ]]; then
-            echo -e "Upgrading $chart_name \t $chart_version"
+            echo -e "Upgrading $chart_name from $existing_version \t $chart_version"
 
             _upgrade_chart_dependency "$chart_name" "$chart_version" "$service_name"
 
@@ -104,13 +108,17 @@ _upgrade_dependency_and_chart_versions() {
             fi
         fi
     done
+
+    # Sort dependencies and values by name
+    yq --inplace '.dependencies |= sort_by(.name)' "$PARENT_CHART_CONFIG"
+    yq --inplace '. |= sort_keys(.)' "$PARENT_CHART_VALUES" 
     
     local current_chart_version
     local new_chart_version
     current_chart_version="$(yq '.version' "$PARENT_CHART_CONFIG")"
     new_chart_version="$(_increment_chart_version "$current_chart_version" "$parent_chart_diff")"
 
-    echo "Updating chart from version $current_chart_version to $new_chart_version"
+    echo "Updating ack-chart from version $current_chart_version to $new_chart_version"
 
     VERSION="$new_chart_version" yq --inplace '.version = env(VERSION)' "$PARENT_CHART_CONFIG"
 }
@@ -130,6 +138,7 @@ _get_semver_diff() {
     local trimmed_current
     local trimmed_new
 
+    # This assumes the version takes the form of `vX.Y.Z`
     trimmed_current="$(echo "$__current_version" | cut -c2-)"
     trimmed_new="$(echo "$__new_version" | cut -c2-)"
 
@@ -245,9 +254,10 @@ run() {
 }
 
 ensure_binaries() {
+    check_is_installed "aws"
+    check_is_installed "helm"
     check_is_installed "jq"
     check_is_installed "yq"
-    check_is_installed "helm"
 }
 
 ensure_binaries

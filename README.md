@@ -1,12 +1,16 @@
 ## ACK Multi-Controller Helm Chart
 
 The ACK Multi-Controller Helm chart, shortened to `ack-chart`, acts as a wrapper
-for all ACK controllers released under General Availability (GA). 
+for all ACK controllers released under [General Availability (GA)][services].
 
 `ack-chart` lists each ACK controller as a subchart dependency.
 
+### Release Status
+
 `ack-chart` is currently in **developer preview** and is subject to breaking
 changes.
+
+[services]: https://aws-controllers-k8s.github.io/community/docs/community/services/
 
 ## Usage
 
@@ -39,6 +43,7 @@ structure as the subchart expects. For example, to update the `aws.region` for
 the `s3-chart`:
 ```yaml
 s3-chart:
+  enabled: true
   aws:
     region: "us-east-1"
 ```

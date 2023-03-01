@@ -5,68 +5,68 @@ type: application
 version: 1.0.0
 appVersion: "0.0.0"
 dependencies:
-  - name: emrcontainers-chart
-    alias: emrcontainers
-    version: v1.0.0
-    repository: oci://public.ecr.aws/aws-controllers-k8s
-    condition: emrcontainers.enabled
-  - name: s3-chart
-    alias: s3
-    version: v1.0.0
-    repository: oci://public.ecr.aws/aws-controllers-k8s
-    condition: s3.enabled
-  - name: applicationautoscaling-chart
-    alias: applicationautoscaling
-    version: v1.0.0
-    repository: oci://public.ecr.aws/aws-controllers-k8s
-    condition: applicationautoscaling.enabled
-  - name: eks-chart
-    alias: eks
-    version: v1.0.0
-    repository: oci://public.ecr.aws/aws-controllers-k8s
-    condition: eks.enabled
-  - name: kms-chart
-    alias: kms
-    version: v1.0.0
-    repository: oci://public.ecr.aws/aws-controllers-k8s
-    condition: kms.enabled
-  - name: iam-chart
-    alias: iam
-    version: v1.0.0
-    repository: oci://public.ecr.aws/aws-controllers-k8s
-    condition: iam.enabled
   - name: apigatewayv2-chart
     alias: apigatewayv2
     version: v1.0.0
     repository: oci://public.ecr.aws/aws-controllers-k8s
     condition: apigatewayv2.enabled
-  - name: prometheusservice-chart
-    alias: prometheusservice
+  - name: applicationautoscaling-chart
+    alias: applicationautoscaling
     version: v1.0.0
     repository: oci://public.ecr.aws/aws-controllers-k8s
-    condition: prometheusservice.enabled
-  - name: sagemaker-chart
-    alias: sagemaker
-    version: v1.0.0
-    repository: oci://public.ecr.aws/aws-controllers-k8s
-    condition: sagemaker.enabled
+    condition: applicationautoscaling.enabled
   - name: dynamodb-chart
     alias: dynamodb
     version: v1.0.0
     repository: oci://public.ecr.aws/aws-controllers-k8s
     condition: dynamodb.enabled
-  - name: sfn-chart
-    alias: sfn
-    version: v1.0.0
-    repository: oci://public.ecr.aws/aws-controllers-k8s
-    condition: sfn.enabled
-  - name: ecr-chart
-    alias: ecr
-    version: v1.0.0
-    repository: oci://public.ecr.aws/aws-controllers-k8s
-    condition: ecr.enabled
   - name: ec2-chart
     alias: ec2
     version: v1.0.0
     repository: oci://public.ecr.aws/aws-controllers-k8s
     condition: ec2.enabled
+  - name: ecr-chart
+    alias: ecr
+    version: v1.0.0
+    repository: oci://public.ecr.aws/aws-controllers-k8s
+    condition: ecr.enabled
+  - name: eks-chart
+    alias: eks
+    version: v1.0.0
+    repository: oci://public.ecr.aws/aws-controllers-k8s
+    condition: eks.enabled
+  - name: emrcontainers-chart
+    alias: emrcontainers
+    version: v1.0.0
+    repository: oci://public.ecr.aws/aws-controllers-k8s
+    condition: emrcontainers.enabled
+  - name: iam-chart
+    alias: iam
+    version: v1.0.0
+    repository: oci://public.ecr.aws/aws-controllers-k8s
+    condition: iam.enabled
+  - name: kms-chart
+    alias: kms
+    version: v1.0.0
+    repository: oci://public.ecr.aws/aws-controllers-k8s
+    condition: kms.enabled
+  - name: prometheusservice-chart
+    alias: prometheusservice
+    version: v1.0.0
+    repository: oci://public.ecr.aws/aws-controllers-k8s
+    condition: prometheusservice.enabled
+  - name: s3-chart
+    alias: s3
+    version: v1.0.0
+    repository: oci://public.ecr.aws/aws-controllers-k8s
+    condition: s3.enabled
+  - name: sagemaker-chart
+    alias: sagemaker
+    version: v1.0.0
+    repository: oci://public.ecr.aws/aws-controllers-k8s
+    condition: sagemaker.enabled
+  - name: sfn-chart
+    alias: sfn
+    version: v1.0.0
+    repository: oci://public.ecr.aws/aws-controllers-k8s
+    condition: sfn.enabled

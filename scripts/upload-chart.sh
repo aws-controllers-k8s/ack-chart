@@ -3,6 +3,9 @@
 # upload-chart.sh handles taking the newest version of the parent chart and
 # uploading it into its respective ECR public repositories.
 
+# Example usage:
+# CONTAINER_BUILDER=docker ./upload-chart.sh
+
 set -Eeo pipefail
 
 USAGE="
@@ -98,9 +101,10 @@ run() {
 }
 
 ensure_binaries() {
-    check_is_installed "yq"
-    check_is_installed "helm"
     check_is_installed "aws"
+    check_is_installed "helm"
+    check_is_installed "jq"
+    check_is_installed "yq"
     check_is_installed "$CONTAINER_BUILDER"
 }
 
