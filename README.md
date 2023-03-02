@@ -30,8 +30,9 @@ helm install --create-namespace -n ack-system ack-chart \
 
 By default, when installing the `ack-chart`, **none of the subcharts are
 installed**. To enable a subchart, set the value associated with the ACK
-controller. For example, to enable the `s3-controller`, enable the `s3-chart`
-like so:
+controller - either using `--set SERVICE-chart.enabled=true` or by configuring
+the option in your `values.yaml` file. For example, to enable the
+`s3-controller`, enable the `s3-chart` like so:
 ```yaml
 s3-chart:
   enabled: true
@@ -54,6 +55,12 @@ s3-chart:
 the dependencies are updated, the version for `ack-chart` is also updated. If
 any of the dependencies is incremented by a minor version, the `ack-chart` is
 also incremented by a minor version.
+
+The continuous deployment scripts live in the [`test-infra`
+repository][cd-location]
+
+[cd-location]:
+    https://github.com/aws-controllers-k8s/test-infra/tree/main/cd/ack-chart
 
 ## Security
 
