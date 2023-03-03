@@ -1,0 +1,24 @@
+apigatewayv2-chart:
+  enabled: false
+applicationautoscaling-chart:
+  enabled: false
+dynamodb-chart:
+  enabled: false
+ec2-chart:
+  enabled: false
+ecr-chart:
+  enabled: false
+eks-chart:
+  enabled: false
+iam-chart:
+  enabled: false
+kms-chart:
+  enabled: false
+prometheusservice-chart:
+  enabled: false
+s3-chart:
+  enabled: false
+sagemaker-chart:
+  enabled: false
+sfn-chart:
+  enabled: false
