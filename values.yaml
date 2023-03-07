@@ -2,6 +2,8 @@ apigatewayv2-chart:
   enabled: false
 applicationautoscaling-chart:
   enabled: false
+cloudtrail-chart:
+  enabled: false
 dynamodb-chart:
   enabled: false
 ec2-chart:
@@ -15,6 +17,8 @@ iam-chart:
 kms-chart:
   enabled: false
 prometheusservice-chart:
+  enabled: false
+rds-chart:
   enabled: false
 s3-chart:
   enabled: false

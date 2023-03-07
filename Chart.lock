@@ -1,3 +1,48 @@
-dependencies: []
-digest: sha256:643d5437104296e21d906ecb15b2c96ad278f20cfc4af53b12bb6069bd853726
-generated: "2023-02-18T00:51:56.594641539Z"
+dependencies:
+- name: apigatewayv2-chart
+  repository: oci://public.ecr.aws/aws-controllers-k8s
+  version: v1.0.1
+- name: applicationautoscaling-chart
+  repository: oci://public.ecr.aws/aws-controllers-k8s
+  version: v1.0.1
+- name: cloudtrail-chart
+  repository: oci://public.ecr.aws/aws-controllers-k8s
+  version: v1.0.0
+- name: dynamodb-chart
+  repository: oci://public.ecr.aws/aws-controllers-k8s
+  version: v1.0.1
+- name: ec2-chart
+  repository: oci://public.ecr.aws/aws-controllers-k8s
+  version: v1.0.1
+- name: ecr-chart
+  repository: oci://public.ecr.aws/aws-controllers-k8s
+  version: v1.0.1
+- name: eks-chart
+  repository: oci://public.ecr.aws/aws-controllers-k8s
+  version: v1.0.1
+- name: emrcontainers-chart
+  repository: oci://public.ecr.aws/aws-controllers-k8s
+  version: v1.0.0
+- name: iam-chart
+  repository: oci://public.ecr.aws/aws-controllers-k8s
+  version: v1.1.0
+- name: kms-chart
+  repository: oci://public.ecr.aws/aws-controllers-k8s
+  version: v1.0.1
+- name: prometheusservice-chart
+  repository: oci://public.ecr.aws/aws-controllers-k8s
+  version: v1.0.1
+- name: rds-chart
+  repository: oci://public.ecr.aws/aws-controllers-k8s
+  version: v1.0.0
+- name: s3-chart
+  repository: oci://public.ecr.aws/aws-controllers-k8s
+  version: v1.0.2
+- name: sagemaker-chart
+  repository: oci://public.ecr.aws/aws-controllers-k8s
+  version: v1.1.0
+- name: sfn-chart
+  repository: oci://public.ecr.aws/aws-controllers-k8s
+  version: v1.0.1
+digest: sha256:7e325a0700e5dd2789aac9b3c76f541fe5e44188c96ae3c1b358b40d75e3fd70
+generated: "2023-03-07T22:39:07.235868052Z"
