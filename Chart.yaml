@@ -2,7 +2,7 @@ apiVersion: v2
 name: ack-chart
 description: A Helm chart containing all ACK charts as sub-charts
 type: application
-version: 1.1.0
+version: 1.1.1
 appVersion: "0.0.0"
 dependencies:
   - name: apigatewayv2-chart
@@ -22,7 +22,7 @@ dependencies:
     condition: cloudtrail.enabled
   - name: dynamodb-chart
     alias: dynamodb
-    version: v1.0.1
+    version: v1.0.2
     repository: oci://public.ecr.aws/aws-controllers-k8s
     condition: dynamodb.enabled
   - name: ec2-chart
@@ -52,7 +52,7 @@ dependencies:
     condition: iam.enabled
   - name: kms-chart
     alias: kms
-    version: v1.0.1
+    version: v1.0.2
     repository: oci://public.ecr.aws/aws-controllers-k8s
     condition: kms.enabled
   - name: prometheusservice-chart
