@@ -43,6 +43,6 @@ dependencies:
   version: v1.2.0
 - name: sfn-chart
   repository: oci://public.ecr.aws/aws-controllers-k8s
-  version: v1.0.1
-digest: sha256:59a4ee8fedab0ab35f2965425b6e407142fc80948993eff912f8521462a44187
-generated: "2023-03-23T14:58:35.887250107Z"
+  version: v1.0.2
+digest: sha256:7512af1a26f980e9415aa7456559bdf95446bd756eef7325d62cdaa6ec36ce2f
+generated: "2023-03-23T15:03:28.863580967Z"
