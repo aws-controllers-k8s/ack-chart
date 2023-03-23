@@ -1,7 +1,7 @@
 dependencies:
 - name: apigatewayv2-chart
   repository: oci://public.ecr.aws/aws-controllers-k8s
-  version: v1.0.2
+  version: v1.0.3
 - name: applicationautoscaling-chart
   repository: oci://public.ecr.aws/aws-controllers-k8s
   version: v1.0.2
@@ -22,7 +22,7 @@ dependencies:
   version: v1.0.1
 - name: emrcontainers-chart
   repository: oci://public.ecr.aws/aws-controllers-k8s
-  version: v1.0.0
+  version: v1.0.1
 - name: iam-chart
   repository: oci://public.ecr.aws/aws-controllers-k8s
   version: v1.1.2
@@ -44,5 +44,5 @@ dependencies:
 - name: sfn-chart
   repository: oci://public.ecr.aws/aws-controllers-k8s
   version: v1.0.1
-digest: sha256:94a142fe017ee09f0fe164e7033c1ddb1c5144623a40ddb2037cdf582686d0e9
-generated: "2023-03-22T22:20:36.045886175Z"
+digest: sha256:5b820fdf394a312b60134ee53ed021504f4c1ffc242964062fc1df77457a789a
+generated: "2023-03-23T14:53:59.879856063Z"
