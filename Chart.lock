@@ -28,7 +28,7 @@ dependencies:
   version: v1.1.2
 - name: kms-chart
   repository: oci://public.ecr.aws/aws-controllers-k8s
-  version: v1.0.2
+  version: v1.0.3
 - name: prometheusservice-chart
   repository: oci://public.ecr.aws/aws-controllers-k8s
   version: v1.0.2
@@ -44,5 +44,5 @@ dependencies:
 - name: sfn-chart
   repository: oci://public.ecr.aws/aws-controllers-k8s
   version: v1.0.1
-digest: sha256:5b820fdf394a312b60134ee53ed021504f4c1ffc242964062fc1df77457a789a
-generated: "2023-03-23T14:53:59.879856063Z"
+digest: sha256:59a4ee8fedab0ab35f2965425b6e407142fc80948993eff912f8521462a44187
+generated: "2023-03-23T14:58:35.887250107Z"
