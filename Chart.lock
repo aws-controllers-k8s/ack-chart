@@ -7,7 +7,7 @@ dependencies:
   version: v1.0.2
 - name: cloudtrail-chart
   repository: oci://public.ecr.aws/aws-controllers-k8s
-  version: v1.0.1
+  version: v1.0.2
 - name: dynamodb-chart
   repository: oci://public.ecr.aws/aws-controllers-k8s
   version: v1.0.2
@@ -16,16 +16,16 @@ dependencies:
   version: v1.0.1
 - name: ecr-chart
   repository: oci://public.ecr.aws/aws-controllers-k8s
-  version: v1.0.2
+  version: v1.0.3
 - name: eks-chart
   repository: oci://public.ecr.aws/aws-controllers-k8s
-  version: v1.0.1
+  version: v1.0.2
 - name: emrcontainers-chart
   repository: oci://public.ecr.aws/aws-controllers-k8s
   version: v1.0.1
 - name: iam-chart
   repository: oci://public.ecr.aws/aws-controllers-k8s
-  version: v1.1.2
+  version: v1.1.3
 - name: kms-chart
   repository: oci://public.ecr.aws/aws-controllers-k8s
   version: v1.0.3
@@ -44,5 +44,5 @@ dependencies:
 - name: sfn-chart
   repository: oci://public.ecr.aws/aws-controllers-k8s
   version: v1.0.2
-digest: sha256:7b27b0b985667ddf389d4295b3fe81f77593a4c84ac835f92fab82096b72d4f2
-generated: "2023-03-23T20:04:59.672995167Z"
+digest: sha256:865dcfe77d6efc89731fe3a16c2db309e2e12dfda1bbcb71db0208d869e4a2e0
+generated: "2023-03-24T01:50:17.923072215Z"
