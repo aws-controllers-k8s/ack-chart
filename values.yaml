@@ -12,9 +12,13 @@ ecr-chart:
   enabled: false
 eks-chart:
   enabled: false
+eventbridge-chart:
+  enabled: false
 iam-chart:
   enabled: false
 kms-chart:
+  enabled: false
+pipes-chart:
   enabled: false
 prometheusservice-chart:
   enabled: false
