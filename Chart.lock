@@ -40,7 +40,7 @@ dependencies:
   version: v1.0.2
 - name: rds-chart
   repository: oci://public.ecr.aws/aws-controllers-k8s
-  version: v1.1.1
+  version: v1.1.2
 - name: s3-chart
   repository: oci://public.ecr.aws/aws-controllers-k8s
   version: v1.0.3
@@ -50,5 +50,5 @@ dependencies:
 - name: sfn-chart
   repository: oci://public.ecr.aws/aws-controllers-k8s
   version: v1.0.2
-digest: sha256:79b02367cadb1be7453e74b53baeb00a5f613fd46fb959e90b282931fe809062
-generated: "2023-03-30T19:15:16.319272061Z"
+digest: sha256:14c2c04c5bd24eb8975fb1a2c6a6b802e10d1fb98cf27c2aa5619360bd3fe124
+generated: "2023-03-31T16:43:01.593638444Z"
