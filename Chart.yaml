@@ -2,7 +2,7 @@ apiVersion: v2
 name: ack-chart
 description: A Helm chart containing all ACK charts as sub-charts
 type: application
-version: 1.5.0
+version: 1.6.0
 appVersion: "0.0.0"
 dependencies:
   - name: apigatewayv2-chart
@@ -60,6 +60,11 @@ dependencies:
     version: v1.0.4
     repository: oci://public.ecr.aws/aws-controllers-k8s
     condition: kms.enabled
+  - name: memorydb-chart
+    alias: memorydb
+    version: v1.0.0
+    repository: oci://public.ecr.aws/aws-controllers-k8s
+    condition: memorydb.enabled
   - name: pipes-chart
     alias: pipes
     version: v1.0.0
