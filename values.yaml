@@ -18,6 +18,8 @@ iam-chart:
   enabled: false
 kms-chart:
   enabled: false
+lambda-chart:
+  enabled: false
 memorydb-chart:
   enabled: false
 pipes-chart:
