@@ -34,5 +34,7 @@ sagemaker-chart:
   enabled: false
 sfn-chart:
   enabled: false
+sns-chart:
+  enabled: false
 sqs-chart:
   enabled: false
