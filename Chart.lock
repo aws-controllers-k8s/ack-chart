@@ -28,7 +28,7 @@ dependencies:
   version: v1.0.0
 - name: iam-chart
   repository: oci://public.ecr.aws/aws-controllers-k8s
-  version: v1.1.3
+  version: v1.2.0
 - name: kms-chart
   repository: oci://public.ecr.aws/aws-controllers-k8s
   version: v1.0.4
@@ -62,5 +62,5 @@ dependencies:
 - name: sqs-chart
   repository: oci://public.ecr.aws/aws-controllers-k8s
   version: v1.0.0
-digest: sha256:eb5267037820a1b6a3d91c182c9382116d8d88945898810da0f272118e6bcfe6
-generated: "2023-04-06T18:55:42.798656185Z"
+digest: sha256:094b7d1565b52ebf9120912abf9aa08067cb3c4f2713841de14c475240e52f76
+generated: "2023-04-07T12:02:22.935253651Z"
