@@ -10,7 +10,7 @@ dependencies:
   version: v1.0.2
 - name: dynamodb-chart
   repository: oci://public.ecr.aws/aws-controllers-k8s
-  version: v1.1.0
+  version: v1.1.1
 - name: ec2-chart
   repository: oci://public.ecr.aws/aws-controllers-k8s
   version: v1.0.1
@@ -43,7 +43,7 @@ dependencies:
   version: v1.0.0
 - name: prometheusservice-chart
   repository: oci://public.ecr.aws/aws-controllers-k8s
-  version: v1.1.0
+  version: v1.2.0
 - name: rds-chart
   repository: oci://public.ecr.aws/aws-controllers-k8s
   version: v1.1.2
@@ -58,9 +58,9 @@ dependencies:
   version: v1.0.2
 - name: sns-chart
   repository: oci://public.ecr.aws/aws-controllers-k8s
-  version: v1.0.0
+  version: v1.0.1
 - name: sqs-chart
   repository: oci://public.ecr.aws/aws-controllers-k8s
   version: v1.0.0
-digest: sha256:094b7d1565b52ebf9120912abf9aa08067cb3c4f2713841de14c475240e52f76
-generated: "2023-04-07T12:02:22.935253651Z"
+digest: sha256:1114c4019ff51107e63140f2b1f11da8045637a11e9fa89b684bc33bd16e2cd1
+generated: "2023-05-01T22:19:53.980210902Z"
