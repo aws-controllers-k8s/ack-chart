@@ -2,7 +2,7 @@ apiVersion: v2
 name: ack-chart
 description: A Helm chart containing all ACK charts as sub-charts
 type: application
-version: 1.11.4
+version: 1.11.5
 appVersion: "0.0.0"
 dependencies:
   - name: apigatewayv2-chart
@@ -32,7 +32,7 @@ dependencies:
     condition: ec2.enabled
   - name: ecr-chart
     alias: ecr
-    version: v1.0.3
+    version: v1.0.4
     repository: oci://public.ecr.aws/aws-controllers-k8s
     condition: ecr.enabled
   - name: eks-chart
