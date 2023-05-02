@@ -2,7 +2,7 @@ apiVersion: v2
 name: ack-chart
 description: A Helm chart containing all ACK charts as sub-charts
 type: application
-version: 1.11.1
+version: 1.11.2
 appVersion: "0.0.0"
 dependencies:
   - name: apigatewayv2-chart
@@ -52,7 +52,7 @@ dependencies:
     condition: eventbridge.enabled
   - name: iam-chart
     alias: iam
-    version: v1.2.0
+    version: v1.2.1
     repository: oci://public.ecr.aws/aws-controllers-k8s
     condition: iam.enabled
   - name: kms-chart
