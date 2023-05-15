@@ -30,20 +30,20 @@ helm install --create-namespace -n ack-system ack-chart \
 
 By default, when installing the `ack-chart`, **none of the subcharts are
 installed**. To enable a subchart, set the value associated with the ACK
-controller - either using `--set SERVICE-chart.enabled=true` or by configuring
+controller - either using `--set SERVICE.enabled=true` or by configuring
 the option in your `values.yaml` file. For example, to enable the
-`s3-controller`, enable the `s3-chart` like so:
+`s3-controller`, enable using the `s3` path like so:
 ```yaml
-s3-chart:
+s3:
   enabled: true
 ```
 
 Helm exposes all of the values for the underlying subcharts, just use the name
-of the subchart as the parent key and provide any overrides in the same
+of the service as the parent key and provide any overrides in the same
 structure as the subchart expects. For example, to update the `aws.region` for
-the `s3-chart`:
+the `s3`:
 ```yaml
-s3-chart:
+s3:
   enabled: true
   aws:
     region: "us-east-1"

@@ -1,40 +1,40 @@
-apigatewayv2-chart:
+apigatewayv2:
   enabled: false
-applicationautoscaling-chart:
+applicationautoscaling:
   enabled: false
-cloudtrail-chart:
+cloudtrail:
   enabled: false
-dynamodb-chart:
+dynamodb:
   enabled: false
-ec2-chart:
+ec2:
   enabled: false
-ecr-chart:
+ecr:
   enabled: false
-eks-chart:
+eks:
   enabled: false
-eventbridge-chart:
+eventbridge:
   enabled: false
-iam-chart:
+iam:
   enabled: false
-kms-chart:
+kms:
   enabled: false
-lambda-chart:
+lambda:
   enabled: false
-memorydb-chart:
+memorydb:
   enabled: false
-pipes-chart:
+pipes:
   enabled: false
-prometheusservice-chart:
+prometheusservice:
   enabled: false
-rds-chart:
+rds:
   enabled: false
-s3-chart:
+s3:
   enabled: false
-sagemaker-chart:
+sagemaker:
   enabled: false
-sfn-chart:
+sfn:
   enabled: false
-sns-chart:
+sns:
   enabled: false
-sqs-chart:
+sqs:
   enabled: false
