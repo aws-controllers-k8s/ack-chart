@@ -4,16 +4,16 @@ dependencies:
   version: v1.0.3
 - name: applicationautoscaling-chart
   repository: oci://public.ecr.aws/aws-controllers-k8s
-  version: v1.0.4
+  version: 1.0.5
 - name: cloudtrail-chart
   repository: oci://public.ecr.aws/aws-controllers-k8s
-  version: v1.0.2
+  version: v1.0.3
 - name: dynamodb-chart
   repository: oci://public.ecr.aws/aws-controllers-k8s
   version: v1.1.1
 - name: ec2-chart
   repository: oci://public.ecr.aws/aws-controllers-k8s
-  version: v1.0.2
+  version: 1.0.3
 - name: ecr-chart
   repository: oci://public.ecr.aws/aws-controllers-k8s
   version: v1.0.4
@@ -34,7 +34,7 @@ dependencies:
   version: v1.0.4
 - name: lambda-chart
   repository: oci://public.ecr.aws/aws-controllers-k8s
-  version: v1.0.0
+  version: 1.0.1
 - name: memorydb-chart
   repository: oci://public.ecr.aws/aws-controllers-k8s
   version: v1.0.0
@@ -43,13 +43,13 @@ dependencies:
   version: v1.0.0
 - name: prometheusservice-chart
   repository: oci://public.ecr.aws/aws-controllers-k8s
-  version: v1.2.2
+  version: 1.2.3
 - name: rds-chart
   repository: oci://public.ecr.aws/aws-controllers-k8s
   version: v1.1.4
 - name: s3-chart
   repository: oci://public.ecr.aws/aws-controllers-k8s
-  version: v1.0.3
+  version: 1.0.4
 - name: sagemaker-chart
   repository: oci://public.ecr.aws/aws-controllers-k8s
   version: v1.2.1
@@ -58,9 +58,9 @@ dependencies:
   version: v1.0.2
 - name: sns-chart
   repository: oci://public.ecr.aws/aws-controllers-k8s
-  version: v1.0.1
+  version: 1.0.2
 - name: sqs-chart
   repository: oci://public.ecr.aws/aws-controllers-k8s
   version: v1.0.2
-digest: sha256:0c5d5ce7fef89159c2f4a58ee7d471a776606e405ce765dec6473101a2768a32
-generated: "2023-05-14T15:24:01.858040896Z"
+digest: sha256:39ed5e1eafbdcb32c074f118d811596d423b4be1ba43484cdbac792508a96f4a
+generated: "2023-05-16T19:33:28.252057746Z"
