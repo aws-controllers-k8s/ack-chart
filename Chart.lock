@@ -61,6 +61,6 @@ dependencies:
   version: 1.0.2
 - name: sqs-chart
   repository: oci://public.ecr.aws/aws-controllers-k8s
-  version: v1.0.2
-digest: sha256:24795e8eadee2cda6c84396acf47d9a30f03c8d81125be31a4d9302d23c7ef05
-generated: "2023-05-18T23:11:30.646854603Z"
+  version: 1.0.3
+digest: sha256:2b90b0d489c46a59885c3b524904af112f38e7d6ef6f4cf1b7ea13439cbac864
+generated: "2023-05-20T02:22:00.974547876Z"
