@@ -12,6 +12,8 @@ ecr:
   enabled: false
 eks:
   enabled: false
+emrcontainers:
+  enabled: false
 eventbridge:
   enabled: false
 iam:
