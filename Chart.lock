@@ -10,25 +10,25 @@ dependencies:
   version: v1.0.3
 - name: dynamodb-chart
   repository: oci://public.ecr.aws/aws-controllers-k8s
-  version: v1.1.1
+  version: 1.1.2
 - name: ec2-chart
   repository: oci://public.ecr.aws/aws-controllers-k8s
   version: 1.0.3
 - name: ecr-chart
   repository: oci://public.ecr.aws/aws-controllers-k8s
-  version: v1.0.4
+  version: 1.0.5
 - name: eks-chart
   repository: oci://public.ecr.aws/aws-controllers-k8s
   version: 1.0.3
 - name: emrcontainers-chart
   repository: oci://public.ecr.aws/aws-controllers-k8s
-  version: v1.0.1
+  version: 1.0.2
 - name: eventbridge-chart
   repository: oci://public.ecr.aws/aws-controllers-k8s
-  version: v1.0.1
+  version: 1.0.2
 - name: iam-chart
   repository: oci://public.ecr.aws/aws-controllers-k8s
-  version: v1.2.1
+  version: 1.2.2
 - name: kms-chart
   repository: oci://public.ecr.aws/aws-controllers-k8s
   version: 1.0.5
@@ -37,7 +37,7 @@ dependencies:
   version: 1.0.1
 - name: memorydb-chart
   repository: oci://public.ecr.aws/aws-controllers-k8s
-  version: v1.0.0
+  version: 1.0.1
 - name: pipes-chart
   repository: oci://public.ecr.aws/aws-controllers-k8s
   version: v1.0.0
@@ -55,12 +55,12 @@ dependencies:
   version: 1.2.2
 - name: sfn-chart
   repository: oci://public.ecr.aws/aws-controllers-k8s
-  version: v1.0.2
+  version: 1.0.3
 - name: sns-chart
   repository: oci://public.ecr.aws/aws-controllers-k8s
   version: 1.0.2
 - name: sqs-chart
   repository: oci://public.ecr.aws/aws-controllers-k8s
-  version: 1.0.2
-digest: sha256:6bcf4100f75752dc6da39eb5dc491029a0abc664341a91da8aea87c095a0fba7
-generated: "2023-06-14T07:57:31.660783505Z"
+  version: 1.0.4
+digest: sha256:2854eb68ffc5aebddfba2a833f54e7593b5a30b311030c6699f81abc2a649da0
+generated: "2023-06-20T18:39:56.026825623Z"
