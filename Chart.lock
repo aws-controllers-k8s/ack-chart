@@ -34,7 +34,7 @@ dependencies:
   version: 1.0.5
 - name: lambda-chart
   repository: oci://public.ecr.aws/aws-controllers-k8s
-  version: 1.1.0
+  version: 1.1.1
 - name: memorydb-chart
   repository: oci://public.ecr.aws/aws-controllers-k8s
   version: 1.0.1
@@ -62,5 +62,5 @@ dependencies:
 - name: sqs-chart
   repository: oci://public.ecr.aws/aws-controllers-k8s
   version: 1.0.4
-digest: sha256:4d1fac1d35ac00a0fa9d96e3a4bc456d15081944be889514e1f4d12c86e90cdb
-generated: "2023-07-11T19:05:01.504252954Z"
+digest: sha256:b31d01b20deb825759bf85ed797ca2d80c9f4ab51e7125a7b699388823640c8c
+generated: "2023-07-13T18:11:37.281077801Z"
