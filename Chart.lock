@@ -49,7 +49,7 @@ dependencies:
   version: 1.1.5
 - name: s3-chart
   repository: oci://public.ecr.aws/aws-controllers-k8s
-  version: 1.0.4
+  version: 1.0.5
 - name: sagemaker-chart
   repository: oci://public.ecr.aws/aws-controllers-k8s
   version: 1.2.2
@@ -62,5 +62,5 @@ dependencies:
 - name: sqs-chart
   repository: oci://public.ecr.aws/aws-controllers-k8s
   version: 1.0.5
-digest: sha256:bf7d503975433aca8b16cbf7670b0a1dbdf296db0a39e48f9c9f36ed284259c2
-generated: "2023-09-07T03:22:48.067600982Z"
+digest: sha256:5ed5d5279a9ab98ba6513307dc0ec7c9c1dfe162265d4a6a93eb90b8ace045cf
+generated: "2023-09-07T03:28:01.34086328Z"
