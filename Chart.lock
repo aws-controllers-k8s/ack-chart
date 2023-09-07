@@ -7,7 +7,7 @@ dependencies:
   version: 1.0.6
 - name: cloudtrail-chart
   repository: oci://public.ecr.aws/aws-controllers-k8s
-  version: v1.0.3
+  version: 1.0.4
 - name: dynamodb-chart
   repository: oci://public.ecr.aws/aws-controllers-k8s
   version: 1.2.1
@@ -62,5 +62,5 @@ dependencies:
 - name: sqs-chart
   repository: oci://public.ecr.aws/aws-controllers-k8s
   version: 1.0.5
-digest: sha256:fb99998b2847baa8781f66e19882d78cdbea0f3ba2477023cc737064461a900a
-generated: "2023-09-07T03:15:35.461030298Z"
+digest: sha256:bf7d503975433aca8b16cbf7670b0a1dbdf296db0a39e48f9c9f36ed284259c2
+generated: "2023-09-07T03:22:48.067600982Z"
