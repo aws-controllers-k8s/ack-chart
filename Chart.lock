@@ -43,7 +43,7 @@ dependencies:
   version: 1.0.1
 - name: prometheusservice-chart
   repository: oci://public.ecr.aws/aws-controllers-k8s
-  version: 1.2.4
+  version: 1.2.5
 - name: rds-chart
   repository: oci://public.ecr.aws/aws-controllers-k8s
   version: 1.1.7
@@ -62,5 +62,5 @@ dependencies:
 - name: sqs-chart
   repository: oci://public.ecr.aws/aws-controllers-k8s
   version: 1.0.6
-digest: sha256:fb578dba93f4ad4b7cba39e18f7ad336e9145a226ae12db53bd59e43ec3a2e02
-generated: "2023-09-15T20:31:03.034537445Z"
+digest: sha256:466b95039361a096cc2dbfc3db3a5514546265607860f541bd9013ea01d15496
+generated: "2023-09-15T20:34:07.328421316Z"
