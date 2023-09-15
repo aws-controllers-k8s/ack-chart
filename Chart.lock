@@ -25,7 +25,7 @@ dependencies:
   version: 1.0.4
 - name: eventbridge-chart
   repository: oci://public.ecr.aws/aws-controllers-k8s
-  version: 1.0.3
+  version: 1.0.4
 - name: iam-chart
   repository: oci://public.ecr.aws/aws-controllers-k8s
   version: 1.2.4
@@ -62,5 +62,5 @@ dependencies:
 - name: sqs-chart
   repository: oci://public.ecr.aws/aws-controllers-k8s
   version: 1.0.5
-digest: sha256:afa75a8379e4ed86521d9e031310f03dab5c684bb6ae6a05fb4eda1398d08824
-generated: "2023-09-15T05:58:25.652897793Z"
+digest: sha256:074ae00c98cc4833faac4dc5fbaa58fa51cc9c1c2666a942c2c8f9313ca46e9a
+generated: "2023-09-15T06:14:00.425174206Z"
