@@ -22,7 +22,7 @@ dependencies:
   version: 1.0.4
 - name: emrcontainers-chart
   repository: oci://public.ecr.aws/aws-controllers-k8s
-  version: 1.0.3
+  version: 1.0.4
 - name: eventbridge-chart
   repository: oci://public.ecr.aws/aws-controllers-k8s
   version: 1.0.3
@@ -62,5 +62,5 @@ dependencies:
 - name: sqs-chart
   repository: oci://public.ecr.aws/aws-controllers-k8s
   version: 1.0.5
-digest: sha256:8503b3bf654cbdaf513b56d342a181f9b62c023d777b13df61beec653384a08b
-generated: "2023-09-15T00:20:38.908708574Z"
+digest: sha256:afa75a8379e4ed86521d9e031310f03dab5c684bb6ae6a05fb4eda1398d08824
+generated: "2023-09-15T05:58:25.652897793Z"
