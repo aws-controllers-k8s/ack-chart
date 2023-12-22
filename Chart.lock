@@ -31,7 +31,7 @@ dependencies:
   version: 1.3.2
 - name: kms-chart
   repository: oci://public.ecr.aws/aws-controllers-k8s
-  version: 1.0.7
+  version: 1.0.8
 - name: lambda-chart
   repository: oci://public.ecr.aws/aws-controllers-k8s
   version: 1.3.5
@@ -55,12 +55,12 @@ dependencies:
   version: 1.2.4
 - name: sfn-chart
   repository: oci://public.ecr.aws/aws-controllers-k8s
-  version: 1.0.5
+  version: 1.0.6
 - name: sns-chart
   repository: oci://public.ecr.aws/aws-controllers-k8s
   version: 1.0.6
 - name: sqs-chart
   repository: oci://public.ecr.aws/aws-controllers-k8s
   version: 1.0.7
-digest: sha256:1a791dd81cda12ffcd2c14e6ec2c4fc7461718914b5354c78bf8dc5ba101f26f
-generated: "2023-12-22T06:51:35.079515474Z"
+digest: sha256:bacd067df32b5c68a3bd8b7b710e248c6b2e1229b6da04fa5b1346685df88277
+generated: "2023-12-22T19:21:11.423967713Z"
