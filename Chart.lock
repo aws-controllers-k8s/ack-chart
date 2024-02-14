@@ -1,7 +1,7 @@
 dependencies:
 - name: apigatewayv2-chart
   repository: oci://public.ecr.aws/aws-controllers-k8s
-  version: 1.0.8
+  version: 1.0.9
 - name: applicationautoscaling-chart
   repository: oci://public.ecr.aws/aws-controllers-k8s
   version: 1.0.9
@@ -52,7 +52,7 @@ dependencies:
   version: 1.0.8
 - name: sagemaker-chart
   repository: oci://public.ecr.aws/aws-controllers-k8s
-  version: 1.2.6
+  version: 1.2.7
 - name: sfn-chart
   repository: oci://public.ecr.aws/aws-controllers-k8s
   version: 1.0.7
@@ -62,5 +62,5 @@ dependencies:
 - name: sqs-chart
   repository: oci://public.ecr.aws/aws-controllers-k8s
   version: 1.0.8
-digest: sha256:3211c6483de1e2622ce4c84cd2134b105ebf7579d38ef545335009a473c8aadd
-generated: "2024-02-14T14:55:13.956895832Z"
+digest: sha256:1fc920d02831cf97b7fe157c68fd8231d3957205e610d63aa2cf0c9401ff7a9c
+generated: "2024-02-14T15:00:33.127082468Z"
