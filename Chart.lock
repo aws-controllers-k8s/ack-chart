@@ -40,7 +40,7 @@ dependencies:
   version: 1.0.2
 - name: pipes-chart
   repository: oci://public.ecr.aws/aws-controllers-k8s
-  version: 1.0.4
+  version: 1.0.5
 - name: prometheusservice-chart
   repository: oci://public.ecr.aws/aws-controllers-k8s
   version: 1.2.8
@@ -49,7 +49,7 @@ dependencies:
   version: 1.1.10
 - name: s3-chart
   repository: oci://public.ecr.aws/aws-controllers-k8s
-  version: 1.0.8
+  version: 1.0.9
 - name: sagemaker-chart
   repository: oci://public.ecr.aws/aws-controllers-k8s
   version: 1.2.7
@@ -61,6 +61,6 @@ dependencies:
   version: 1.0.8
 - name: sqs-chart
   repository: oci://public.ecr.aws/aws-controllers-k8s
-  version: 1.0.8
-digest: sha256:49c2cb5280607396c45ba16b0eedd4e3c13214e7cd1319537a40bd7f66ddc0f5
-generated: "2024-02-14T15:17:17.918448683Z"
+  version: 1.0.9
+digest: sha256:b9a3417bfccaf19aca7160803a75a239f308e28e610bfed405bf4440c3f18929
+generated: "2024-02-14T15:24:12.800540065Z"
