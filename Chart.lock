@@ -4,7 +4,7 @@ dependencies:
   version: 1.0.9
 - name: applicationautoscaling-chart
   repository: oci://public.ecr.aws/aws-controllers-k8s
-  version: 1.0.9
+  version: 1.0.10
 - name: cloudtrail-chart
   repository: oci://public.ecr.aws/aws-controllers-k8s
   version: 1.0.7
@@ -22,7 +22,7 @@ dependencies:
   version: 1.3.2
 - name: emrcontainers-chart
   repository: oci://public.ecr.aws/aws-controllers-k8s
-  version: 1.0.6
+  version: 1.0.7
 - name: eventbridge-chart
   repository: oci://public.ecr.aws/aws-controllers-k8s
   version: 1.0.8
@@ -58,9 +58,9 @@ dependencies:
   version: 1.0.7
 - name: sns-chart
   repository: oci://public.ecr.aws/aws-controllers-k8s
-  version: 1.0.7
+  version: 1.0.8
 - name: sqs-chart
   repository: oci://public.ecr.aws/aws-controllers-k8s
   version: 1.0.8
-digest: sha256:1fc920d02831cf97b7fe157c68fd8231d3957205e610d63aa2cf0c9401ff7a9c
-generated: "2024-02-14T15:00:33.127082468Z"
+digest: sha256:079b063ee604a3f418f139183493cf53f3250a37ff3d654bb9411bb18abe2422
+generated: "2024-02-14T15:07:08.489972492Z"
