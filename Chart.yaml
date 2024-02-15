@@ -2,7 +2,7 @@ apiVersion: v2
 name: ack-chart
 description: A Helm chart containing all ACK charts as sub-charts
 type: application
-version: 46.7.24
+version: 46.7.25
 appVersion: "0.0.0"
 dependencies:
   - name: apigatewayv2-chart
@@ -82,7 +82,7 @@ dependencies:
     condition: prometheusservice.enabled
   - name: rds-chart
     alias: rds
-    version: 1.1.10
+    version: 1.1.11
     repository: oci://public.ecr.aws/aws-controllers-k8s
     condition: rds.enabled
   - name: s3-chart
