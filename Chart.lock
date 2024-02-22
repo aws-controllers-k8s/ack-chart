@@ -4,7 +4,7 @@ dependencies:
   version: 1.0.9
 - name: applicationautoscaling-chart
   repository: oci://public.ecr.aws/aws-controllers-k8s
-  version: 1.0.10
+  version: 1.0.11
 - name: cloudtrail-chart
   repository: oci://public.ecr.aws/aws-controllers-k8s
   version: 1.0.8
@@ -62,5 +62,5 @@ dependencies:
 - name: sqs-chart
   repository: oci://public.ecr.aws/aws-controllers-k8s
   version: 1.0.9
-digest: sha256:83d768b1dd334f9240b2cf0382d5ab205fbd5396a5f7fcb397fef1d29402c409
-generated: "2024-02-15T23:17:38.241070283Z"
+digest: sha256:63d3777eb4f44b6869ece25c64992397cb37409729b1ce60758a75c4af883e1f
+generated: "2024-02-22T17:51:43.07070165Z"
