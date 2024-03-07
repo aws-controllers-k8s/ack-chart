@@ -2,7 +2,7 @@ apiVersion: v2
 name: ack-chart
 description: A Helm chart containing all ACK charts as sub-charts
 type: application
-version: 46.8.14
+version: 46.8.15
 appVersion: "0.0.0"
 dependencies:
   - name: apigatewayv2-chart
@@ -42,7 +42,7 @@ dependencies:
     condition: eks.enabled
   - name: emrcontainers-chart
     alias: emrcontainers
-    version: 1.0.7
+    version: 1.0.8
     repository: oci://public.ecr.aws/aws-controllers-k8s
     condition: emrcontainers.enabled
   - name: eventbridge-chart
@@ -62,7 +62,7 @@ dependencies:
     condition: kms.enabled
   - name: lambda-chart
     alias: lambda
-    version: 1.4.1
+    version: 1.4.2
     repository: oci://public.ecr.aws/aws-controllers-k8s
     condition: lambda.enabled
   - name: memorydb-chart
