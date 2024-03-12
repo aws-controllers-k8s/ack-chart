@@ -2,7 +2,7 @@ apiVersion: v2
 name: ack-chart
 description: A Helm chart containing all ACK charts as sub-charts
 type: application
-version: 46.8.24
+version: 46.8.25
 appVersion: "0.0.0"
 dependencies:
   - name: apigatewayv2-chart
@@ -92,7 +92,7 @@ dependencies:
     condition: s3.enabled
   - name: sagemaker-chart
     alias: sagemaker
-    version: 1.2.8
+    version: 1.2.9
     repository: oci://public.ecr.aws/aws-controllers-k8s
     condition: sagemaker.enabled
   - name: sfn-chart
