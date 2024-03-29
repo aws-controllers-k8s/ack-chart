@@ -7,13 +7,13 @@ dependencies:
   version: 1.0.13
 - name: cloudtrail-chart
   repository: oci://public.ecr.aws/aws-controllers-k8s
-  version: 1.0.9
+  version: 1.0.10
 - name: dynamodb-chart
   repository: oci://public.ecr.aws/aws-controllers-k8s
   version: 1.2.10
 - name: ec2-chart
   repository: oci://public.ecr.aws/aws-controllers-k8s
-  version: 1.2.4
+  version: 1.2.5
 - name: ecr-chart
   repository: oci://public.ecr.aws/aws-controllers-k8s
   version: 1.0.14
@@ -22,16 +22,16 @@ dependencies:
   version: 1.3.4
 - name: emrcontainers-chart
   repository: oci://public.ecr.aws/aws-controllers-k8s
-  version: 1.0.8
+  version: 1.0.9
 - name: eventbridge-chart
   repository: oci://public.ecr.aws/aws-controllers-k8s
-  version: 1.0.9
+  version: 1.0.10
 - name: iam-chart
   repository: oci://public.ecr.aws/aws-controllers-k8s
   version: 1.3.7
 - name: kms-chart
   repository: oci://public.ecr.aws/aws-controllers-k8s
-  version: 1.0.11
+  version: 1.0.12
 - name: lambda-chart
   repository: oci://public.ecr.aws/aws-controllers-k8s
   version: 1.4.3
@@ -40,19 +40,19 @@ dependencies:
   version: 1.0.2
 - name: pipes-chart
   repository: oci://public.ecr.aws/aws-controllers-k8s
-  version: 1.0.6
+  version: 1.0.7
 - name: prometheusservice-chart
   repository: oci://public.ecr.aws/aws-controllers-k8s
-  version: 1.2.9
+  version: 1.2.10
 - name: rds-chart
   repository: oci://public.ecr.aws/aws-controllers-k8s
   version: 1.2.3
 - name: s3-chart
   repository: oci://public.ecr.aws/aws-controllers-k8s
-  version: 1.0.10
+  version: 1.0.11
 - name: sagemaker-chart
   repository: oci://public.ecr.aws/aws-controllers-k8s
-  version: 1.2.9
+  version: 1.2.10
 - name: sfn-chart
   repository: oci://public.ecr.aws/aws-controllers-k8s
   version: 1.0.10
@@ -61,6 +61,6 @@ dependencies:
   version: 1.0.10
 - name: sqs-chart
   repository: oci://public.ecr.aws/aws-controllers-k8s
-  version: 1.0.11
-digest: sha256:5cff6e24819cab11f8b69a39e7dab2c9b96aa0b88a766a9a2a7d2c77b1a813f8
-generated: "2024-03-29T17:13:22.599692058Z"
+  version: 1.0.12
+digest: sha256:eaaa8dd6ebb3ed82b602d2c01f9e871726573c0078087070a69e2831e741f46d
+generated: "2024-03-29T18:05:12.773466071Z"
