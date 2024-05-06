@@ -1,10 +1,10 @@
 dependencies:
 - name: apigatewayv2-chart
   repository: oci://public.ecr.aws/aws-controllers-k8s
-  version: 1.0.11
+  version: 1.0.12
 - name: applicationautoscaling-chart
   repository: oci://public.ecr.aws/aws-controllers-k8s
-  version: 1.0.13
+  version: 1.0.14
 - name: cloudtrail-chart
   repository: oci://public.ecr.aws/aws-controllers-k8s
   version: 1.0.11
@@ -19,16 +19,16 @@ dependencies:
   version: 1.0.15
 - name: eks-chart
   repository: oci://public.ecr.aws/aws-controllers-k8s
-  version: 1.3.4
+  version: 1.3.5
 - name: emrcontainers-chart
   repository: oci://public.ecr.aws/aws-controllers-k8s
   version: 1.0.10
 - name: eventbridge-chart
   repository: oci://public.ecr.aws/aws-controllers-k8s
-  version: 1.0.10
+  version: 1.0.11
 - name: iam-chart
   repository: oci://public.ecr.aws/aws-controllers-k8s
-  version: 1.3.7
+  version: 1.3.8
 - name: kms-chart
   repository: oci://public.ecr.aws/aws-controllers-k8s
   version: 1.0.13
@@ -40,27 +40,27 @@ dependencies:
   version: 1.0.2
 - name: pipes-chart
   repository: oci://public.ecr.aws/aws-controllers-k8s
-  version: 1.0.7
+  version: 1.0.8
 - name: prometheusservice-chart
   repository: oci://public.ecr.aws/aws-controllers-k8s
   version: 1.2.11
 - name: rds-chart
   repository: oci://public.ecr.aws/aws-controllers-k8s
-  version: 1.2.4
+  version: 1.2.5
 - name: s3-chart
   repository: oci://public.ecr.aws/aws-controllers-k8s
-  version: 1.0.11
+  version: 1.0.12
 - name: sagemaker-chart
   repository: oci://public.ecr.aws/aws-controllers-k8s
   version: 1.2.11
 - name: sfn-chart
   repository: oci://public.ecr.aws/aws-controllers-k8s
-  version: 1.0.10
+  version: 1.0.11
 - name: sns-chart
   repository: oci://public.ecr.aws/aws-controllers-k8s
-  version: 1.0.10
+  version: 1.0.11
 - name: sqs-chart
   repository: oci://public.ecr.aws/aws-controllers-k8s
-  version: 1.0.12
-digest: sha256:e3ba78627282f55fa4bcada5a474e5525f728ccfb3e2c0ab3bfa826e01aab503
-generated: "2024-05-06T13:13:38.800664414Z"
+  version: 1.0.13
+digest: sha256:c2189adf63c66befb5d950b31a8d524175662a94b688b9eefffd55e12d0278b0
+generated: "2024-05-06T13:19:18.656694744Z"
