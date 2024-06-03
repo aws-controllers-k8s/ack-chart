@@ -13,7 +13,7 @@ dependencies:
   version: 1.2.11
 - name: ec2-chart
   repository: oci://public.ecr.aws/aws-controllers-k8s
-  version: 1.2.7
+  version: 1.2.8
 - name: ecr-chart
   repository: oci://public.ecr.aws/aws-controllers-k8s
   version: 1.0.15
@@ -62,5 +62,5 @@ dependencies:
 - name: sqs-chart
   repository: oci://public.ecr.aws/aws-controllers-k8s
   version: 1.0.13
-digest: sha256:a7e5b06db7a0f6591957921af35c6f4de3470b5d6be468d3e6a1d73d3e42b965
-generated: "2024-05-31T02:25:38.431313487Z"
+digest: sha256:5d90211a565f97946b6b652c16ccd2c6bd1d3a8d4997975f4a6fcc19d0870a2e
+generated: "2024-06-03T04:51:10.620115758Z"

@@ -2,7 +2,7 @@ apiVersion: v2
 name: ack-chart
 description: A Helm chart containing all ACK charts as sub-charts
 type: application
-version: 46.9.0
+version: 46.9.1
 appVersion: "0.0.0"
 dependencies:
   - name: apigatewayv2-chart
@@ -27,7 +27,7 @@ dependencies:
     condition: dynamodb.enabled
   - name: ec2-chart
     alias: ec2
-    version: 1.2.7
+    version: 1.2.8
     repository: oci://public.ecr.aws/aws-controllers-k8s
     condition: ec2.enabled
   - name: ecr-chart
