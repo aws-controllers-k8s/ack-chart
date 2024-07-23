@@ -2,7 +2,7 @@ apiVersion: v2
 name: ack-chart
 description: A Helm chart containing all ACK charts as sub-charts
 type: application
-version: 46.12.16
+version: 46.12.17
 appVersion: "0.0.0"
 dependencies:
   - name: apigatewayv2-chart
@@ -42,7 +42,7 @@ dependencies:
     condition: eks.enabled
   - name: emrcontainers-chart
     alias: emrcontainers
-    version: 1.0.10
+    version: 1.0.11
     repository: oci://public.ecr.aws/aws-controllers-k8s
     condition: emrcontainers.enabled
   - name: eventbridge-chart
@@ -62,7 +62,7 @@ dependencies:
     condition: kms.enabled
   - name: lambda-chart
     alias: lambda
-    version: 1.5.0
+    version: 1.5.1
     repository: oci://public.ecr.aws/aws-controllers-k8s
     condition: lambda.enabled
   - name: memorydb-chart
@@ -82,12 +82,12 @@ dependencies:
     condition: prometheusservice.enabled
   - name: rds-chart
     alias: rds
-    version: 1.4.1
+    version: 1.4.2
     repository: oci://public.ecr.aws/aws-controllers-k8s
     condition: rds.enabled
   - name: s3-chart
     alias: s3
-    version: 1.0.12
+    version: 1.0.13
     repository: oci://public.ecr.aws/aws-controllers-k8s
     condition: s3.enabled
   - name: sagemaker-chart
