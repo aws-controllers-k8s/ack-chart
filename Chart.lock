@@ -4,19 +4,19 @@ dependencies:
   version: 1.0.14
 - name: applicationautoscaling-chart
   repository: oci://public.ecr.aws/aws-controllers-k8s
-  version: 1.0.14
+  version: 1.0.15
 - name: cloudtrail-chart
   repository: oci://public.ecr.aws/aws-controllers-k8s
-  version: 1.0.11
+  version: 1.0.12
 - name: dynamodb-chart
   repository: oci://public.ecr.aws/aws-controllers-k8s
   version: 1.2.12
 - name: ec2-chart
   repository: oci://public.ecr.aws/aws-controllers-k8s
-  version: 1.2.14
+  version: 1.2.15
 - name: ecr-chart
   repository: oci://public.ecr.aws/aws-controllers-k8s
-  version: 1.0.15
+  version: 1.0.16
 - name: eks-chart
   repository: oci://public.ecr.aws/aws-controllers-k8s
   version: 1.4.3
@@ -25,7 +25,7 @@ dependencies:
   version: 1.0.11
 - name: eventbridge-chart
   repository: oci://public.ecr.aws/aws-controllers-k8s
-  version: 1.0.11
+  version: 1.0.12
 - name: iam-chart
   repository: oci://public.ecr.aws/aws-controllers-k8s
   version: 1.3.8
@@ -40,7 +40,7 @@ dependencies:
   version: 1.0.2
 - name: pipes-chart
   repository: oci://public.ecr.aws/aws-controllers-k8s
-  version: 1.0.8
+  version: 1.0.9
 - name: prometheusservice-chart
   repository: oci://public.ecr.aws/aws-controllers-k8s
   version: 1.2.11
@@ -62,5 +62,5 @@ dependencies:
 - name: sqs-chart
   repository: oci://public.ecr.aws/aws-controllers-k8s
   version: 1.0.14
-digest: sha256:be2207c56f61493e3c7212e3f16f35105f88442880e32144ca177f43a0a2afe4
-generated: "2024-07-23T21:39:06.847709775Z"
+digest: sha256:98bd3714b13dad70917d6e9a0b4ccf09ed125bbcdff350a8f6c1fa08558ece3f
+generated: "2024-07-23T21:43:48.586378142Z"
