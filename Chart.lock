@@ -37,7 +37,7 @@ dependencies:
   version: 1.5.1
 - name: memorydb-chart
   repository: oci://public.ecr.aws/aws-controllers-k8s
-  version: 1.0.2
+  version: 1.0.3
 - name: pipes-chart
   repository: oci://public.ecr.aws/aws-controllers-k8s
   version: 1.0.9
@@ -62,5 +62,5 @@ dependencies:
 - name: sqs-chart
   repository: oci://public.ecr.aws/aws-controllers-k8s
   version: 1.0.14
-digest: sha256:5354327949bf7dcf06cfeb9b4a4538e206917c55c91c8286fae976cc708d61fc
-generated: "2024-08-01T06:25:29.854764755Z"
+digest: sha256:9611ce24bae9c48476bce246f7d85f1965a2e25606e5fc1bf1c76329d26e3d29
+generated: "2024-08-02T06:10:50.920856147Z"
