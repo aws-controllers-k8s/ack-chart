@@ -7,7 +7,7 @@ dependencies:
   version: 1.0.16
 - name: cloudtrail-chart
   repository: oci://public.ecr.aws/aws-controllers-k8s
-  version: 1.0.12
+  version: 1.0.13
 - name: dynamodb-chart
   repository: oci://public.ecr.aws/aws-controllers-k8s
   version: 1.2.13
@@ -19,10 +19,10 @@ dependencies:
   version: 1.0.16
 - name: eks-chart
   repository: oci://public.ecr.aws/aws-controllers-k8s
-  version: 1.4.3
+  version: 1.4.4
 - name: emrcontainers-chart
   repository: oci://public.ecr.aws/aws-controllers-k8s
-  version: 1.0.11
+  version: 1.0.12
 - name: eventbridge-chart
   repository: oci://public.ecr.aws/aws-controllers-k8s
   version: 1.0.12
@@ -62,5 +62,5 @@ dependencies:
 - name: sqs-chart
   repository: oci://public.ecr.aws/aws-controllers-k8s
   version: 1.0.15
-digest: sha256:c0d460eb4ac9a6508cb271130c28ab9e3166a438ec15148fa379d8bd97d9ac09
-generated: "2024-08-06T21:16:03.089722336Z"
+digest: sha256:037d446233d7fff16b31f952f4995dc4cad2115cfd46281247bc90abebc2ece7
+generated: "2024-08-07T04:35:16.834351909Z"
