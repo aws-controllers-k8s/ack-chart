@@ -13,10 +13,10 @@ dependencies:
   version: 1.2.13
 - name: ec2-chart
   repository: oci://public.ecr.aws/aws-controllers-k8s
-  version: 1.2.15
+  version: 1.2.16
 - name: ecr-chart
   repository: oci://public.ecr.aws/aws-controllers-k8s
-  version: 1.0.16
+  version: 1.0.17
 - name: eks-chart
   repository: oci://public.ecr.aws/aws-controllers-k8s
   version: 1.4.4
@@ -25,7 +25,7 @@ dependencies:
   version: 1.0.12
 - name: eventbridge-chart
   repository: oci://public.ecr.aws/aws-controllers-k8s
-  version: 1.0.12
+  version: 1.0.13
 - name: iam-chart
   repository: oci://public.ecr.aws/aws-controllers-k8s
   version: 1.3.11
@@ -37,7 +37,7 @@ dependencies:
   version: 1.5.1
 - name: memorydb-chart
   repository: oci://public.ecr.aws/aws-controllers-k8s
-  version: 1.0.3
+  version: 1.0.4
 - name: pipes-chart
   repository: oci://public.ecr.aws/aws-controllers-k8s
   version: 1.0.10
@@ -49,10 +49,10 @@ dependencies:
   version: 1.4.3
 - name: s3-chart
   repository: oci://public.ecr.aws/aws-controllers-k8s
-  version: 1.0.13
+  version: 1.0.14
 - name: sagemaker-chart
   repository: oci://public.ecr.aws/aws-controllers-k8s
-  version: 1.2.11
+  version: 1.2.12
 - name: sfn-chart
   repository: oci://public.ecr.aws/aws-controllers-k8s
   version: 1.0.13
@@ -62,5 +62,5 @@ dependencies:
 - name: sqs-chart
   repository: oci://public.ecr.aws/aws-controllers-k8s
   version: 1.0.15
-digest: sha256:037d446233d7fff16b31f952f4995dc4cad2115cfd46281247bc90abebc2ece7
-generated: "2024-08-07T04:35:16.834351909Z"
+digest: sha256:ba413810d0f4e9a4a2ae4aee424f2e3a1cb16b7582cd39eaa23b8a4a8b8ab699
+generated: "2024-08-07T04:39:06.014971687Z"
