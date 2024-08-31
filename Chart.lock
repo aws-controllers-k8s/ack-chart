@@ -4,10 +4,10 @@ dependencies:
   version: 1.0.16
 - name: applicationautoscaling-chart
   repository: oci://public.ecr.aws/aws-controllers-k8s
-  version: 1.0.16
+  version: 1.0.17
 - name: cloudtrail-chart
   repository: oci://public.ecr.aws/aws-controllers-k8s
-  version: 1.0.13
+  version: 1.0.14
 - name: dynamodb-chart
   repository: oci://public.ecr.aws/aws-controllers-k8s
   version: 1.2.14
@@ -31,7 +31,7 @@ dependencies:
   version: 1.3.12
 - name: kms-chart
   repository: oci://public.ecr.aws/aws-controllers-k8s
-  version: 1.0.15
+  version: 1.0.16
 - name: lambda-chart
   repository: oci://public.ecr.aws/aws-controllers-k8s
   version: 1.5.1
@@ -62,5 +62,5 @@ dependencies:
 - name: sqs-chart
   repository: oci://public.ecr.aws/aws-controllers-k8s
   version: 1.0.15
-digest: sha256:aaade1731e4a71b1a57c7afe63266020e4b1411c83579d5f957e5c6f7d47f42f
-generated: "2024-08-31T01:38:27.937637377Z"
+digest: sha256:f709857181cfdddaf88ca309ce01a619ed12e056ceaa237c3a37c15c7115176d
+generated: "2024-08-31T01:43:14.534564259Z"
