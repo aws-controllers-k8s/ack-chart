@@ -10,7 +10,7 @@ dependencies:
   version: 1.0.13
 - name: dynamodb-chart
   repository: oci://public.ecr.aws/aws-controllers-k8s
-  version: 1.2.13
+  version: 1.2.14
 - name: ec2-chart
   repository: oci://public.ecr.aws/aws-controllers-k8s
   version: 1.2.19
@@ -49,7 +49,7 @@ dependencies:
   version: 1.4.3
 - name: s3-chart
   repository: oci://public.ecr.aws/aws-controllers-k8s
-  version: 1.0.15
+  version: 1.0.16
 - name: sagemaker-chart
   repository: oci://public.ecr.aws/aws-controllers-k8s
   version: 1.2.12
@@ -62,5 +62,5 @@ dependencies:
 - name: sqs-chart
   repository: oci://public.ecr.aws/aws-controllers-k8s
   version: 1.0.15
-digest: sha256:377469646e703998cbacb15a815fca8c38e9122e939474ba443ca5ca3acdc3e9
-generated: "2024-08-31T00:56:02.924929711Z"
+digest: sha256:d67ae0d0a37d984b02a161576bad2907a9f3d2d91d74c128def35af96c78c326
+generated: "2024-08-31T01:30:22.256381117Z"
