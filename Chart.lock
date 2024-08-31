@@ -40,7 +40,7 @@ dependencies:
   version: 1.0.5
 - name: pipes-chart
   repository: oci://public.ecr.aws/aws-controllers-k8s
-  version: 1.0.10
+  version: 1.0.11
 - name: prometheusservice-chart
   repository: oci://public.ecr.aws/aws-controllers-k8s
   version: 1.2.13
@@ -62,5 +62,5 @@ dependencies:
 - name: sqs-chart
   repository: oci://public.ecr.aws/aws-controllers-k8s
   version: 1.0.15
-digest: sha256:f709857181cfdddaf88ca309ce01a619ed12e056ceaa237c3a37c15c7115176d
-generated: "2024-08-31T01:43:14.534564259Z"
+digest: sha256:f3aa63fb07a970cc6a502add5a7e05224aeae54fb243d4068ee6b51957d9e1fb
+generated: "2024-08-31T22:34:48.713785793Z"
