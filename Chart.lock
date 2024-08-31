@@ -19,7 +19,7 @@ dependencies:
   version: 1.0.18
 - name: eks-chart
   repository: oci://public.ecr.aws/aws-controllers-k8s
-  version: 1.4.4
+  version: 1.4.5
 - name: emrcontainers-chart
   repository: oci://public.ecr.aws/aws-controllers-k8s
   version: 1.0.12
@@ -62,5 +62,5 @@ dependencies:
 - name: sqs-chart
   repository: oci://public.ecr.aws/aws-controllers-k8s
   version: 1.0.15
-digest: sha256:d029397adad8064d9105f8f2b58cbf28eb6a7b5d9860d282420a436b2cc6389f
-generated: "2024-08-30T23:28:52.397455106Z"
+digest: sha256:4975603a00fe49093f28db0239b5fdf974ecc39a0bbe4ae831a3d5df9b204685
+generated: "2024-08-31T00:31:09.903891881Z"
