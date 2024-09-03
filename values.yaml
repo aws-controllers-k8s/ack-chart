@@ -2,7 +2,11 @@ apigatewayv2:
   enabled: false
 applicationautoscaling:
   enabled: false
+cloudfront:
+  enabled: false
 cloudtrail:
+  enabled: false
+documentdb:
   enabled: false
 dynamodb:
   enabled: false
@@ -10,7 +14,13 @@ ec2:
   enabled: false
 ecr:
   enabled: false
+ecs:
+  enabled: false
+efs:
+  enabled: false
 eks:
+  enabled: false
+elbv2:
   enabled: false
 emrcontainers:
   enabled: false
@@ -18,11 +28,15 @@ eventbridge:
   enabled: false
 iam:
   enabled: false
+keyspaces:
+  enabled: false
 kms:
   enabled: false
 lambda:
   enabled: false
 memorydb:
+  enabled: false
+opensearchservice:
   enabled: false
 pipes:
   enabled: false
