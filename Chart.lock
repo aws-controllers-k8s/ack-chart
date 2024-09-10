@@ -52,7 +52,7 @@ dependencies:
   version: 1.0.16
 - name: lambda-chart
   repository: oci://public.ecr.aws/aws-controllers-k8s
-  version: 1.5.1
+  version: 1.5.2
 - name: memorydb-chart
   repository: oci://public.ecr.aws/aws-controllers-k8s
   version: 1.0.5
@@ -73,7 +73,7 @@ dependencies:
   version: 1.0.16
 - name: sagemaker-chart
   repository: oci://public.ecr.aws/aws-controllers-k8s
-  version: 1.2.12
+  version: 1.2.13
 - name: sfn-chart
   repository: oci://public.ecr.aws/aws-controllers-k8s
   version: 1.0.14
@@ -83,5 +83,5 @@ dependencies:
 - name: sqs-chart
   repository: oci://public.ecr.aws/aws-controllers-k8s
   version: 1.0.16
-digest: sha256:7118330264c0bf3d070c0a83b7c86c2c97d54e838d6a1bac7190c3186a20415e
-generated: "2024-09-10T01:39:11.585853514Z"
+digest: sha256:f6b7e654ec94de533144b44e7afc06a52888ab9fea5e1627f7693f1c3d2b998e
+generated: "2024-09-10T01:41:43.458780646Z"
