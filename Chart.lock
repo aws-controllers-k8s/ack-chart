@@ -37,7 +37,7 @@ dependencies:
   version: 1.0.0
 - name: emrcontainers-chart
   repository: oci://public.ecr.aws/aws-controllers-k8s
-  version: 1.0.12
+  version: 1.0.13
 - name: eventbridge-chart
   repository: oci://public.ecr.aws/aws-controllers-k8s
   version: 1.0.14
@@ -64,7 +64,7 @@ dependencies:
   version: 1.0.11
 - name: prometheusservice-chart
   repository: oci://public.ecr.aws/aws-controllers-k8s
-  version: 1.2.13
+  version: 1.2.14
 - name: rds-chart
   repository: oci://public.ecr.aws/aws-controllers-k8s
   version: 1.4.4
@@ -83,5 +83,5 @@ dependencies:
 - name: sqs-chart
   repository: oci://public.ecr.aws/aws-controllers-k8s
   version: 1.0.16
-digest: sha256:de8ab8fed2208c6e3eaf59dd44c8e09c9da175b3476f278e5678b25079e87fc8
-generated: "2024-09-06T17:34:11.502298001Z"
+digest: sha256:7118330264c0bf3d070c0a83b7c86c2c97d54e838d6a1bac7190c3186a20415e
+generated: "2024-09-10T01:39:11.585853514Z"
