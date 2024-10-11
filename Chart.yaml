@@ -2,7 +2,7 @@ apiVersion: v2
 name: ack-chart
 description: A Helm chart containing all ACK charts as sub-charts
 type: application
-version: 46.14.5
+version: 46.14.6
 appVersion: "0.0.0"
 dependencies:
   - name: apigatewayv2-chart
@@ -142,6 +142,6 @@ dependencies:
     condition: sns.enabled
   - name: sqs-chart
     alias: sqs
-    version: 1.0.16
+    version: 1.0.17
     repository: oci://public.ecr.aws/aws-controllers-k8s
     condition: sqs.enabled
