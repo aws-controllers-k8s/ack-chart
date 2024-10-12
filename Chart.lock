@@ -4,19 +4,19 @@ dependencies:
   version: 1.0.17
 - name: applicationautoscaling-chart
   repository: oci://public.ecr.aws/aws-controllers-k8s
-  version: 1.0.17
+  version: 1.0.18
 - name: cloudfront-chart
   repository: oci://public.ecr.aws/aws-controllers-k8s
-  version: 1.0.0
+  version: 1.0.1
 - name: cloudtrail-chart
   repository: oci://public.ecr.aws/aws-controllers-k8s
   version: 1.0.14
 - name: documentdb-chart
   repository: oci://public.ecr.aws/aws-controllers-k8s
-  version: 1.0.0
+  version: 1.0.1
 - name: dynamodb-chart
   repository: oci://public.ecr.aws/aws-controllers-k8s
-  version: 1.2.14
+  version: 1.2.15
 - name: ec2-chart
   repository: oci://public.ecr.aws/aws-controllers-k8s
   version: 1.2.27
@@ -25,7 +25,7 @@ dependencies:
   version: 1.0.18
 - name: ecs-chart
   repository: oci://public.ecr.aws/aws-controllers-k8s
-  version: 1.0.1
+  version: 1.0.2
 - name: efs-chart
   repository: oci://public.ecr.aws/aws-controllers-k8s
   version: 1.0.0
@@ -61,10 +61,10 @@ dependencies:
   version: 1.0.1
 - name: pipes-chart
   repository: oci://public.ecr.aws/aws-controllers-k8s
-  version: 1.0.11
+  version: 1.0.12
 - name: prometheusservice-chart
   repository: oci://public.ecr.aws/aws-controllers-k8s
-  version: 1.2.14
+  version: 1.2.15
 - name: rds-chart
   repository: oci://public.ecr.aws/aws-controllers-k8s
   version: 1.4.6
@@ -83,5 +83,5 @@ dependencies:
 - name: sqs-chart
   repository: oci://public.ecr.aws/aws-controllers-k8s
   version: 1.1.0
-digest: sha256:d6690a24aa3107cf009c1051a697bfc2c80f1373a2c13fd7c98ab6052f544f9e
-generated: "2024-10-12T00:07:19.211396329Z"
+digest: sha256:f78cae476d811598d61bb54d38cc83610c0815f2087e8f521787aa52aba55c17
+generated: "2024-10-12T00:13:20.263173364Z"
