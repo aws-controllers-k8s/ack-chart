@@ -31,7 +31,7 @@ dependencies:
   version: 1.0.1
 - name: eks-chart
   repository: oci://public.ecr.aws/aws-controllers-k8s
-  version: 1.5.1
+  version: 1.5.2
 - name: elbv2-chart
   repository: oci://public.ecr.aws/aws-controllers-k8s
   version: 1.0.1
@@ -83,5 +83,5 @@ dependencies:
 - name: sqs-chart
   repository: oci://public.ecr.aws/aws-controllers-k8s
   version: 1.1.0
-digest: sha256:7594057f79908d7f7506b9e2d44dc36b112c3541f4a4a1abee982607c09674ea
-generated: "2024-10-22T18:14:28.251050855Z"
+digest: sha256:e20e1418e2777c82e3d95ebbe616212efdd212faf480008fd835b4852d122b82
+generated: "2024-10-22T18:44:53.732392999Z"
