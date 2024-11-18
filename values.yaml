@@ -1,3 +1,9 @@
+acm:
+  enabled: false
+acmpca:
+  enabled: false
+apigateway:
+  enabled: false
 apigatewayv2:
   enabled: false
 applicationautoscaling:
@@ -5,6 +11,8 @@ applicationautoscaling:
 cloudfront:
   enabled: false
 cloudtrail:
+  enabled: false
+cloudwatchlogs:
   enabled: false
 documentdb:
   enabled: false
@@ -28,7 +36,11 @@ eventbridge:
   enabled: false
 iam:
   enabled: false
+kafka:
+  enabled: false
 keyspaces:
+  enabled: false
+kinesis:
   enabled: false
 kms:
   enabled: false
@@ -36,21 +48,35 @@ lambda:
   enabled: false
 memorydb:
   enabled: false
+mq:
+  enabled: false
+networkfirewall:
+  enabled: false
 opensearchservice:
   enabled: false
 pipes:
   enabled: false
 prometheusservice:
   enabled: false
+ram:
+  enabled: false
 rds:
+  enabled: false
+recyclebin:
+  enabled: false
+route53resolver:
   enabled: false
 s3:
   enabled: false
 sagemaker:
+  enabled: false
+secretsmanager:
   enabled: false
 sfn:
   enabled: false
 sns:
   enabled: false
 sqs:
+  enabled: false
+wafv2:
   enabled: false
