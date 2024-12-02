@@ -14,6 +14,8 @@ cloudfront:
   enabled: false
 cloudtrail:
   enabled: false
+cloudwatch:
+  enabled: false
 cloudwatchlogs:
   enabled: false
 codeartifact:
@@ -62,6 +64,8 @@ networkfirewall:
   enabled: false
 opensearchservice:
   enabled: false
+organizations:
+  enabled: false
 pipes:
   enabled: false
 prometheusservice:
@@ -89,6 +93,8 @@ sfn:
 sns:
   enabled: false
 sqs:
+  enabled: false
+ssm:
   enabled: false
 wafv2:
   enabled: false

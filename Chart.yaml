@@ -2,7 +2,7 @@ apiVersion: v2
 name: ack-chart
 description: A Helm chart containing all ACK charts as sub-charts
 type: application
-version: 46.17.0
+version: 46.18.0
 appVersion: "0.0.0"
 dependencies:
   - name: acm-chart
@@ -45,6 +45,11 @@ dependencies:
     version: 1.0.15
     repository: oci://public.ecr.aws/aws-controllers-k8s
     condition: cloudtrail.enabled
+  - name: cloudwatch-chart
+    alias: cloudwatch
+    version: 1.0.0
+    repository: oci://public.ecr.aws/aws-controllers-k8s
+    condition: cloudwatch.enabled
   - name: cloudwatchlogs-chart
     alias: cloudwatchlogs
     version: 1.0.0
@@ -165,6 +170,11 @@ dependencies:
     version: 1.0.1
     repository: oci://public.ecr.aws/aws-controllers-k8s
     condition: opensearchservice.enabled
+  - name: organizations-chart
+    alias: organizations
+    version: 1.0.0
+    repository: oci://public.ecr.aws/aws-controllers-k8s
+    condition: organizations.enabled
   - name: pipes-chart
     alias: pipes
     version: 1.0.12
@@ -235,6 +245,11 @@ dependencies:
     version: 1.1.2
     repository: oci://public.ecr.aws/aws-controllers-k8s
     condition: sqs.enabled
+  - name: ssm-chart
+    alias: ssm
+    version: 1.0.0
+    repository: oci://public.ecr.aws/aws-controllers-k8s
+    condition: ssm.enabled
   - name: wafv2-chart
     alias: wafv2
     version: 1.0.0
