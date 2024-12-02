@@ -8,11 +8,17 @@ apigatewayv2:
   enabled: false
 applicationautoscaling:
   enabled: false
+athena:
+  enabled: false
 cloudfront:
   enabled: false
 cloudtrail:
   enabled: false
 cloudwatchlogs:
+  enabled: false
+codeartifact:
+  enabled: false
+cognitoidentityprovider:
   enabled: false
 documentdb:
   enabled: false
@@ -21,6 +27,8 @@ dynamodb:
 ec2:
   enabled: false
 ecr:
+  enabled: false
+ecrpublic:
   enabled: false
 ecs:
   enabled: false
@@ -68,9 +76,13 @@ route53resolver:
   enabled: false
 s3:
   enabled: false
+s3control:
+  enabled: false
 sagemaker:
   enabled: false
 secretsmanager:
+  enabled: false
+ses:
   enabled: false
 sfn:
   enabled: false

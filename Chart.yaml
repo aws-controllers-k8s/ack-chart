@@ -2,7 +2,7 @@ apiVersion: v2
 name: ack-chart
 description: A Helm chart containing all ACK charts as sub-charts
 type: application
-version: 46.16.8
+version: 46.17.0
 appVersion: "0.0.0"
 dependencies:
   - name: acm-chart
@@ -30,6 +30,11 @@ dependencies:
     version: 1.0.18
     repository: oci://public.ecr.aws/aws-controllers-k8s
     condition: applicationautoscaling.enabled
+  - name: athena-chart
+    alias: athena
+    version: 1.0.0
+    repository: oci://public.ecr.aws/aws-controllers-k8s
+    condition: athena.enabled
   - name: cloudfront-chart
     alias: cloudfront
     version: 1.0.1
@@ -45,6 +50,16 @@ dependencies:
     version: 1.0.0
     repository: oci://public.ecr.aws/aws-controllers-k8s
     condition: cloudwatchlogs.enabled
+  - name: codeartifact-chart
+    alias: codeartifact
+    version: 1.0.0
+    repository: oci://public.ecr.aws/aws-controllers-k8s
+    condition: codeartifact.enabled
+  - name: cognitoidentityprovider-chart
+    alias: cognitoidentityprovider
+    version: 1.0.0
+    repository: oci://public.ecr.aws/aws-controllers-k8s
+    condition: cognitoidentityprovider.enabled
   - name: documentdb-chart
     alias: documentdb
     version: 1.0.1
@@ -65,6 +80,11 @@ dependencies:
     version: 1.0.19
     repository: oci://public.ecr.aws/aws-controllers-k8s
     condition: ecr.enabled
+  - name: ecrpublic-chart
+    alias: ecrpublic
+    version: 1.0.0
+    repository: oci://public.ecr.aws/aws-controllers-k8s
+    condition: ecrpublic.enabled
   - name: ecs-chart
     alias: ecs
     version: 1.0.2
@@ -180,6 +200,11 @@ dependencies:
     version: 1.0.17
     repository: oci://public.ecr.aws/aws-controllers-k8s
     condition: s3.enabled
+  - name: s3control-chart
+    alias: s3control
+    version: 1.0.0
+    repository: oci://public.ecr.aws/aws-controllers-k8s
+    condition: s3control.enabled
   - name: sagemaker-chart
     alias: sagemaker
     version: 1.2.13
@@ -190,6 +215,11 @@ dependencies:
     version: 1.0.0
     repository: oci://public.ecr.aws/aws-controllers-k8s
     condition: secretsmanager.enabled
+  - name: ses-chart
+    alias: ses
+    version: 1.0.0
+    repository: oci://public.ecr.aws/aws-controllers-k8s
+    condition: ses.enabled
   - name: sfn-chart
     alias: sfn
     version: 1.0.15
