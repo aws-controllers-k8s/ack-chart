@@ -22,7 +22,7 @@ dependencies:
   version: 1.0.1
 - name: cloudtrail-chart
   repository: oci://public.ecr.aws/aws-controllers-k8s
-  version: 1.0.15
+  version: 1.0.16
 - name: cloudwatch-chart
   repository: oci://public.ecr.aws/aws-controllers-k8s
   version: 1.0.0
@@ -70,7 +70,7 @@ dependencies:
   version: 1.0.15
 - name: iam-chart
   repository: oci://public.ecr.aws/aws-controllers-k8s
-  version: 1.3.13
+  version: 1.3.14
 - name: kafka-chart
   repository: oci://public.ecr.aws/aws-controllers-k8s
   version: 1.0.0
@@ -149,5 +149,5 @@ dependencies:
 - name: wafv2-chart
   repository: oci://public.ecr.aws/aws-controllers-k8s
   version: 1.0.0
-digest: sha256:1ff65cc9e26b102d21bc4632100267c379c8612eb582b8ce620b55b43b34dbf6
-generated: "2024-12-10T20:09:03.869279107Z"
+digest: sha256:1805ab854a85039fb1d24dbe9208ad8acd76d9f6bddc61eb9b4a172bb144965d
+generated: "2024-12-11T00:53:50.055499965Z"
