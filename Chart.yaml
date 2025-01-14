@@ -2,7 +2,7 @@ apiVersion: v2
 name: ack-chart
 description: A Helm chart containing all ACK charts as sub-charts
 type: application
-version: 46.18.17
+version: 46.18.18
 appVersion: "0.0.0"
 dependencies:
   - name: acm-chart
@@ -17,7 +17,7 @@ dependencies:
     condition: acmpca.enabled
   - name: apigateway-chart
     alias: apigateway
-    version: 1.0.0
+    version: 1.0.1
     repository: oci://public.ecr.aws/aws-controllers-k8s
     condition: apigateway.enabled
   - name: apigatewayv2-chart
@@ -32,7 +32,7 @@ dependencies:
     condition: applicationautoscaling.enabled
   - name: athena-chart
     alias: athena
-    version: 1.0.0
+    version: 1.0.1
     repository: oci://public.ecr.aws/aws-controllers-k8s
     condition: athena.enabled
   - name: cloudfront-chart
@@ -47,7 +47,7 @@ dependencies:
     condition: cloudtrail.enabled
   - name: cloudwatch-chart
     alias: cloudwatch
-    version: 1.0.0
+    version: 1.0.1
     repository: oci://public.ecr.aws/aws-controllers-k8s
     condition: cloudwatch.enabled
   - name: cloudwatchlogs-chart
@@ -67,7 +67,7 @@ dependencies:
     condition: cognitoidentityprovider.enabled
   - name: documentdb-chart
     alias: documentdb
-    version: 1.0.1
+    version: 1.0.2
     repository: oci://public.ecr.aws/aws-controllers-k8s
     condition: documentdb.enabled
   - name: dynamodb-chart
@@ -112,7 +112,7 @@ dependencies:
     condition: elbv2.enabled
   - name: emrcontainers-chart
     alias: emrcontainers
-    version: 1.0.14
+    version: 1.0.15
     repository: oci://public.ecr.aws/aws-controllers-k8s
     condition: emrcontainers.enabled
   - name: eventbridge-chart
@@ -127,17 +127,17 @@ dependencies:
     condition: iam.enabled
   - name: kafka-chart
     alias: kafka
-    version: 1.0.0
+    version: 1.0.1
     repository: oci://public.ecr.aws/aws-controllers-k8s
     condition: kafka.enabled
   - name: keyspaces-chart
     alias: keyspaces
-    version: 1.0.1
+    version: 1.0.2
     repository: oci://public.ecr.aws/aws-controllers-k8s
     condition: keyspaces.enabled
   - name: kinesis-chart
     alias: kinesis
-    version: 1.0.0
+    version: 1.0.1
     repository: oci://public.ecr.aws/aws-controllers-k8s
     condition: kinesis.enabled
   - name: kms-chart
@@ -247,7 +247,7 @@ dependencies:
     condition: sqs.enabled
   - name: ssm-chart
     alias: ssm
-    version: 1.0.0
+    version: 1.0.1
     repository: oci://public.ecr.aws/aws-controllers-k8s
     condition: ssm.enabled
   - name: wafv2-chart
