@@ -82,7 +82,7 @@ dependencies:
   version: 1.0.1
 - name: kms-chart
   repository: oci://public.ecr.aws/aws-controllers-k8s
-  version: 1.0.17
+  version: 1.0.18
 - name: lambda-chart
   repository: oci://public.ecr.aws/aws-controllers-k8s
   version: 1.5.4
@@ -94,7 +94,7 @@ dependencies:
   version: 1.0.1
 - name: networkfirewall-chart
   repository: oci://public.ecr.aws/aws-controllers-k8s
-  version: 1.0.0
+  version: 1.0.1
 - name: opensearchservice-chart
   repository: oci://public.ecr.aws/aws-controllers-k8s
   version: 1.0.2
@@ -149,5 +149,5 @@ dependencies:
 - name: wafv2-chart
   repository: oci://public.ecr.aws/aws-controllers-k8s
   version: 1.0.1
-digest: sha256:3cb319d6999e8092fc01029a49457c7c8e9af22bdf8d1fa77411ad9dc3cf2b04
-generated: "2025-01-14T21:58:38.703693905Z"
+digest: sha256:da7c2b71fb5fa2f66b2c172d58b0c92704a651d047f757d649ba512a63b7a174
+generated: "2025-01-14T22:11:32.50859915Z"
