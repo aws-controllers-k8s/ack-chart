@@ -100,7 +100,7 @@ dependencies:
   version: 1.0.1
 - name: organizations-chart
   repository: oci://public.ecr.aws/aws-controllers-k8s
-  version: 1.0.0
+  version: 1.0.1
 - name: pipes-chart
   repository: oci://public.ecr.aws/aws-controllers-k8s
   version: 1.0.12
@@ -149,5 +149,5 @@ dependencies:
 - name: wafv2-chart
   repository: oci://public.ecr.aws/aws-controllers-k8s
   version: 1.0.0
-digest: sha256:b25dd35c248b4fd39cbea9d93cb4ea938febc4a771919197925edf14ca6dc7ad
-generated: "2025-01-11T00:11:01.003161107Z"
+digest: sha256:eb1c4603423cee2380bc00ed878c6a158c594f6e494d916ba9b152272925015e
+generated: "2025-01-14T21:42:45.188298348Z"
