@@ -49,7 +49,7 @@ dependencies:
   version: 1.0.20
 - name: ecrpublic-chart
   repository: oci://public.ecr.aws/aws-controllers-k8s
-  version: 1.0.1
+  version: 1.0.2
 - name: ecs-chart
   repository: oci://public.ecr.aws/aws-controllers-k8s
   version: 1.0.3
@@ -106,7 +106,7 @@ dependencies:
   version: 1.0.13
 - name: prometheusservice-chart
   repository: oci://public.ecr.aws/aws-controllers-k8s
-  version: 1.2.16
+  version: 1.2.17
 - name: ram-chart
   repository: oci://public.ecr.aws/aws-controllers-k8s
   version: 1.0.1
@@ -148,6 +148,6 @@ dependencies:
   version: 1.0.1
 - name: wafv2-chart
   repository: oci://public.ecr.aws/aws-controllers-k8s
-  version: 1.0.1
-digest: sha256:d96bc599626676211ed0dd553196a5414e8c8773dbb29a7fce21ab2abc6b2ab2
-generated: "2025-01-23T02:30:16.084026353Z"
+  version: 1.0.2
+digest: sha256:211622f098f6c118481fdb9f9bb5a0713cf1aaa23ddd9373edab213b37f623a2
+generated: "2025-01-23T05:06:16.26730995Z"
