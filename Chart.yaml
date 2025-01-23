@@ -2,47 +2,47 @@ apiVersion: v2
 name: ack-chart
 description: A Helm chart containing all ACK charts as sub-charts
 type: application
-version: 46.18.21
+version: 46.18.22
 appVersion: "0.0.0"
 dependencies:
   - name: acm-chart
     alias: acm
-    version: 1.0.1
+    version: 1.0.2
     repository: oci://public.ecr.aws/aws-controllers-k8s
     condition: acm.enabled
   - name: acmpca-chart
     alias: acmpca
-    version: 1.0.1
+    version: 1.0.2
     repository: oci://public.ecr.aws/aws-controllers-k8s
     condition: acmpca.enabled
   - name: apigateway-chart
     alias: apigateway
-    version: 1.0.1
+    version: 1.0.2
     repository: oci://public.ecr.aws/aws-controllers-k8s
     condition: apigateway.enabled
   - name: apigatewayv2-chart
     alias: apigatewayv2
-    version: 1.0.18
+    version: 1.0.19
     repository: oci://public.ecr.aws/aws-controllers-k8s
     condition: apigatewayv2.enabled
   - name: applicationautoscaling-chart
     alias: applicationautoscaling
-    version: 1.0.18
+    version: 1.0.19
     repository: oci://public.ecr.aws/aws-controllers-k8s
     condition: applicationautoscaling.enabled
   - name: athena-chart
     alias: athena
-    version: 1.0.1
+    version: 1.0.2
     repository: oci://public.ecr.aws/aws-controllers-k8s
     condition: athena.enabled
   - name: cloudfront-chart
     alias: cloudfront
-    version: 1.0.2
+    version: 1.0.3
     repository: oci://public.ecr.aws/aws-controllers-k8s
     condition: cloudfront.enabled
   - name: cloudtrail-chart
     alias: cloudtrail
-    version: 1.0.16
+    version: 1.0.17
     repository: oci://public.ecr.aws/aws-controllers-k8s
     condition: cloudtrail.enabled
   - name: cloudwatch-chart
@@ -52,37 +52,37 @@ dependencies:
     condition: cloudwatch.enabled
   - name: cloudwatchlogs-chart
     alias: cloudwatchlogs
-    version: 1.0.1
+    version: 1.0.2
     repository: oci://public.ecr.aws/aws-controllers-k8s
     condition: cloudwatchlogs.enabled
   - name: codeartifact-chart
     alias: codeartifact
-    version: 1.0.1
+    version: 1.0.2
     repository: oci://public.ecr.aws/aws-controllers-k8s
     condition: codeartifact.enabled
   - name: cognitoidentityprovider-chart
     alias: cognitoidentityprovider
-    version: 1.0.1
+    version: 1.0.2
     repository: oci://public.ecr.aws/aws-controllers-k8s
     condition: cognitoidentityprovider.enabled
   - name: documentdb-chart
     alias: documentdb
-    version: 1.0.2
+    version: 1.0.3
     repository: oci://public.ecr.aws/aws-controllers-k8s
     condition: documentdb.enabled
   - name: dynamodb-chart
     alias: dynamodb
-    version: 1.2.16
+    version: 1.2.17
     repository: oci://public.ecr.aws/aws-controllers-k8s
     condition: dynamodb.enabled
   - name: ec2-chart
     alias: ec2
-    version: 1.3.1
+    version: 1.3.2
     repository: oci://public.ecr.aws/aws-controllers-k8s
     condition: ec2.enabled
   - name: ecr-chart
     alias: ecr
-    version: 1.0.20
+    version: 1.0.21
     repository: oci://public.ecr.aws/aws-controllers-k8s
     condition: ecr.enabled
   - name: ecrpublic-chart
@@ -92,17 +92,17 @@ dependencies:
     condition: ecrpublic.enabled
   - name: ecs-chart
     alias: ecs
-    version: 1.0.3
+    version: 1.0.4
     repository: oci://public.ecr.aws/aws-controllers-k8s
     condition: ecs.enabled
   - name: efs-chart
     alias: efs
-    version: 1.0.2
+    version: 1.0.3
     repository: oci://public.ecr.aws/aws-controllers-k8s
     condition: efs.enabled
   - name: eks-chart
     alias: eks
-    version: 1.5.3
+    version: 1.5.4
     repository: oci://public.ecr.aws/aws-controllers-k8s
     condition: eks.enabled
   - name: elbv2-chart
@@ -117,67 +117,67 @@ dependencies:
     condition: emrcontainers.enabled
   - name: eventbridge-chart
     alias: eventbridge
-    version: 1.0.16
+    version: 1.0.17
     repository: oci://public.ecr.aws/aws-controllers-k8s
     condition: eventbridge.enabled
   - name: iam-chart
     alias: iam
-    version: 1.3.14
+    version: 1.3.15
     repository: oci://public.ecr.aws/aws-controllers-k8s
     condition: iam.enabled
   - name: kafka-chart
     alias: kafka
-    version: 1.0.1
+    version: 1.0.2
     repository: oci://public.ecr.aws/aws-controllers-k8s
     condition: kafka.enabled
   - name: keyspaces-chart
     alias: keyspaces
-    version: 1.0.2
+    version: 1.0.3
     repository: oci://public.ecr.aws/aws-controllers-k8s
     condition: keyspaces.enabled
   - name: kinesis-chart
     alias: kinesis
-    version: 1.0.1
+    version: 1.0.2
     repository: oci://public.ecr.aws/aws-controllers-k8s
     condition: kinesis.enabled
   - name: kms-chart
     alias: kms
-    version: 1.0.18
+    version: 1.0.19
     repository: oci://public.ecr.aws/aws-controllers-k8s
     condition: kms.enabled
   - name: lambda-chart
     alias: lambda
-    version: 1.5.4
+    version: 1.5.5
     repository: oci://public.ecr.aws/aws-controllers-k8s
     condition: lambda.enabled
   - name: memorydb-chart
     alias: memorydb
-    version: 1.0.7
+    version: 1.0.8
     repository: oci://public.ecr.aws/aws-controllers-k8s
     condition: memorydb.enabled
   - name: mq-chart
     alias: mq
-    version: 1.0.1
+    version: 1.0.2
     repository: oci://public.ecr.aws/aws-controllers-k8s
     condition: mq.enabled
   - name: networkfirewall-chart
     alias: networkfirewall
-    version: 1.0.1
+    version: 1.0.2
     repository: oci://public.ecr.aws/aws-controllers-k8s
     condition: networkfirewall.enabled
   - name: opensearchservice-chart
     alias: opensearchservice
-    version: 1.0.2
+    version: 1.0.3
     repository: oci://public.ecr.aws/aws-controllers-k8s
     condition: opensearchservice.enabled
   - name: organizations-chart
     alias: organizations
-    version: 1.0.1
+    version: 1.0.2
     repository: oci://public.ecr.aws/aws-controllers-k8s
     condition: organizations.enabled
   - name: pipes-chart
     alias: pipes
-    version: 1.0.13
+    version: 1.0.14
     repository: oci://public.ecr.aws/aws-controllers-k8s
     condition: pipes.enabled
   - name: prometheusservice-chart
@@ -187,7 +187,7 @@ dependencies:
     condition: prometheusservice.enabled
   - name: ram-chart
     alias: ram
-    version: 1.0.1
+    version: 1.0.2
     repository: oci://public.ecr.aws/aws-controllers-k8s
     condition: ram.enabled
   - name: rds-chart
@@ -197,57 +197,57 @@ dependencies:
     condition: rds.enabled
   - name: recyclebin-chart
     alias: recyclebin
-    version: 1.0.1
+    version: 1.0.2
     repository: oci://public.ecr.aws/aws-controllers-k8s
     condition: recyclebin.enabled
   - name: route53resolver-chart
     alias: route53resolver
-    version: 1.0.2
+    version: 1.0.3
     repository: oci://public.ecr.aws/aws-controllers-k8s
     condition: route53resolver.enabled
   - name: s3-chart
     alias: s3
-    version: 1.0.20
+    version: 1.0.21
     repository: oci://public.ecr.aws/aws-controllers-k8s
     condition: s3.enabled
   - name: s3control-chart
     alias: s3control
-    version: 1.0.1
+    version: 1.0.2
     repository: oci://public.ecr.aws/aws-controllers-k8s
     condition: s3control.enabled
   - name: sagemaker-chart
     alias: sagemaker
-    version: 1.2.13
+    version: 1.2.14
     repository: oci://public.ecr.aws/aws-controllers-k8s
     condition: sagemaker.enabled
   - name: secretsmanager-chart
     alias: secretsmanager
-    version: 1.0.1
+    version: 1.0.2
     repository: oci://public.ecr.aws/aws-controllers-k8s
     condition: secretsmanager.enabled
   - name: ses-chart
     alias: ses
-    version: 1.0.1
+    version: 1.0.2
     repository: oci://public.ecr.aws/aws-controllers-k8s
     condition: ses.enabled
   - name: sfn-chart
     alias: sfn
-    version: 1.0.16
+    version: 1.0.17
     repository: oci://public.ecr.aws/aws-controllers-k8s
     condition: sfn.enabled
   - name: sns-chart
     alias: sns
-    version: 1.1.2
+    version: 1.1.3
     repository: oci://public.ecr.aws/aws-controllers-k8s
     condition: sns.enabled
   - name: sqs-chart
     alias: sqs
-    version: 1.1.3
+    version: 1.1.4
     repository: oci://public.ecr.aws/aws-controllers-k8s
     condition: sqs.enabled
   - name: ssm-chart
     alias: ssm
-    version: 1.0.1
+    version: 1.0.2
     repository: oci://public.ecr.aws/aws-controllers-k8s
     condition: ssm.enabled
   - name: wafv2-chart
