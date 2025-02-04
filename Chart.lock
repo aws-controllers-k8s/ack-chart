@@ -49,7 +49,7 @@ dependencies:
   version: 1.0.21
 - name: ecrpublic-chart
   repository: oci://public.ecr.aws/aws-controllers-k8s
-  version: 1.0.2
+  version: 1.0.3
 - name: ecs-chart
   repository: oci://public.ecr.aws/aws-controllers-k8s
   version: 1.0.4
@@ -149,5 +149,5 @@ dependencies:
 - name: wafv2-chart
   repository: oci://public.ecr.aws/aws-controllers-k8s
   version: 1.0.2
-digest: sha256:d35a270d0724b610d4422c5417a10a4c2b4eb13484d46e19cfb03d6f6bdc68ce
-generated: "2025-01-30T20:12:17.256988717Z"
+digest: sha256:640b3dff800361992fedee4a6332d97ad6ba9065d089180a241dc5726f5343ba
+generated: "2025-02-04T22:46:21.424333483Z"
