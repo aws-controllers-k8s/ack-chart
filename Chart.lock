@@ -7,7 +7,7 @@ dependencies:
   version: 1.0.4
 - name: apigateway-chart
   repository: oci://public.ecr.aws/aws-controllers-k8s
-  version: 1.0.4
+  version: 1.0.5
 - name: apigatewayv2-chart
   repository: oci://public.ecr.aws/aws-controllers-k8s
   version: 1.0.22
@@ -43,10 +43,10 @@ dependencies:
   version: 1.2.20
 - name: ec2-chart
   repository: oci://public.ecr.aws/aws-controllers-k8s
-  version: 1.3.5
+  version: 1.3.6
 - name: ecr-chart
   repository: oci://public.ecr.aws/aws-controllers-k8s
-  version: 1.0.24
+  version: 1.0.25
 - name: ecrpublic-chart
   repository: oci://public.ecr.aws/aws-controllers-k8s
   version: 1.0.6
@@ -55,10 +55,10 @@ dependencies:
   version: 1.0.7
 - name: efs-chart
   repository: oci://public.ecr.aws/aws-controllers-k8s
-  version: 1.0.5
+  version: 1.0.6
 - name: eks-chart
   repository: oci://public.ecr.aws/aws-controllers-k8s
-  version: 1.6.2
+  version: 1.6.3
 - name: elbv2-chart
   repository: oci://public.ecr.aws/aws-controllers-k8s
   version: 1.0.6
@@ -133,7 +133,7 @@ dependencies:
   version: 1.0.4
 - name: ses-chart
   repository: oci://public.ecr.aws/aws-controllers-k8s
-  version: 1.0.4
+  version: 1.0.5
 - name: sfn-chart
   repository: oci://public.ecr.aws/aws-controllers-k8s
   version: 1.0.21
@@ -149,5 +149,5 @@ dependencies:
 - name: wafv2-chart
   repository: oci://public.ecr.aws/aws-controllers-k8s
   version: 1.0.5
-digest: sha256:2c211e5f9de1f72835cad710075c86b6da5165d3826b975439e1cee4bb84ae50
-generated: "2025-02-20T20:43:52.045503224Z"
+digest: sha256:7caee46500e48862c2441b72d467ea1920dd4e49378f0f7624c455272e11c407
+generated: "2025-02-20T21:50:17.663487409Z"
