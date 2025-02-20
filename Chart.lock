@@ -130,7 +130,7 @@ dependencies:
   version: 1.2.15
 - name: secretsmanager-chart
   repository: oci://public.ecr.aws/aws-controllers-k8s
-  version: 1.0.3
+  version: 1.0.4
 - name: ses-chart
   repository: oci://public.ecr.aws/aws-controllers-k8s
   version: 1.0.4
@@ -149,5 +149,5 @@ dependencies:
 - name: wafv2-chart
   repository: oci://public.ecr.aws/aws-controllers-k8s
   version: 1.0.5
-digest: sha256:083f5708489fceef74c1586bcbbc07648bb7f31c882c344efe5a6c78a01460f9
-generated: "2025-02-20T19:47:51.776524988Z"
+digest: sha256:b36b03c406b9f113f41aaf370e8aedbf94162c6ba9735aacc898b100402be8ff
+generated: "2025-02-20T19:56:46.559182468Z"
