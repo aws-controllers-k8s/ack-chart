@@ -67,7 +67,7 @@ dependencies:
   version: 1.0.17
 - name: eventbridge-chart
   repository: oci://public.ecr.aws/aws-controllers-k8s
-  version: 1.0.19
+  version: 1.0.20
 - name: iam-chart
   repository: oci://public.ecr.aws/aws-controllers-k8s
   version: 1.3.17
@@ -85,7 +85,7 @@ dependencies:
   version: 1.0.22
 - name: lambda-chart
   repository: oci://public.ecr.aws/aws-controllers-k8s
-  version: 1.5.7
+  version: 1.5.8
 - name: memorydb-chart
   repository: oci://public.ecr.aws/aws-controllers-k8s
   version: 1.0.8
@@ -149,5 +149,5 @@ dependencies:
 - name: wafv2-chart
   repository: oci://public.ecr.aws/aws-controllers-k8s
   version: 1.0.4
-digest: sha256:32585e88877b131dd4a7a2eea5cf7d8c58e78b4983b2e501cc5fce81d8433026
-generated: "2025-02-20T18:28:40.809274809Z"
+digest: sha256:236ce9f413f09e7ce83c4991219b44d7db66ab47c0ebe06d5256b75c0cee9565
+generated: "2025-02-20T19:06:00.616697154Z"
