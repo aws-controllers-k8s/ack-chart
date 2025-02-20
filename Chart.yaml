@@ -2,7 +2,7 @@ apiVersion: v2
 name: ack-chart
 description: A Helm chart containing all ACK charts as sub-charts
 type: application
-version: 46.19.14
+version: 46.19.15
 appVersion: "0.0.0"
 dependencies:
   - name: acm-chart
@@ -22,7 +22,7 @@ dependencies:
     condition: apigateway.enabled
   - name: apigatewayv2-chart
     alias: apigatewayv2
-    version: 1.0.21
+    version: 1.0.22
     repository: oci://public.ecr.aws/aws-controllers-k8s
     condition: apigatewayv2.enabled
   - name: applicationautoscaling-chart
@@ -167,7 +167,7 @@ dependencies:
     condition: networkfirewall.enabled
   - name: opensearchservice-chart
     alias: opensearchservice
-    version: 1.0.5
+    version: 1.0.6
     repository: oci://public.ecr.aws/aws-controllers-k8s
     condition: opensearchservice.enabled
   - name: organizations-chart

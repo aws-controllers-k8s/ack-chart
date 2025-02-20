@@ -10,7 +10,7 @@ dependencies:
   version: 1.0.4
 - name: apigatewayv2-chart
   repository: oci://public.ecr.aws/aws-controllers-k8s
-  version: 1.0.21
+  version: 1.0.22
 - name: applicationautoscaling-chart
   repository: oci://public.ecr.aws/aws-controllers-k8s
   version: 1.0.23
@@ -97,7 +97,7 @@ dependencies:
   version: 1.0.4
 - name: opensearchservice-chart
   repository: oci://public.ecr.aws/aws-controllers-k8s
-  version: 1.0.5
+  version: 1.0.6
 - name: organizations-chart
   repository: oci://public.ecr.aws/aws-controllers-k8s
   version: 1.0.4
@@ -149,5 +149,5 @@ dependencies:
 - name: wafv2-chart
   repository: oci://public.ecr.aws/aws-controllers-k8s
   version: 1.0.5
-digest: sha256:66baf1e6ddd88ffd6cdf09300fa939f8b505e6dd090b5110ffd5fcc9623ea248
-generated: "2025-02-20T19:40:47.124200909Z"
+digest: sha256:083f5708489fceef74c1586bcbbc07648bb7f31c882c344efe5a6c78a01460f9
+generated: "2025-02-20T19:47:51.776524988Z"
