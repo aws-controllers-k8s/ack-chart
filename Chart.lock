@@ -136,7 +136,7 @@ dependencies:
   version: 1.0.4
 - name: sfn-chart
   repository: oci://public.ecr.aws/aws-controllers-k8s
-  version: 1.0.20
+  version: 1.0.21
 - name: sns-chart
   repository: oci://public.ecr.aws/aws-controllers-k8s
   version: 1.1.7
@@ -149,5 +149,5 @@ dependencies:
 - name: wafv2-chart
   repository: oci://public.ecr.aws/aws-controllers-k8s
   version: 1.0.5
-digest: sha256:b36b03c406b9f113f41aaf370e8aedbf94162c6ba9735aacc898b100402be8ff
-generated: "2025-02-20T19:56:46.559182468Z"
+digest: sha256:f0823baa8a6e167010c8d728dc2aa3e8f9c915e8adc82750cda56e4305f9fde1
+generated: "2025-02-20T20:05:02.776347922Z"
