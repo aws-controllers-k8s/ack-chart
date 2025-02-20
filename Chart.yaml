@@ -2,7 +2,7 @@ apiVersion: v2
 name: ack-chart
 description: A Helm chart containing all ACK charts as sub-charts
 type: application
-version: 46.19.12
+version: 46.19.13
 appVersion: "0.0.0"
 dependencies:
   - name: acm-chart
