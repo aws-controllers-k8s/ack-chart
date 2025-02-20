@@ -31,7 +31,7 @@ dependencies:
   version: 1.0.6
 - name: codeartifact-chart
   repository: oci://public.ecr.aws/aws-controllers-k8s
-  version: 1.0.4
+  version: 1.0.5
 - name: cognitoidentityprovider-chart
   repository: oci://public.ecr.aws/aws-controllers-k8s
   version: 1.0.5
@@ -94,7 +94,7 @@ dependencies:
   version: 1.0.5
 - name: networkfirewall-chart
   repository: oci://public.ecr.aws/aws-controllers-k8s
-  version: 1.0.4
+  version: 1.0.5
 - name: opensearchservice-chart
   repository: oci://public.ecr.aws/aws-controllers-k8s
   version: 1.0.6
@@ -109,7 +109,7 @@ dependencies:
   version: 1.2.19
 - name: ram-chart
   repository: oci://public.ecr.aws/aws-controllers-k8s
-  version: 1.0.3
+  version: 1.0.4
 - name: rds-chart
   repository: oci://public.ecr.aws/aws-controllers-k8s
   version: 1.4.11
@@ -149,5 +149,5 @@ dependencies:
 - name: wafv2-chart
   repository: oci://public.ecr.aws/aws-controllers-k8s
   version: 1.0.5
-digest: sha256:7923b8f9d1c2131599f98ca3eeed69f7134f575674542ebc266b90ba9457d6cf
-generated: "2025-02-20T20:22:53.685349788Z"
+digest: sha256:b7b50e166830231010f916dea2b5050f1b2c06460e89f0bc9da70f7d1608d371
+generated: "2025-02-20T20:29:48.152890677Z"
