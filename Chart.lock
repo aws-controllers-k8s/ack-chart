@@ -34,7 +34,7 @@ dependencies:
   version: 1.0.4
 - name: cognitoidentityprovider-chart
   repository: oci://public.ecr.aws/aws-controllers-k8s
-  version: 1.0.4
+  version: 1.0.5
 - name: documentdb-chart
   repository: oci://public.ecr.aws/aws-controllers-k8s
   version: 1.0.5
@@ -91,7 +91,7 @@ dependencies:
   version: 1.0.8
 - name: mq-chart
   repository: oci://public.ecr.aws/aws-controllers-k8s
-  version: 1.0.4
+  version: 1.0.5
 - name: networkfirewall-chart
   repository: oci://public.ecr.aws/aws-controllers-k8s
   version: 1.0.4
@@ -103,7 +103,7 @@ dependencies:
   version: 1.0.5
 - name: pipes-chart
   repository: oci://public.ecr.aws/aws-controllers-k8s
-  version: 1.0.16
+  version: 1.0.17
 - name: prometheusservice-chart
   repository: oci://public.ecr.aws/aws-controllers-k8s
   version: 1.2.19
@@ -115,7 +115,7 @@ dependencies:
   version: 1.4.11
 - name: recyclebin-chart
   repository: oci://public.ecr.aws/aws-controllers-k8s
-  version: 1.0.4
+  version: 1.0.5
 - name: route53resolver-chart
   repository: oci://public.ecr.aws/aws-controllers-k8s
   version: 1.0.6
@@ -149,5 +149,5 @@ dependencies:
 - name: wafv2-chart
   repository: oci://public.ecr.aws/aws-controllers-k8s
   version: 1.0.5
-digest: sha256:a98167c0d037fd0bbba0a8fa0af508d3f252e2a3ca2cf9a4669e704fc1892af6
-generated: "2025-02-20T20:16:39.730989537Z"
+digest: sha256:7923b8f9d1c2131599f98ca3eeed69f7134f575674542ebc266b90ba9457d6cf
+generated: "2025-02-20T20:22:53.685349788Z"

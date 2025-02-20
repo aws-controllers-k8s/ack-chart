@@ -2,7 +2,7 @@ apiVersion: v2
 name: ack-chart
 description: A Helm chart containing all ACK charts as sub-charts
 type: application
-version: 46.19.20
+version: 46.19.21
 appVersion: "0.0.0"
 dependencies:
   - name: acm-chart
@@ -62,7 +62,7 @@ dependencies:
     condition: codeartifact.enabled
   - name: cognitoidentityprovider-chart
     alias: cognitoidentityprovider
-    version: 1.0.4
+    version: 1.0.5
     repository: oci://public.ecr.aws/aws-controllers-k8s
     condition: cognitoidentityprovider.enabled
   - name: documentdb-chart
@@ -157,7 +157,7 @@ dependencies:
     condition: memorydb.enabled
   - name: mq-chart
     alias: mq
-    version: 1.0.4
+    version: 1.0.5
     repository: oci://public.ecr.aws/aws-controllers-k8s
     condition: mq.enabled
   - name: networkfirewall-chart
@@ -177,7 +177,7 @@ dependencies:
     condition: organizations.enabled
   - name: pipes-chart
     alias: pipes
-    version: 1.0.16
+    version: 1.0.17
     repository: oci://public.ecr.aws/aws-controllers-k8s
     condition: pipes.enabled
   - name: prometheusservice-chart
@@ -197,7 +197,7 @@ dependencies:
     condition: rds.enabled
   - name: recyclebin-chart
     alias: recyclebin
-    version: 1.0.4
+    version: 1.0.5
     repository: oci://public.ecr.aws/aws-controllers-k8s
     condition: recyclebin.enabled
   - name: route53resolver-chart
