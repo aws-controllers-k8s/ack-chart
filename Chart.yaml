@@ -2,7 +2,7 @@ apiVersion: v2
 name: ack-chart
 description: A Helm chart containing all ACK charts as sub-charts
 type: application
-version: 46.19.23
+version: 46.19.24
 appVersion: "0.0.0"
 dependencies:
   - name: acm-chart
@@ -42,7 +42,7 @@ dependencies:
     condition: cloudfront.enabled
   - name: cloudtrail-chart
     alias: cloudtrail
-    version: 1.0.19
+    version: 1.0.20
     repository: oci://public.ecr.aws/aws-controllers-k8s
     condition: cloudtrail.enabled
   - name: cloudwatch-chart
@@ -87,7 +87,7 @@ dependencies:
     condition: ecr.enabled
   - name: ecrpublic-chart
     alias: ecrpublic
-    version: 1.0.5
+    version: 1.0.6
     repository: oci://public.ecr.aws/aws-controllers-k8s
     condition: ecrpublic.enabled
   - name: ecs-chart
@@ -112,7 +112,7 @@ dependencies:
     condition: elbv2.enabled
   - name: emrcontainers-chart
     alias: emrcontainers
-    version: 1.0.17
+    version: 1.0.18
     repository: oci://public.ecr.aws/aws-controllers-k8s
     condition: emrcontainers.enabled
   - name: eventbridge-chart
@@ -137,7 +137,7 @@ dependencies:
     condition: keyspaces.enabled
   - name: kinesis-chart
     alias: kinesis
-    version: 1.0.4
+    version: 1.0.5
     repository: oci://public.ecr.aws/aws-controllers-k8s
     condition: kinesis.enabled
   - name: kms-chart
@@ -247,7 +247,7 @@ dependencies:
     condition: sqs.enabled
   - name: ssm-chart
     alias: ssm
-    version: 1.0.3
+    version: 1.0.4
     repository: oci://public.ecr.aws/aws-controllers-k8s
     condition: ssm.enabled
   - name: wafv2-chart
