@@ -4,7 +4,7 @@ dependencies:
   version: 1.0.5
 - name: acmpca-chart
   repository: oci://public.ecr.aws/aws-controllers-k8s
-  version: 1.0.4
+  version: 1.0.5
 - name: apigateway-chart
   repository: oci://public.ecr.aws/aws-controllers-k8s
   version: 1.0.5
@@ -149,5 +149,5 @@ dependencies:
 - name: wafv2-chart
   repository: oci://public.ecr.aws/aws-controllers-k8s
   version: 1.0.5
-digest: sha256:6bc946bc04bd7f8b7b15cfaa451231727e496ac26c30e79774bd4e4bffdf5675
-generated: "2025-02-20T23:50:45.7779742Z"
+digest: sha256:dd6537de9c6200a4b7ce8b45df81af0bff70162d0339348a64beb3df5ac61aba
+generated: "2025-02-21T20:14:33.119902004Z"
