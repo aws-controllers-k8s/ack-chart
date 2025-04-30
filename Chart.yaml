@@ -2,7 +2,7 @@ apiVersion: v2
 name: ack-chart
 description: A Helm chart containing all ACK charts as sub-charts
 type: application
-version: 46.22.3
+version: 46.22.4
 appVersion: "0.0.0"
 dependencies:
   - name: acm-chart
@@ -137,7 +137,7 @@ dependencies:
     condition: keyspaces.enabled
   - name: kinesis-chart
     alias: kinesis
-    version: 1.0.8
+    version: 1.0.9
     repository: oci://public.ecr.aws/aws-controllers-k8s
     condition: kinesis.enabled
   - name: kms-chart
