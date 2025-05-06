@@ -7,7 +7,7 @@ dependencies:
   version: 1.0.6
 - name: apigateway-chart
   repository: oci://public.ecr.aws/aws-controllers-k8s
-  version: 1.2.0
+  version: 1.2.1
 - name: apigatewayv2-chart
   repository: oci://public.ecr.aws/aws-controllers-k8s
   version: 1.0.24
@@ -149,5 +149,5 @@ dependencies:
 - name: wafv2-chart
   repository: oci://public.ecr.aws/aws-controllers-k8s
   version: 1.0.7
-digest: sha256:852af7ee4bbecbe7dab8b55d05a1044ba37a5e9b77743120f5b8abd42d6f3b6b
-generated: "2025-05-06T20:47:39.362069639Z"
+digest: sha256:4ed3804a69d727ccd4480f5f54ea0cb8ed889160a623d7b444bd83d10f0f1c35
+generated: "2025-05-06T21:16:48.342740353Z"
