@@ -2,7 +2,7 @@ apiVersion: v2
 name: ack-chart
 description: A Helm chart containing all ACK charts as sub-charts
 type: application
-version: 46.25.9
+version: 46.25.10
 appVersion: "0.0.0"
 dependencies:
   - name: acm-chart
@@ -182,7 +182,7 @@ dependencies:
     condition: pipes.enabled
   - name: prometheusservice-chart
     alias: prometheusservice
-    version: 1.2.22
+    version: 1.2.23
     repository: oci://public.ecr.aws/aws-controllers-k8s
     condition: prometheusservice.enabled
   - name: ram-chart
