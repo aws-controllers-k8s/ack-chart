@@ -142,12 +142,12 @@ dependencies:
   version: 1.1.11
 - name: sqs-chart
   repository: oci://public.ecr.aws/aws-controllers-k8s
-  version: 1.1.10
+  version: 1.1.11
 - name: ssm-chart
   repository: oci://public.ecr.aws/aws-controllers-k8s
   version: 1.0.6
 - name: wafv2-chart
   repository: oci://public.ecr.aws/aws-controllers-k8s
   version: 1.0.8
-digest: sha256:f437e2f7ee4d3a30ffd7404853317ade940b6b45cf63e4da65b8464759b91ae9
-generated: "2025-05-13T04:55:30.681991463Z"
+digest: sha256:6d94a9bc81f1d65892ca03f02e3b25573527fe664f3424cf9079b616bbced858
+generated: "2025-05-13T05:04:46.349158585Z"
