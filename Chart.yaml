@@ -2,7 +2,7 @@ apiVersion: v2
 name: ack-chart
 description: A Helm chart containing all ACK charts as sub-charts
 type: application
-version: 46.25.10
+version: 46.25.11
 appVersion: "0.0.0"
 dependencies:
   - name: acm-chart
@@ -52,7 +52,7 @@ dependencies:
     condition: cloudwatch.enabled
   - name: cloudwatchlogs-chart
     alias: cloudwatchlogs
-    version: 1.0.8
+    version: 1.0.9
     repository: oci://public.ecr.aws/aws-controllers-k8s
     condition: cloudwatchlogs.enabled
   - name: codeartifact-chart
@@ -97,7 +97,7 @@ dependencies:
     condition: ecs.enabled
   - name: efs-chart
     alias: efs
-    version: 1.0.12
+    version: 1.0.13
     repository: oci://public.ecr.aws/aws-controllers-k8s
     condition: efs.enabled
   - name: eks-chart
@@ -222,12 +222,12 @@ dependencies:
     condition: sagemaker.enabled
   - name: secretsmanager-chart
     alias: secretsmanager
-    version: 1.0.6
+    version: 1.0.7
     repository: oci://public.ecr.aws/aws-controllers-k8s
     condition: secretsmanager.enabled
   - name: ses-chart
     alias: ses
-    version: 1.0.7
+    version: 1.0.8
     repository: oci://public.ecr.aws/aws-controllers-k8s
     condition: ses.enabled
   - name: sfn-chart
