@@ -38,6 +38,8 @@ efs:
   enabled: false
 eks:
   enabled: false
+elasticache:
+  enabled: false
 elbv2:
   enabled: false
 emrcontainers:
