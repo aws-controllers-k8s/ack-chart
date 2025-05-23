@@ -78,6 +78,8 @@ rds:
   enabled: false
 recyclebin:
   enabled: false
+route53:
+  enabled: false
 route53resolver:
   enabled: false
 s3:

@@ -119,6 +119,9 @@ dependencies:
 - name: recyclebin-chart
   repository: oci://public.ecr.aws/aws-controllers-k8s
   version: 1.0.8
+- name: route53-chart
+  repository: oci://public.ecr.aws/aws-controllers-k8s
+  version: 1.0.0
 - name: route53resolver-chart
   repository: oci://public.ecr.aws/aws-controllers-k8s
   version: 1.0.10
@@ -152,5 +155,5 @@ dependencies:
 - name: wafv2-chart
   repository: oci://public.ecr.aws/aws-controllers-k8s
   version: 1.0.9
-digest: sha256:5721b3a5de2279b5086214910a478ca23ac594868bb9a53bb11b1064ed4b1056
-generated: "2025-05-22T01:12:38.61453233Z"
+digest: sha256:14a4877d43490ea9668819c2bf7d96ab1b755457e9e0a1f5f154e5020d024afa
+generated: "2025-05-23T23:34:48.154608918Z"
