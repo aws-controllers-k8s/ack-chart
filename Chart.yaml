@@ -162,7 +162,7 @@ dependencies:
     condition: memorydb.enabled
   - name: mq-chart
     alias: mq
-    version: 1.0.8
+    version: 1.0.9
     repository: oci://public.ecr.aws/aws-controllers-k8s
     condition: mq.enabled
   - name: networkfirewall-chart
@@ -232,7 +232,7 @@ dependencies:
     condition: sagemaker.enabled
   - name: secretsmanager-chart
     alias: secretsmanager
-    version: 1.0.7
+    version: 1.0.8
     repository: oci://public.ecr.aws/aws-controllers-k8s
     condition: secretsmanager.enabled
   - name: ses-chart

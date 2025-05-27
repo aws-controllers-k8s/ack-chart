@@ -94,7 +94,7 @@ dependencies:
   version: 1.0.10
 - name: mq-chart
   repository: oci://public.ecr.aws/aws-controllers-k8s
-  version: 1.0.8
+  version: 1.0.9
 - name: networkfirewall-chart
   repository: oci://public.ecr.aws/aws-controllers-k8s
   version: 1.0.8
@@ -136,7 +136,7 @@ dependencies:
   version: 1.2.18
 - name: secretsmanager-chart
   repository: oci://public.ecr.aws/aws-controllers-k8s
-  version: 1.0.7
+  version: 1.0.8
 - name: ses-chart
   repository: oci://public.ecr.aws/aws-controllers-k8s
   version: 1.0.9
@@ -155,5 +155,5 @@ dependencies:
 - name: wafv2-chart
   repository: oci://public.ecr.aws/aws-controllers-k8s
   version: 1.0.9
-digest: sha256:c3e4674b3f8d7a36b0d250b7df33be4beb46de71253019dc86ccc2ce8053b7c0
-generated: "2025-05-27T17:05:48.299234221Z"
+digest: sha256:1d0f0de1b97a2be522f87114031b37db5ae7618bc36d55f30e0f573ef03f75a2
+generated: "2025-05-27T17:33:45.630407222Z"
