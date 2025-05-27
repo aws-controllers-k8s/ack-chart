@@ -37,7 +37,7 @@ dependencies:
   version: 1.0.8
 - name: documentdb-chart
   repository: oci://public.ecr.aws/aws-controllers-k8s
-  version: 1.0.9
+  version: 1.0.10
 - name: dynamodb-chart
   repository: oci://public.ecr.aws/aws-controllers-k8s
   version: 1.4.5
@@ -76,7 +76,7 @@ dependencies:
   version: 1.3.22
 - name: kafka-chart
   repository: oci://public.ecr.aws/aws-controllers-k8s
-  version: 1.0.11
+  version: 1.0.12
 - name: keyspaces-chart
   repository: oci://public.ecr.aws/aws-controllers-k8s
   version: 1.0.10
@@ -155,5 +155,5 @@ dependencies:
 - name: wafv2-chart
   repository: oci://public.ecr.aws/aws-controllers-k8s
   version: 1.0.9
-digest: sha256:c0b204b9627293047561cbebb67fd2ee0fc6bb42bb18c9ea647436752ca6a4ea
-generated: "2025-05-27T16:56:20.933202062Z"
+digest: sha256:c3e4674b3f8d7a36b0d250b7df33be4beb46de71253019dc86ccc2ce8053b7c0
+generated: "2025-05-27T17:05:48.299234221Z"
