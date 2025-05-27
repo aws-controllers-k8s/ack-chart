@@ -10,7 +10,7 @@ dependencies:
   version: 1.2.2
 - name: apigatewayv2-chart
   repository: oci://public.ecr.aws/aws-controllers-k8s
-  version: 1.0.25
+  version: 1.0.26
 - name: applicationautoscaling-chart
   repository: oci://public.ecr.aws/aws-controllers-k8s
   version: 1.0.27
@@ -19,7 +19,7 @@ dependencies:
   version: 1.0.9
 - name: cloudfront-chart
   repository: oci://public.ecr.aws/aws-controllers-k8s
-  version: 1.1.1
+  version: 1.1.2
 - name: cloudtrail-chart
   repository: oci://public.ecr.aws/aws-controllers-k8s
   version: 1.0.24
@@ -28,7 +28,7 @@ dependencies:
   version: 1.0.9
 - name: cloudwatchlogs-chart
   repository: oci://public.ecr.aws/aws-controllers-k8s
-  version: 1.0.9
+  version: 1.0.10
 - name: codeartifact-chart
   repository: oci://public.ecr.aws/aws-controllers-k8s
   version: 1.0.8
@@ -40,7 +40,7 @@ dependencies:
   version: 1.0.10
 - name: dynamodb-chart
   repository: oci://public.ecr.aws/aws-controllers-k8s
-  version: 1.4.5
+  version: 1.4.6
 - name: ec2-chart
   repository: oci://public.ecr.aws/aws-controllers-k8s
   version: 1.4.5
@@ -61,7 +61,7 @@ dependencies:
   version: 1.7.3
 - name: elasticache-chart
   repository: oci://public.ecr.aws/aws-controllers-k8s
-  version: 1.0.0
+  version: 1.0.1
 - name: elbv2-chart
   repository: oci://public.ecr.aws/aws-controllers-k8s
   version: 1.0.9
@@ -155,5 +155,5 @@ dependencies:
 - name: wafv2-chart
   repository: oci://public.ecr.aws/aws-controllers-k8s
   version: 1.0.9
-digest: sha256:dd2e268acbde334dc91c531eef99e4dedde1cb993791bd755fd9d074264a18a5
-generated: "2025-05-27T22:36:52.292991598Z"
+digest: sha256:c58780b7d476a8b6a9244fc4f566c72ad505eba94307a85bb53975864d2ac1a3
+generated: "2025-05-27T22:42:22.624389388Z"
