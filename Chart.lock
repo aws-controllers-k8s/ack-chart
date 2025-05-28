@@ -4,10 +4,10 @@ dependencies:
   version: 1.0.9
 - name: acmpca-chart
   repository: oci://public.ecr.aws/aws-controllers-k8s
-  version: 1.0.7
+  version: 1.0.8
 - name: apigateway-chart
   repository: oci://public.ecr.aws/aws-controllers-k8s
-  version: 1.2.2
+  version: 1.2.3
 - name: apigatewayv2-chart
   repository: oci://public.ecr.aws/aws-controllers-k8s
   version: 1.0.26
@@ -31,7 +31,7 @@ dependencies:
   version: 1.0.10
 - name: codeartifact-chart
   repository: oci://public.ecr.aws/aws-controllers-k8s
-  version: 1.0.8
+  version: 1.0.9
 - name: cognitoidentityprovider-chart
   repository: oci://public.ecr.aws/aws-controllers-k8s
   version: 1.0.8
@@ -55,7 +55,7 @@ dependencies:
   version: 1.0.10
 - name: efs-chart
   repository: oci://public.ecr.aws/aws-controllers-k8s
-  version: 1.0.13
+  version: 1.0.14
 - name: eks-chart
   repository: oci://public.ecr.aws/aws-controllers-k8s
   version: 1.7.3
@@ -106,7 +106,7 @@ dependencies:
   version: 1.0.8
 - name: pipes-chart
   repository: oci://public.ecr.aws/aws-controllers-k8s
-  version: 1.0.20
+  version: 1.0.21
 - name: prometheusservice-chart
   repository: oci://public.ecr.aws/aws-controllers-k8s
   version: 1.2.24
@@ -133,7 +133,7 @@ dependencies:
   version: 1.0.7
 - name: sagemaker-chart
   repository: oci://public.ecr.aws/aws-controllers-k8s
-  version: 1.2.18
+  version: 1.2.19
 - name: secretsmanager-chart
   repository: oci://public.ecr.aws/aws-controllers-k8s
   version: 1.0.8
@@ -145,7 +145,7 @@ dependencies:
   version: 1.0.25
 - name: sns-chart
   repository: oci://public.ecr.aws/aws-controllers-k8s
-  version: 1.1.11
+  version: 1.1.12
 - name: sqs-chart
   repository: oci://public.ecr.aws/aws-controllers-k8s
   version: 1.1.12
@@ -154,6 +154,6 @@ dependencies:
   version: 1.0.7
 - name: wafv2-chart
   repository: oci://public.ecr.aws/aws-controllers-k8s
-  version: 1.0.9
-digest: sha256:c58780b7d476a8b6a9244fc4f566c72ad505eba94307a85bb53975864d2ac1a3
-generated: "2025-05-27T22:42:22.624389388Z"
+  version: 1.0.10
+digest: sha256:6fe791aa735aab1a6727334547ca79d0f98da723c9a1042d8ab60f9aa200f94e
+generated: "2025-05-28T17:53:30.87230333Z"
