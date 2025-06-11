@@ -2,7 +2,7 @@ apiVersion: v2
 name: ack-chart
 description: A Helm chart containing all ACK charts as sub-charts
 type: application
-version: 46.29.5
+version: 46.29.6
 appVersion: "0.0.0"
 dependencies:
   - name: acm-chart
@@ -32,7 +32,7 @@ dependencies:
     condition: applicationautoscaling.enabled
   - name: athena-chart
     alias: athena
-    version: 1.0.11
+    version: 1.0.12
     repository: oci://public.ecr.aws/aws-controllers-k8s
     condition: athena.enabled
   - name: cloudfront-chart
@@ -42,7 +42,7 @@ dependencies:
     condition: cloudfront.enabled
   - name: cloudtrail-chart
     alias: cloudtrail
-    version: 1.0.25
+    version: 1.0.26
     repository: oci://public.ecr.aws/aws-controllers-k8s
     condition: cloudtrail.enabled
   - name: cloudwatch-chart
@@ -67,12 +67,12 @@ dependencies:
     condition: cognitoidentityprovider.enabled
   - name: documentdb-chart
     alias: documentdb
-    version: 1.0.11
+    version: 1.0.12
     repository: oci://public.ecr.aws/aws-controllers-k8s
     condition: documentdb.enabled
   - name: dynamodb-chart
     alias: dynamodb
-    version: 1.4.7
+    version: 1.4.8
     repository: oci://public.ecr.aws/aws-controllers-k8s
     condition: dynamodb.enabled
   - name: ec2-chart
@@ -112,7 +112,7 @@ dependencies:
     condition: elasticache.enabled
   - name: elbv2-chart
     alias: elbv2
-    version: 1.0.11
+    version: 1.0.12
     repository: oci://public.ecr.aws/aws-controllers-k8s
     condition: elbv2.enabled
   - name: emrcontainers-chart
@@ -232,7 +232,7 @@ dependencies:
     condition: sagemaker.enabled
   - name: secretsmanager-chart
     alias: secretsmanager
-    version: 1.0.9
+    version: 1.0.10
     repository: oci://public.ecr.aws/aws-controllers-k8s
     condition: secretsmanager.enabled
   - name: ses-chart

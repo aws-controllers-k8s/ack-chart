@@ -16,13 +16,13 @@ dependencies:
   version: 1.0.29
 - name: athena-chart
   repository: oci://public.ecr.aws/aws-controllers-k8s
-  version: 1.0.11
+  version: 1.0.12
 - name: cloudfront-chart
   repository: oci://public.ecr.aws/aws-controllers-k8s
   version: 1.1.4
 - name: cloudtrail-chart
   repository: oci://public.ecr.aws/aws-controllers-k8s
-  version: 1.0.25
+  version: 1.0.26
 - name: cloudwatch-chart
   repository: oci://public.ecr.aws/aws-controllers-k8s
   version: 1.0.11
@@ -37,10 +37,10 @@ dependencies:
   version: 1.0.9
 - name: documentdb-chart
   repository: oci://public.ecr.aws/aws-controllers-k8s
-  version: 1.0.11
+  version: 1.0.12
 - name: dynamodb-chart
   repository: oci://public.ecr.aws/aws-controllers-k8s
-  version: 1.4.7
+  version: 1.4.8
 - name: ec2-chart
   repository: oci://public.ecr.aws/aws-controllers-k8s
   version: 1.4.7
@@ -64,7 +64,7 @@ dependencies:
   version: 1.0.3
 - name: elbv2-chart
   repository: oci://public.ecr.aws/aws-controllers-k8s
-  version: 1.0.11
+  version: 1.0.12
 - name: emrcontainers-chart
   repository: oci://public.ecr.aws/aws-controllers-k8s
   version: 1.0.24
@@ -136,7 +136,7 @@ dependencies:
   version: 1.3.0
 - name: secretsmanager-chart
   repository: oci://public.ecr.aws/aws-controllers-k8s
-  version: 1.0.9
+  version: 1.0.10
 - name: ses-chart
   repository: oci://public.ecr.aws/aws-controllers-k8s
   version: 1.0.10
@@ -155,5 +155,5 @@ dependencies:
 - name: wafv2-chart
   repository: oci://public.ecr.aws/aws-controllers-k8s
   version: 1.0.12
-digest: sha256:418c24e2d20417c0d1af60b78a5feeebc54ec482fbde9d6a21d81ecd426467f8
-generated: "2025-06-11T16:57:23.557871266Z"
+digest: sha256:9e48d736c45291a8d160f8fa3cee129fe591849d990a25f98168d799c1e724b3
+generated: "2025-06-11T17:01:21.027985574Z"
