@@ -13,7 +13,7 @@ dependencies:
   version: 1.0.27
 - name: applicationautoscaling-chart
   repository: oci://public.ecr.aws/aws-controllers-k8s
-  version: 1.0.28
+  version: 1.0.29
 - name: athena-chart
   repository: oci://public.ecr.aws/aws-controllers-k8s
   version: 1.0.11
@@ -115,7 +115,7 @@ dependencies:
   version: 1.0.10
 - name: rds-chart
   repository: oci://public.ecr.aws/aws-controllers-k8s
-  version: 1.4.20
+  version: 1.4.21
 - name: recyclebin-chart
   repository: oci://public.ecr.aws/aws-controllers-k8s
   version: 1.0.10
@@ -148,12 +148,12 @@ dependencies:
   version: 1.1.13
 - name: sqs-chart
   repository: oci://public.ecr.aws/aws-controllers-k8s
-  version: 1.1.13
+  version: 1.1.14
 - name: ssm-chart
   repository: oci://public.ecr.aws/aws-controllers-k8s
   version: 1.0.9
 - name: wafv2-chart
   repository: oci://public.ecr.aws/aws-controllers-k8s
   version: 1.0.11
-digest: sha256:c6a675d714b5af881b31ce38c1ace1c1992d7a07980c0638880b368bf9037ff6
-generated: "2025-06-11T16:44:08.939976451Z"
+digest: sha256:02aeceba3944f92fed966975c36d38edd8c488b0f86e1158fc136eedd07030d3
+generated: "2025-06-11T16:48:17.619644376Z"

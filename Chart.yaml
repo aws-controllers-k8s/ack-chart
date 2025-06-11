@@ -2,7 +2,7 @@ apiVersion: v2
 name: ack-chart
 description: A Helm chart containing all ACK charts as sub-charts
 type: application
-version: 46.29.2
+version: 46.29.3
 appVersion: "0.0.0"
 dependencies:
   - name: acm-chart
@@ -27,7 +27,7 @@ dependencies:
     condition: apigatewayv2.enabled
   - name: applicationautoscaling-chart
     alias: applicationautoscaling
-    version: 1.0.28
+    version: 1.0.29
     repository: oci://public.ecr.aws/aws-controllers-k8s
     condition: applicationautoscaling.enabled
   - name: athena-chart
@@ -197,7 +197,7 @@ dependencies:
     condition: ram.enabled
   - name: rds-chart
     alias: rds
-    version: 1.4.20
+    version: 1.4.21
     repository: oci://public.ecr.aws/aws-controllers-k8s
     condition: rds.enabled
   - name: recyclebin-chart
@@ -252,7 +252,7 @@ dependencies:
     condition: sns.enabled
   - name: sqs-chart
     alias: sqs
-    version: 1.1.13
+    version: 1.1.14
     repository: oci://public.ecr.aws/aws-controllers-k8s
     condition: sqs.enabled
   - name: ssm-chart
