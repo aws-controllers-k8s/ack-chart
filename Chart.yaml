@@ -2,7 +2,7 @@ apiVersion: v2
 name: ack-chart
 description: A Helm chart containing all ACK charts as sub-charts
 type: application
-version: 46.29.1
+version: 46.29.2
 appVersion: "0.0.0"
 dependencies:
   - name: acm-chart
@@ -82,7 +82,7 @@ dependencies:
     condition: ec2.enabled
   - name: ecr-chart
     alias: ecr
-    version: 1.0.30
+    version: 1.0.31
     repository: oci://public.ecr.aws/aws-controllers-k8s
     condition: ecr.enabled
   - name: ecrpublic-chart
@@ -107,7 +107,7 @@ dependencies:
     condition: eks.enabled
   - name: elasticache-chart
     alias: elasticache
-    version: 1.0.2
+    version: 1.0.3
     repository: oci://public.ecr.aws/aws-controllers-k8s
     condition: elasticache.enabled
   - name: elbv2-chart
@@ -157,7 +157,7 @@ dependencies:
     condition: lambda.enabled
   - name: memorydb-chart
     alias: memorydb
-    version: 1.0.12
+    version: 1.0.13
     repository: oci://public.ecr.aws/aws-controllers-k8s
     condition: memorydb.enabled
   - name: mq-chart
@@ -207,7 +207,7 @@ dependencies:
     condition: recyclebin.enabled
   - name: route53-chart
     alias: route53
-    version: 1.0.2
+    version: 1.0.3
     repository: oci://public.ecr.aws/aws-controllers-k8s
     condition: route53.enabled
   - name: route53resolver-chart

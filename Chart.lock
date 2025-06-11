@@ -46,7 +46,7 @@ dependencies:
   version: 1.4.6
 - name: ecr-chart
   repository: oci://public.ecr.aws/aws-controllers-k8s
-  version: 1.0.30
+  version: 1.0.31
 - name: ecrpublic-chart
   repository: oci://public.ecr.aws/aws-controllers-k8s
   version: 1.0.11
@@ -61,7 +61,7 @@ dependencies:
   version: 1.7.4
 - name: elasticache-chart
   repository: oci://public.ecr.aws/aws-controllers-k8s
-  version: 1.0.2
+  version: 1.0.3
 - name: elbv2-chart
   repository: oci://public.ecr.aws/aws-controllers-k8s
   version: 1.0.11
@@ -91,7 +91,7 @@ dependencies:
   version: 1.7.4
 - name: memorydb-chart
   repository: oci://public.ecr.aws/aws-controllers-k8s
-  version: 1.0.12
+  version: 1.0.13
 - name: mq-chart
   repository: oci://public.ecr.aws/aws-controllers-k8s
   version: 1.0.11
@@ -121,7 +121,7 @@ dependencies:
   version: 1.0.10
 - name: route53-chart
   repository: oci://public.ecr.aws/aws-controllers-k8s
-  version: 1.0.2
+  version: 1.0.3
 - name: route53resolver-chart
   repository: oci://public.ecr.aws/aws-controllers-k8s
   version: 1.0.12
@@ -155,5 +155,5 @@ dependencies:
 - name: wafv2-chart
   repository: oci://public.ecr.aws/aws-controllers-k8s
   version: 1.0.11
-digest: sha256:8e61591b45fb5a43a217980d80bf1835940f6ef7aaa80e67df2be35b9aa699d8
-generated: "2025-06-11T16:40:11.148215287Z"
+digest: sha256:c6a675d714b5af881b31ce38c1ace1c1992d7a07980c0638880b368bf9037ff6
+generated: "2025-06-11T16:44:08.939976451Z"
