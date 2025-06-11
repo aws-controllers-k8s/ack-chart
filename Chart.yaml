@@ -2,7 +2,7 @@ apiVersion: v2
 name: ack-chart
 description: A Helm chart containing all ACK charts as sub-charts
 type: application
-version: 46.29.0
+version: 46.29.1
 appVersion: "0.0.0"
 dependencies:
   - name: acm-chart
@@ -117,7 +117,7 @@ dependencies:
     condition: elbv2.enabled
   - name: emrcontainers-chart
     alias: emrcontainers
-    version: 1.0.23
+    version: 1.0.24
     repository: oci://public.ecr.aws/aws-controllers-k8s
     condition: emrcontainers.enabled
   - name: eventbridge-chart
@@ -162,7 +162,7 @@ dependencies:
     condition: memorydb.enabled
   - name: mq-chart
     alias: mq
-    version: 1.0.10
+    version: 1.0.11
     repository: oci://public.ecr.aws/aws-controllers-k8s
     condition: mq.enabled
   - name: networkfirewall-chart
@@ -182,7 +182,7 @@ dependencies:
     condition: organizations.enabled
   - name: pipes-chart
     alias: pipes
-    version: 1.0.22
+    version: 1.0.23
     repository: oci://public.ecr.aws/aws-controllers-k8s
     condition: pipes.enabled
   - name: prometheusservice-chart
@@ -192,7 +192,7 @@ dependencies:
     condition: prometheusservice.enabled
   - name: ram-chart
     alias: ram
-    version: 1.0.9
+    version: 1.0.10
     repository: oci://public.ecr.aws/aws-controllers-k8s
     condition: ram.enabled
   - name: rds-chart
