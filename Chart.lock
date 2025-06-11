@@ -76,7 +76,7 @@ dependencies:
   version: 1.4.1
 - name: kafka-chart
   repository: oci://public.ecr.aws/aws-controllers-k8s
-  version: 1.0.13
+  version: 1.0.14
 - name: keyspaces-chart
   repository: oci://public.ecr.aws/aws-controllers-k8s
   version: 1.0.11
@@ -85,10 +85,10 @@ dependencies:
   version: 1.0.13
 - name: kms-chart
   repository: oci://public.ecr.aws/aws-controllers-k8s
-  version: 1.0.28
+  version: 1.0.29
 - name: lambda-chart
   repository: oci://public.ecr.aws/aws-controllers-k8s
-  version: 1.7.3
+  version: 1.7.4
 - name: memorydb-chart
   repository: oci://public.ecr.aws/aws-controllers-k8s
   version: 1.0.12
@@ -133,7 +133,7 @@ dependencies:
   version: 1.0.9
 - name: sagemaker-chart
   repository: oci://public.ecr.aws/aws-controllers-k8s
-  version: 1.2.20
+  version: 1.3.0
 - name: secretsmanager-chart
   repository: oci://public.ecr.aws/aws-controllers-k8s
   version: 1.0.9
@@ -155,5 +155,5 @@ dependencies:
 - name: wafv2-chart
   repository: oci://public.ecr.aws/aws-controllers-k8s
   version: 1.0.11
-digest: sha256:da071939c06ed2b883ffa563ef6ff393334e02ae9688b4fd43c89062e29a5e94
-generated: "2025-06-03T16:09:44.968794225Z"
+digest: sha256:78e6acf784eb24e47cc75fef84674f796af4a9ac9a57e6a5189e721f9c66c887
+generated: "2025-06-11T16:36:46.428458011Z"
