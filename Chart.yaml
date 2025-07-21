@@ -2,7 +2,7 @@ apiVersion: v2
 name: ack-chart
 description: A Helm chart containing all ACK charts as sub-charts
 type: application
-version: 46.30.10
+version: 46.30.11
 appVersion: "0.0.0"
 dependencies:
   - name: acm-chart
@@ -97,7 +97,7 @@ dependencies:
     condition: ecs.enabled
   - name: efs-chart
     alias: efs
-    version: 1.0.17
+    version: 1.0.18
     repository: oci://public.ecr.aws/aws-controllers-k8s
     condition: efs.enabled
   - name: eks-chart
@@ -122,7 +122,7 @@ dependencies:
     condition: emrcontainers.enabled
   - name: eventbridge-chart
     alias: eventbridge
-    version: 1.0.26
+    version: 1.0.27
     repository: oci://public.ecr.aws/aws-controllers-k8s
     condition: eventbridge.enabled
   - name: iam-chart
@@ -142,7 +142,7 @@ dependencies:
     condition: keyspaces.enabled
   - name: kinesis-chart
     alias: kinesis
-    version: 1.0.14
+    version: 1.0.15
     repository: oci://public.ecr.aws/aws-controllers-k8s
     condition: kinesis.enabled
   - name: kms-chart
@@ -182,17 +182,17 @@ dependencies:
     condition: organizations.enabled
   - name: pipes-chart
     alias: pipes
-    version: 1.0.23
+    version: 1.0.24
     repository: oci://public.ecr.aws/aws-controllers-k8s
     condition: pipes.enabled
   - name: prometheusservice-chart
     alias: prometheusservice
-    version: 1.2.26
+    version: 1.2.27
     repository: oci://public.ecr.aws/aws-controllers-k8s
     condition: prometheusservice.enabled
   - name: ram-chart
     alias: ram
-    version: 1.0.10
+    version: 1.0.11
     repository: oci://public.ecr.aws/aws-controllers-k8s
     condition: ram.enabled
   - name: rds-chart

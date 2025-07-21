@@ -55,7 +55,7 @@ dependencies:
   version: 1.0.14
 - name: efs-chart
   repository: oci://public.ecr.aws/aws-controllers-k8s
-  version: 1.0.17
+  version: 1.0.18
 - name: eks-chart
   repository: oci://public.ecr.aws/aws-controllers-k8s
   version: 1.7.6
@@ -70,7 +70,7 @@ dependencies:
   version: 1.0.24
 - name: eventbridge-chart
   repository: oci://public.ecr.aws/aws-controllers-k8s
-  version: 1.0.26
+  version: 1.0.27
 - name: iam-chart
   repository: oci://public.ecr.aws/aws-controllers-k8s
   version: 1.4.3
@@ -82,7 +82,7 @@ dependencies:
   version: 1.0.13
 - name: kinesis-chart
   repository: oci://public.ecr.aws/aws-controllers-k8s
-  version: 1.0.14
+  version: 1.0.15
 - name: kms-chart
   repository: oci://public.ecr.aws/aws-controllers-k8s
   version: 1.0.30
@@ -106,13 +106,13 @@ dependencies:
   version: 1.0.12
 - name: pipes-chart
   repository: oci://public.ecr.aws/aws-controllers-k8s
-  version: 1.0.23
+  version: 1.0.24
 - name: prometheusservice-chart
   repository: oci://public.ecr.aws/aws-controllers-k8s
-  version: 1.2.26
+  version: 1.2.27
 - name: ram-chart
   repository: oci://public.ecr.aws/aws-controllers-k8s
-  version: 1.0.10
+  version: 1.0.11
 - name: rds-chart
   repository: oci://public.ecr.aws/aws-controllers-k8s
   version: 1.4.23
@@ -155,5 +155,5 @@ dependencies:
 - name: wafv2-chart
   repository: oci://public.ecr.aws/aws-controllers-k8s
   version: 1.0.13
-digest: sha256:0ba005b04b849b557928709fe07f63220545656e2b02d84d40d9bef1e47d630c
-generated: "2025-07-21T18:59:04.734457122Z"
+digest: sha256:591186eb06839a7d5ba30845baeeb1253831fe2eba5329d79f9ad43780014598
+generated: "2025-07-21T21:01:40.69887545Z"
