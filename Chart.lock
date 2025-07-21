@@ -16,7 +16,7 @@ dependencies:
   version: 1.0.30
 - name: athena-chart
   repository: oci://public.ecr.aws/aws-controllers-k8s
-  version: 1.0.12
+  version: 1.0.13
 - name: cloudfront-chart
   repository: oci://public.ecr.aws/aws-controllers-k8s
   version: 1.1.5
@@ -40,7 +40,7 @@ dependencies:
   version: 1.0.13
 - name: dynamodb-chart
   repository: oci://public.ecr.aws/aws-controllers-k8s
-  version: 1.4.8
+  version: 1.4.9
 - name: ec2-chart
   repository: oci://public.ecr.aws/aws-controllers-k8s
   version: 1.4.9
@@ -155,5 +155,5 @@ dependencies:
 - name: wafv2-chart
   repository: oci://public.ecr.aws/aws-controllers-k8s
   version: 1.0.13
-digest: sha256:e75537ccda1cd28ea669adc7512a71cf69f4378444a22348b471e38a7e8ff714
-generated: "2025-07-17T16:31:28.937444013Z"
+digest: sha256:0ba005b04b849b557928709fe07f63220545656e2b02d84d40d9bef1e47d630c
+generated: "2025-07-21T18:59:04.734457122Z"
