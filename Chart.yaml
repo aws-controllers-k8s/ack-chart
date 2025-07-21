@@ -2,12 +2,12 @@ apiVersion: v2
 name: ack-chart
 description: A Helm chart containing all ACK charts as sub-charts
 type: application
-version: 46.30.11
+version: 46.30.12
 appVersion: "0.0.0"
 dependencies:
   - name: acm-chart
     alias: acm
-    version: 1.0.12
+    version: 1.0.13
     repository: oci://public.ecr.aws/aws-controllers-k8s
     condition: acm.enabled
   - name: acmpca-chart
@@ -117,7 +117,7 @@ dependencies:
     condition: elbv2.enabled
   - name: emrcontainers-chart
     alias: emrcontainers
-    version: 1.0.24
+    version: 1.0.25
     repository: oci://public.ecr.aws/aws-controllers-k8s
     condition: emrcontainers.enabled
   - name: eventbridge-chart
@@ -202,7 +202,7 @@ dependencies:
     condition: rds.enabled
   - name: recyclebin-chart
     alias: recyclebin
-    version: 1.0.11
+    version: 1.0.12
     repository: oci://public.ecr.aws/aws-controllers-k8s
     condition: recyclebin.enabled
   - name: route53-chart
@@ -227,7 +227,7 @@ dependencies:
     condition: s3control.enabled
   - name: sagemaker-chart
     alias: sagemaker
-    version: 1.3.1
+    version: 1.3.2
     repository: oci://public.ecr.aws/aws-controllers-k8s
     condition: sagemaker.enabled
   - name: secretsmanager-chart
