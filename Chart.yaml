@@ -2,7 +2,7 @@ apiVersion: v2
 name: ack-chart
 description: A Helm chart containing all ACK charts as sub-charts
 type: application
-version: 46.30.14
+version: 46.30.15
 appVersion: "0.0.0"
 dependencies:
   - name: acm-chart
@@ -207,7 +207,7 @@ dependencies:
     condition: recyclebin.enabled
   - name: route53-chart
     alias: route53
-    version: 1.0.4
+    version: 1.0.5
     repository: oci://public.ecr.aws/aws-controllers-k8s
     condition: route53.enabled
   - name: route53resolver-chart
