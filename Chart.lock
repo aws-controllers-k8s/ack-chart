@@ -1,159 +1,159 @@
 dependencies:
 - name: acm-chart
   repository: oci://public.ecr.aws/aws-controllers-k8s
-  version: 1.0.13
+  version: 1.0.14
 - name: acmpca-chart
   repository: oci://public.ecr.aws/aws-controllers-k8s
-  version: 1.0.11
+  version: 1.0.12
 - name: apigateway-chart
   repository: oci://public.ecr.aws/aws-controllers-k8s
-  version: 1.2.6
+  version: 1.2.7
 - name: apigatewayv2-chart
   repository: oci://public.ecr.aws/aws-controllers-k8s
-  version: 1.0.29
+  version: 1.0.30
 - name: applicationautoscaling-chart
   repository: oci://public.ecr.aws/aws-controllers-k8s
-  version: 1.0.30
+  version: 1.0.31
 - name: athena-chart
   repository: oci://public.ecr.aws/aws-controllers-k8s
-  version: 1.0.13
+  version: 1.0.14
 - name: cloudfront-chart
   repository: oci://public.ecr.aws/aws-controllers-k8s
-  version: 1.1.5
+  version: 1.1.6
 - name: cloudtrail-chart
   repository: oci://public.ecr.aws/aws-controllers-k8s
-  version: 1.0.27
+  version: 1.0.28
 - name: cloudwatch-chart
   repository: oci://public.ecr.aws/aws-controllers-k8s
-  version: 1.0.12
+  version: 1.0.13
 - name: cloudwatchlogs-chart
   repository: oci://public.ecr.aws/aws-controllers-k8s
-  version: 1.0.13
+  version: 1.0.14
 - name: codeartifact-chart
   repository: oci://public.ecr.aws/aws-controllers-k8s
-  version: 1.0.12
+  version: 1.0.13
 - name: cognitoidentityprovider-chart
   repository: oci://public.ecr.aws/aws-controllers-k8s
-  version: 1.0.11
+  version: 1.0.12
 - name: documentdb-chart
   repository: oci://public.ecr.aws/aws-controllers-k8s
-  version: 1.0.13
+  version: 1.0.14
 - name: dynamodb-chart
   repository: oci://public.ecr.aws/aws-controllers-k8s
-  version: 1.4.9
+  version: 1.4.10
 - name: ec2-chart
   repository: oci://public.ecr.aws/aws-controllers-k8s
-  version: 1.4.9
+  version: 1.4.10
 - name: ecr-chart
   repository: oci://public.ecr.aws/aws-controllers-k8s
-  version: 1.0.32
+  version: 1.0.33
 - name: ecrpublic-chart
   repository: oci://public.ecr.aws/aws-controllers-k8s
-  version: 1.0.13
+  version: 1.0.14
 - name: ecs-chart
   repository: oci://public.ecr.aws/aws-controllers-k8s
-  version: 1.0.14
+  version: 1.0.15
 - name: efs-chart
   repository: oci://public.ecr.aws/aws-controllers-k8s
-  version: 1.0.18
+  version: 1.0.19
 - name: eks-chart
   repository: oci://public.ecr.aws/aws-controllers-k8s
-  version: 1.7.6
+  version: 1.7.7
 - name: elasticache-chart
   repository: oci://public.ecr.aws/aws-controllers-k8s
-  version: 1.0.5
+  version: 1.0.7
 - name: elbv2-chart
   repository: oci://public.ecr.aws/aws-controllers-k8s
   version: 1.0.14
 - name: emrcontainers-chart
   repository: oci://public.ecr.aws/aws-controllers-k8s
-  version: 1.0.25
+  version: 1.0.26
 - name: eventbridge-chart
   repository: oci://public.ecr.aws/aws-controllers-k8s
-  version: 1.0.27
+  version: 1.0.28
 - name: iam-chart
   repository: oci://public.ecr.aws/aws-controllers-k8s
-  version: 1.4.3
+  version: 1.4.4
 - name: kafka-chart
   repository: oci://public.ecr.aws/aws-controllers-k8s
-  version: 1.1.2
+  version: 1.1.3
 - name: keyspaces-chart
   repository: oci://public.ecr.aws/aws-controllers-k8s
-  version: 1.0.13
+  version: 1.0.14
 - name: kinesis-chart
   repository: oci://public.ecr.aws/aws-controllers-k8s
-  version: 1.0.15
+  version: 1.0.16
 - name: kms-chart
   repository: oci://public.ecr.aws/aws-controllers-k8s
-  version: 1.0.30
+  version: 1.0.31
 - name: lambda-chart
   repository: oci://public.ecr.aws/aws-controllers-k8s
-  version: 1.7.6
+  version: 1.7.7
 - name: memorydb-chart
   repository: oci://public.ecr.aws/aws-controllers-k8s
-  version: 1.0.14
+  version: 1.0.15
 - name: mq-chart
   repository: oci://public.ecr.aws/aws-controllers-k8s
-  version: 1.0.12
+  version: 1.0.13
 - name: networkfirewall-chart
   repository: oci://public.ecr.aws/aws-controllers-k8s
-  version: 1.0.12
+  version: 1.0.13
 - name: opensearchservice-chart
   repository: oci://public.ecr.aws/aws-controllers-k8s
-  version: 1.0.13
+  version: 1.0.14
 - name: organizations-chart
   repository: oci://public.ecr.aws/aws-controllers-k8s
-  version: 1.0.12
+  version: 1.0.13
 - name: pipes-chart
   repository: oci://public.ecr.aws/aws-controllers-k8s
-  version: 1.0.24
+  version: 1.0.25
 - name: prometheusservice-chart
   repository: oci://public.ecr.aws/aws-controllers-k8s
-  version: 1.2.27
+  version: 1.2.28
 - name: ram-chart
   repository: oci://public.ecr.aws/aws-controllers-k8s
-  version: 1.0.11
+  version: 1.0.12
 - name: rds-chart
   repository: oci://public.ecr.aws/aws-controllers-k8s
-  version: 1.4.23
+  version: 1.4.25
 - name: recyclebin-chart
   repository: oci://public.ecr.aws/aws-controllers-k8s
-  version: 1.0.12
+  version: 1.0.13
 - name: route53-chart
   repository: oci://public.ecr.aws/aws-controllers-k8s
-  version: 1.0.5
+  version: 1.0.6
 - name: route53resolver-chart
   repository: oci://public.ecr.aws/aws-controllers-k8s
-  version: 1.0.14
+  version: 1.0.15
 - name: s3-chart
   repository: oci://public.ecr.aws/aws-controllers-k8s
-  version: 1.0.34
+  version: 1.0.35
 - name: s3control-chart
   repository: oci://public.ecr.aws/aws-controllers-k8s
-  version: 1.0.11
+  version: 1.0.12
 - name: sagemaker-chart
   repository: oci://public.ecr.aws/aws-controllers-k8s
-  version: 1.3.2
+  version: 1.3.3
 - name: secretsmanager-chart
   repository: oci://public.ecr.aws/aws-controllers-k8s
-  version: 1.0.13
+  version: 1.0.14
 - name: ses-chart
   repository: oci://public.ecr.aws/aws-controllers-k8s
-  version: 1.0.12
+  version: 1.0.13
 - name: sfn-chart
   repository: oci://public.ecr.aws/aws-controllers-k8s
-  version: 1.0.28
+  version: 1.0.29
 - name: sns-chart
   repository: oci://public.ecr.aws/aws-controllers-k8s
-  version: 1.1.15
+  version: 1.1.16
 - name: sqs-chart
   repository: oci://public.ecr.aws/aws-controllers-k8s
-  version: 1.1.15
+  version: 1.1.16
 - name: ssm-chart
   repository: oci://public.ecr.aws/aws-controllers-k8s
-  version: 1.0.11
+  version: 1.0.12
 - name: wafv2-chart
   repository: oci://public.ecr.aws/aws-controllers-k8s
-  version: 1.0.13
-digest: sha256:67690e326fb28cbbe39304f478664910310b3baed9a6c6886d15e1b6183e7a23
-generated: "2025-07-22T23:12:44.549551462Z"
+  version: 1.0.14
+digest: sha256:b3059fb02060d82dff91d80363a06f51689abce0b856abc83b7ec015ccd38931
+generated: "2025-07-23T22:38:48.822157123Z"
