@@ -64,7 +64,7 @@ dependencies:
   version: 1.1.0
 - name: elbv2-chart
   repository: oci://public.ecr.aws/aws-controllers-k8s
-  version: 1.0.14
+  version: 1.1.0
 - name: emrcontainers-chart
   repository: oci://public.ecr.aws/aws-controllers-k8s
   version: 1.0.27
@@ -82,7 +82,7 @@ dependencies:
   version: 1.0.14
 - name: kinesis-chart
   repository: oci://public.ecr.aws/aws-controllers-k8s
-  version: 1.0.16
+  version: 1.1.0
 - name: kms-chart
   repository: oci://public.ecr.aws/aws-controllers-k8s
   version: 1.0.31
@@ -100,7 +100,7 @@ dependencies:
   version: 1.0.13
 - name: opensearchservice-chart
   repository: oci://public.ecr.aws/aws-controllers-k8s
-  version: 1.0.15
+  version: 1.1.0
 - name: organizations-chart
   repository: oci://public.ecr.aws/aws-controllers-k8s
   version: 1.0.13
@@ -155,5 +155,5 @@ dependencies:
 - name: wafv2-chart
   repository: oci://public.ecr.aws/aws-controllers-k8s
   version: 1.1.0
-digest: sha256:e89c7d243897a9baf7f6fadc5b74580f9a8f4f1ddfcd2d37e3f0b76f404a71e8
-generated: "2025-08-15T17:14:05.289452149Z"
+digest: sha256:aefcc4c71c9a456f4b4f26d5c540abd7d1113cb946547c9fbe3b3583e6956df3
+generated: "2025-08-15T17:21:02.889526114Z"
