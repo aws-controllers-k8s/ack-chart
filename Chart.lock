@@ -73,7 +73,7 @@ dependencies:
   version: 1.0.28
 - name: iam-chart
   repository: oci://public.ecr.aws/aws-controllers-k8s
-  version: 1.4.4
+  version: 1.5.0
 - name: kafka-chart
   repository: oci://public.ecr.aws/aws-controllers-k8s
   version: 1.1.3
@@ -121,7 +121,7 @@ dependencies:
   version: 1.0.13
 - name: route53-chart
   repository: oci://public.ecr.aws/aws-controllers-k8s
-  version: 1.0.6
+  version: 1.1.0
 - name: route53resolver-chart
   repository: oci://public.ecr.aws/aws-controllers-k8s
   version: 1.0.15
@@ -130,7 +130,7 @@ dependencies:
   version: 1.1.0
 - name: s3control-chart
   repository: oci://public.ecr.aws/aws-controllers-k8s
-  version: 1.0.12
+  version: 1.1.0
 - name: sagemaker-chart
   repository: oci://public.ecr.aws/aws-controllers-k8s
   version: 1.3.3
@@ -155,5 +155,5 @@ dependencies:
 - name: wafv2-chart
   repository: oci://public.ecr.aws/aws-controllers-k8s
   version: 1.0.14
-digest: sha256:24be6cfe1bb4f0962c22c72241ae599c4c3b21e97d60eda890db42f9f2e30731
-generated: "2025-08-15T16:59:58.286978084Z"
+digest: sha256:1bcce4535023f6bda32c0d21ec4c63d9705866cc9e7b82426f06af1d8184931f
+generated: "2025-08-15T17:07:10.474744176Z"
