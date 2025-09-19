@@ -52,7 +52,7 @@ dependencies:
   version: 1.1.0
 - name: ecs-chart
   repository: oci://public.ecr.aws/aws-controllers-k8s
-  version: 1.1.0
+  version: 1.1.1
 - name: efs-chart
   repository: oci://public.ecr.aws/aws-controllers-k8s
   version: 1.1.1
@@ -97,7 +97,7 @@ dependencies:
   version: 1.1.1
 - name: networkfirewall-chart
   repository: oci://public.ecr.aws/aws-controllers-k8s
-  version: 1.1.0
+  version: 1.1.1
 - name: opensearchservice-chart
   repository: oci://public.ecr.aws/aws-controllers-k8s
   version: 1.1.1
@@ -155,5 +155,5 @@ dependencies:
 - name: wafv2-chart
   repository: oci://public.ecr.aws/aws-controllers-k8s
   version: 1.1.0
-digest: sha256:7e61e7b6062d7424624303839ca89f5db6d60edb127fcee207e488b056c9f13a
-generated: "2025-09-19T20:54:12.985549334Z"
+digest: sha256:5b57baa2263c8d8e31e6a09d4782725deb641a9183f662f8adf9b1e5c6dbeed7
+generated: "2025-09-19T20:57:32.880053893Z"
