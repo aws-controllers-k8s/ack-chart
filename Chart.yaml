@@ -2,7 +2,7 @@ apiVersion: v2
 name: ack-chart
 description: A Helm chart containing all ACK charts as sub-charts
 type: application
-version: 46.46.12
+version: 46.46.13
 appVersion: "0.0.0"
 dependencies:
   - name: acm-chart
@@ -12,7 +12,7 @@ dependencies:
     condition: acm.enabled
   - name: acmpca-chart
     alias: acmpca
-    version: 1.1.0
+    version: 1.1.1
     repository: oci://public.ecr.aws/aws-controllers-k8s
     condition: acmpca.enabled
   - name: apigateway-chart
@@ -52,7 +52,7 @@ dependencies:
     condition: cloudwatch.enabled
   - name: cloudwatchlogs-chart
     alias: cloudwatchlogs
-    version: 1.1.0
+    version: 1.1.1
     repository: oci://public.ecr.aws/aws-controllers-k8s
     condition: cloudwatchlogs.enabled
   - name: codeartifact-chart
@@ -142,7 +142,7 @@ dependencies:
     condition: keyspaces.enabled
   - name: kinesis-chart
     alias: kinesis
-    version: 1.1.0
+    version: 1.1.1
     repository: oci://public.ecr.aws/aws-controllers-k8s
     condition: kinesis.enabled
   - name: kms-chart
@@ -202,7 +202,7 @@ dependencies:
     condition: rds.enabled
   - name: recyclebin-chart
     alias: recyclebin
-    version: 1.1.0
+    version: 1.1.1
     repository: oci://public.ecr.aws/aws-controllers-k8s
     condition: recyclebin.enabled
   - name: route53-chart
@@ -222,7 +222,7 @@ dependencies:
     condition: s3.enabled
   - name: s3control-chart
     alias: s3control
-    version: 1.1.0
+    version: 1.1.1
     repository: oci://public.ecr.aws/aws-controllers-k8s
     condition: s3control.enabled
   - name: sagemaker-chart
