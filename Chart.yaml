@@ -2,7 +2,7 @@ apiVersion: v2
 name: ack-chart
 description: A Helm chart containing all ACK charts as sub-charts
 type: application
-version: 46.46.11
+version: 46.46.12
 appVersion: "0.0.0"
 dependencies:
   - name: acm-chart
@@ -117,12 +117,12 @@ dependencies:
     condition: elbv2.enabled
   - name: emrcontainers-chart
     alias: emrcontainers
-    version: 1.1.0
+    version: 1.1.1
     repository: oci://public.ecr.aws/aws-controllers-k8s
     condition: emrcontainers.enabled
   - name: eventbridge-chart
     alias: eventbridge
-    version: 1.1.0
+    version: 1.1.1
     repository: oci://public.ecr.aws/aws-controllers-k8s
     condition: eventbridge.enabled
   - name: iam-chart
@@ -157,7 +157,7 @@ dependencies:
     condition: lambda.enabled
   - name: memorydb-chart
     alias: memorydb
-    version: 1.1.0
+    version: 1.1.1
     repository: oci://public.ecr.aws/aws-controllers-k8s
     condition: memorydb.enabled
   - name: mq-chart
@@ -237,7 +237,7 @@ dependencies:
     condition: secretsmanager.enabled
   - name: ses-chart
     alias: ses
-    version: 1.1.0
+    version: 1.1.1
     repository: oci://public.ecr.aws/aws-controllers-k8s
     condition: ses.enabled
   - name: sfn-chart
