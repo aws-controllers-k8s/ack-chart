@@ -73,7 +73,7 @@ dependencies:
   version: 1.1.0
 - name: iam-chart
   repository: oci://public.ecr.aws/aws-controllers-k8s
-  version: 1.5.0
+  version: 1.5.1
 - name: kafka-chart
   repository: oci://public.ecr.aws/aws-controllers-k8s
   version: 1.2.0
@@ -145,7 +145,7 @@ dependencies:
   version: 1.1.1
 - name: sns-chart
   repository: oci://public.ecr.aws/aws-controllers-k8s
-  version: 1.2.0
+  version: 1.2.1
 - name: sqs-chart
   repository: oci://public.ecr.aws/aws-controllers-k8s
   version: 1.2.0
@@ -155,5 +155,5 @@ dependencies:
 - name: wafv2-chart
   repository: oci://public.ecr.aws/aws-controllers-k8s
   version: 1.1.0
-digest: sha256:f34071ce0ed24adee218743b031d8e94568259a323428b7b9d2f322b04aa02d4
-generated: "2025-09-19T18:37:07.689740084Z"
+digest: sha256:dd43b00f2bee07d65a8f3f0b50228ac7b9c51c4d5253ceabccf8e6a38951313d
+generated: "2025-09-19T19:09:30.247690331Z"
