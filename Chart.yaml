@@ -2,7 +2,7 @@ apiVersion: v2
 name: ack-chart
 description: A Helm chart containing all ACK charts as sub-charts
 type: application
-version: 46.46.8
+version: 46.46.9
 appVersion: "0.0.0"
 dependencies:
   - name: acm-chart
@@ -72,7 +72,7 @@ dependencies:
     condition: documentdb.enabled
   - name: dynamodb-chart
     alias: dynamodb
-    version: 1.5.1
+    version: 1.5.2
     repository: oci://public.ecr.aws/aws-controllers-k8s
     condition: dynamodb.enabled
   - name: ec2-chart
@@ -107,7 +107,7 @@ dependencies:
     condition: eks.enabled
   - name: elasticache-chart
     alias: elasticache
-    version: 1.2.2
+    version: 1.2.3
     repository: oci://public.ecr.aws/aws-controllers-k8s
     condition: elasticache.enabled
   - name: elbv2-chart
@@ -207,7 +207,7 @@ dependencies:
     condition: recyclebin.enabled
   - name: route53-chart
     alias: route53
-    version: 1.1.0
+    version: 1.1.1
     repository: oci://public.ecr.aws/aws-controllers-k8s
     condition: route53.enabled
   - name: route53resolver-chart
@@ -252,7 +252,7 @@ dependencies:
     condition: sns.enabled
   - name: sqs-chart
     alias: sqs
-    version: 1.2.0
+    version: 1.2.1
     repository: oci://public.ecr.aws/aws-controllers-k8s
     condition: sqs.enabled
   - name: ssm-chart
