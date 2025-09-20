@@ -64,7 +64,7 @@ dependencies:
   version: 1.2.3
 - name: elbv2-chart
   repository: oci://public.ecr.aws/aws-controllers-k8s
-  version: 1.1.0
+  version: 1.1.1
 - name: emrcontainers-chart
   repository: oci://public.ecr.aws/aws-controllers-k8s
   version: 1.1.1
@@ -112,10 +112,10 @@ dependencies:
   version: 1.3.1
 - name: ram-chart
   repository: oci://public.ecr.aws/aws-controllers-k8s
-  version: 1.1.0
+  version: 1.1.1
 - name: rds-chart
   repository: oci://public.ecr.aws/aws-controllers-k8s
-  version: 1.6.0
+  version: 1.6.1
 - name: recyclebin-chart
   repository: oci://public.ecr.aws/aws-controllers-k8s
   version: 1.1.1
@@ -155,5 +155,5 @@ dependencies:
 - name: wafv2-chart
   repository: oci://public.ecr.aws/aws-controllers-k8s
   version: 1.1.0
-digest: sha256:6b1a6cb2041dba5d4f30502f55f882bd0a7ef3ea1f4faa1d545c9454e3652367
-generated: "2025-09-19T22:08:51.678157355Z"
+digest: sha256:fa7dea4cbca419902a56ea93bdd6a355403bbcc1aa90b3b911938415a16959d2
+generated: "2025-09-20T01:03:27.353869006Z"

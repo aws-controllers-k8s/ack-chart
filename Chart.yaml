@@ -2,7 +2,7 @@ apiVersion: v2
 name: ack-chart
 description: A Helm chart containing all ACK charts as sub-charts
 type: application
-version: 46.46.17
+version: 46.46.18
 appVersion: "0.0.0"
 dependencies:
   - name: acm-chart
@@ -112,7 +112,7 @@ dependencies:
     condition: elasticache.enabled
   - name: elbv2-chart
     alias: elbv2
-    version: 1.1.0
+    version: 1.1.1
     repository: oci://public.ecr.aws/aws-controllers-k8s
     condition: elbv2.enabled
   - name: emrcontainers-chart
@@ -192,12 +192,12 @@ dependencies:
     condition: prometheusservice.enabled
   - name: ram-chart
     alias: ram
-    version: 1.1.0
+    version: 1.1.1
     repository: oci://public.ecr.aws/aws-controllers-k8s
     condition: ram.enabled
   - name: rds-chart
     alias: rds
-    version: 1.6.0
+    version: 1.6.1
     repository: oci://public.ecr.aws/aws-controllers-k8s
     condition: rds.enabled
   - name: recyclebin-chart
