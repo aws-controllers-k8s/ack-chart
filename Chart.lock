@@ -76,7 +76,7 @@ dependencies:
   version: 1.5.1
 - name: kafka-chart
   repository: oci://public.ecr.aws/aws-controllers-k8s
-  version: 1.2.0
+  version: 1.2.1
 - name: keyspaces-chart
   repository: oci://public.ecr.aws/aws-controllers-k8s
   version: 1.1.1
@@ -154,6 +154,6 @@ dependencies:
   version: 1.1.1
 - name: wafv2-chart
   repository: oci://public.ecr.aws/aws-controllers-k8s
-  version: 1.1.0
-digest: sha256:fa7dea4cbca419902a56ea93bdd6a355403bbcc1aa90b3b911938415a16959d2
-generated: "2025-09-20T01:03:27.353869006Z"
+  version: 1.1.1
+digest: sha256:644687ad4120cb4421ceac67fab3771c03f5daaa2aae3769700cd87e50c84b69
+generated: "2025-09-20T21:36:46.482793904Z"
