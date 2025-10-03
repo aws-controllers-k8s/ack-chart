@@ -2,7 +2,7 @@ apiVersion: v2
 name: ack-chart
 description: A Helm chart containing all ACK charts as sub-charts
 type: application
-version: 46.48.0
+version: 46.48.1
 appVersion: "0.0.0"
 dependencies:
   - name: acm-chart
@@ -162,7 +162,7 @@ dependencies:
     condition: memorydb.enabled
   - name: mq-chart
     alias: mq
-    version: 1.1.1
+    version: 1.1.2
     repository: oci://public.ecr.aws/aws-controllers-k8s
     condition: mq.enabled
   - name: networkfirewall-chart
