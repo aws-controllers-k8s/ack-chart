@@ -64,7 +64,7 @@ dependencies:
   version: 1.2.3
 - name: elbv2-chart
   repository: oci://public.ecr.aws/aws-controllers-k8s
-  version: 1.1.1
+  version: 1.1.2
 - name: emrcontainers-chart
   repository: oci://public.ecr.aws/aws-controllers-k8s
   version: 1.1.1
@@ -155,5 +155,5 @@ dependencies:
 - name: wafv2-chart
   repository: oci://public.ecr.aws/aws-controllers-k8s
   version: 1.1.1
-digest: sha256:a25c1d6dc5d09664372ae3c3bb4ff1a2f0058a2c4893f63537c29c2e80c2ac06
-generated: "2025-10-03T22:18:13.524284914Z"
+digest: sha256:91175a4f2544da280def83971444872ff7e784a14e32a1f7c347821986c6cc6d
+generated: "2025-10-07T17:59:13.929934073Z"
