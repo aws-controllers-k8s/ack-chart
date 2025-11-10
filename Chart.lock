@@ -17,6 +17,12 @@ dependencies:
 - name: athena-chart
   repository: oci://public.ecr.aws/aws-controllers-k8s
   version: 1.1.1
+- name: bedrock-chart
+  repository: oci://public.ecr.aws/aws-controllers-k8s
+  version: 1.0.0
+- name: bedrockagent-chart
+  repository: oci://public.ecr.aws/aws-controllers-k8s
+  version: 1.0.0
 - name: cloudfront-chart
   repository: oci://public.ecr.aws/aws-controllers-k8s
   version: 1.2.1
@@ -155,5 +161,5 @@ dependencies:
 - name: wafv2-chart
   repository: oci://public.ecr.aws/aws-controllers-k8s
   version: 1.1.1
-digest: sha256:30240e8f286617fd692fd0724b6856d86e3ee81f991a199fa01f426c082abd0b
-generated: "2025-10-23T04:39:25.96965411Z"
+digest: sha256:0abb0ba2aa26a649dd67ff5bbb134296bce5412ded86a423c298d503c5c6cdd6
+generated: "2025-11-10T22:42:09.738698208Z"

@@ -10,6 +10,10 @@ applicationautoscaling:
   enabled: false
 athena:
   enabled: false
+bedrock:
+  enabled: false
+bedrockagent:
+  enabled: false
 cloudfront:
   enabled: false
 cloudtrail:
