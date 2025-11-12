@@ -40,7 +40,7 @@ dependencies:
   version: 1.1.2
 - name: codeartifact-chart
   repository: oci://public.ecr.aws/aws-controllers-k8s
-  version: 1.1.1
+  version: 1.1.2
 - name: cognitoidentityprovider-chart
   repository: oci://public.ecr.aws/aws-controllers-k8s
   version: 1.1.2
@@ -115,7 +115,7 @@ dependencies:
   version: 1.1.2
 - name: pipes-chart
   repository: oci://public.ecr.aws/aws-controllers-k8s
-  version: 1.1.2
+  version: 1.1.3
 - name: prometheusservice-chart
   repository: oci://public.ecr.aws/aws-controllers-k8s
   version: 1.3.1
@@ -124,7 +124,7 @@ dependencies:
   version: 1.1.2
 - name: rds-chart
   repository: oci://public.ecr.aws/aws-controllers-k8s
-  version: 1.6.2
+  version: 1.6.3
 - name: recyclebin-chart
   repository: oci://public.ecr.aws/aws-controllers-k8s
   version: 1.1.2
@@ -164,5 +164,5 @@ dependencies:
 - name: wafv2-chart
   repository: oci://public.ecr.aws/aws-controllers-k8s
   version: 1.1.2
-digest: sha256:b40dd937680019b91564ca0682f242efeba619c33a76a43f33d619f9dfe4894f
-generated: "2025-11-12T23:13:25.532906741Z"
+digest: sha256:23c47fdea54c798c60e1e6ffb94be506d41c1377a62be80ea05714a2c281a2f7
+generated: "2025-11-12T23:17:27.405618425Z"
