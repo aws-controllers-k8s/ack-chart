@@ -19,7 +19,7 @@ dependencies:
   version: 1.1.2
 - name: bedrock-chart
   repository: oci://public.ecr.aws/aws-controllers-k8s
-  version: 1.0.0
+  version: 1.0.1
 - name: bedrockagent-chart
   repository: oci://public.ecr.aws/aws-controllers-k8s
   version: 1.0.1
@@ -46,7 +46,7 @@ dependencies:
   version: 1.1.2
 - name: documentdb-chart
   repository: oci://public.ecr.aws/aws-controllers-k8s
-  version: 1.1.1
+  version: 1.1.2
 - name: dynamodb-chart
   repository: oci://public.ecr.aws/aws-controllers-k8s
   version: 1.6.0
@@ -106,7 +106,7 @@ dependencies:
   version: 1.1.2
 - name: networkfirewall-chart
   repository: oci://public.ecr.aws/aws-controllers-k8s
-  version: 1.1.1
+  version: 1.1.2
 - name: opensearchservice-chart
   repository: oci://public.ecr.aws/aws-controllers-k8s
   version: 1.1.1
@@ -164,5 +164,5 @@ dependencies:
 - name: wafv2-chart
   repository: oci://public.ecr.aws/aws-controllers-k8s
   version: 1.1.2
-digest: sha256:23c47fdea54c798c60e1e6ffb94be506d41c1377a62be80ea05714a2c281a2f7
-generated: "2025-11-12T23:17:27.405618425Z"
+digest: sha256:f456e70ba43fc93832372fbc149737dfdb5228e826e1b6e549dbdb641587ae04
+generated: "2025-11-12T23:21:18.501438028Z"
