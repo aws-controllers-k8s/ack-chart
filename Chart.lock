@@ -22,7 +22,7 @@ dependencies:
   version: 1.0.0
 - name: bedrockagent-chart
   repository: oci://public.ecr.aws/aws-controllers-k8s
-  version: 1.0.0
+  version: 1.0.1
 - name: bedrockagentcorecontrol-chart
   repository: oci://public.ecr.aws/aws-controllers-k8s
   version: 1.0.0
@@ -79,7 +79,7 @@ dependencies:
   version: 1.1.1
 - name: eventbridge-chart
   repository: oci://public.ecr.aws/aws-controllers-k8s
-  version: 1.1.1
+  version: 1.1.2
 - name: iam-chart
   repository: oci://public.ecr.aws/aws-controllers-k8s
   version: 1.5.2
@@ -127,7 +127,7 @@ dependencies:
   version: 1.6.2
 - name: recyclebin-chart
   repository: oci://public.ecr.aws/aws-controllers-k8s
-  version: 1.1.1
+  version: 1.1.2
 - name: route53-chart
   repository: oci://public.ecr.aws/aws-controllers-k8s
   version: 1.1.1
@@ -139,16 +139,16 @@ dependencies:
   version: 1.1.1
 - name: s3control-chart
   repository: oci://public.ecr.aws/aws-controllers-k8s
-  version: 1.1.1
+  version: 1.1.2
 - name: sagemaker-chart
   repository: oci://public.ecr.aws/aws-controllers-k8s
   version: 1.5.0
 - name: secretsmanager-chart
   repository: oci://public.ecr.aws/aws-controllers-k8s
-  version: 1.1.1
+  version: 1.1.2
 - name: ses-chart
   repository: oci://public.ecr.aws/aws-controllers-k8s
-  version: 1.1.1
+  version: 1.1.2
 - name: sfn-chart
   repository: oci://public.ecr.aws/aws-controllers-k8s
   version: 1.1.1
@@ -160,9 +160,9 @@ dependencies:
   version: 1.2.1
 - name: ssm-chart
   repository: oci://public.ecr.aws/aws-controllers-k8s
-  version: 1.1.1
+  version: 1.1.2
 - name: wafv2-chart
   repository: oci://public.ecr.aws/aws-controllers-k8s
-  version: 1.1.1
-digest: sha256:188c26011e9b645574639ac27bea2f2e60432ccb947701e9984a3a770c2e6607
-generated: "2025-11-12T22:33:07.987399051Z"
+  version: 1.1.2
+digest: sha256:ddbe1d208ea7e87ffa54f66129d8af59fa8863b2057bb271172cc0502ceb5237
+generated: "2025-11-12T22:40:41.724640624Z"
