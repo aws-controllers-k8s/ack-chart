@@ -2,7 +2,7 @@ apiVersion: v2
 name: ack-chart
 description: A Helm chart containing all ACK charts as sub-charts
 type: application
-version: 46.52.7
+version: 46.52.8
 appVersion: "0.0.0"
 dependencies:
   - name: acm-chart
@@ -77,7 +77,7 @@ dependencies:
     condition: codeartifact.enabled
   - name: cognitoidentityprovider-chart
     alias: cognitoidentityprovider
-    version: 1.1.1
+    version: 1.1.2
     repository: oci://public.ecr.aws/aws-controllers-k8s
     condition: cognitoidentityprovider.enabled
   - name: documentdb-chart
@@ -112,7 +112,7 @@ dependencies:
     condition: ecs.enabled
   - name: efs-chart
     alias: efs
-    version: 1.1.1
+    version: 1.1.2
     repository: oci://public.ecr.aws/aws-controllers-k8s
     condition: efs.enabled
   - name: eks-chart

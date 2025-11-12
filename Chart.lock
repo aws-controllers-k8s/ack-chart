@@ -43,7 +43,7 @@ dependencies:
   version: 1.1.1
 - name: cognitoidentityprovider-chart
   repository: oci://public.ecr.aws/aws-controllers-k8s
-  version: 1.1.1
+  version: 1.1.2
 - name: documentdb-chart
   repository: oci://public.ecr.aws/aws-controllers-k8s
   version: 1.1.1
@@ -64,7 +64,7 @@ dependencies:
   version: 1.1.2
 - name: efs-chart
   repository: oci://public.ecr.aws/aws-controllers-k8s
-  version: 1.1.1
+  version: 1.1.2
 - name: eks-chart
   repository: oci://public.ecr.aws/aws-controllers-k8s
   version: 1.9.3
@@ -164,5 +164,5 @@ dependencies:
 - name: wafv2-chart
   repository: oci://public.ecr.aws/aws-controllers-k8s
   version: 1.1.2
-digest: sha256:2056c93860eb4be2a0ba563043a54037e2c7a8b2a7c5dc6a6fb1d836f2d43285
-generated: "2025-11-12T23:08:57.893518864Z"
+digest: sha256:b40dd937680019b91564ca0682f242efeba619c33a76a43f33d619f9dfe4894f
+generated: "2025-11-12T23:13:25.532906741Z"
