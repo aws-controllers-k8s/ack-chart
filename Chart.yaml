@@ -57,7 +57,7 @@ dependencies:
     condition: cloudfront.enabled
   - name: cloudtrail-chart
     alias: cloudtrail
-    version: 1.1.1
+    version: 1.1.2
     repository: oci://public.ecr.aws/aws-controllers-k8s
     condition: cloudtrail.enabled
   - name: cloudwatch-chart
