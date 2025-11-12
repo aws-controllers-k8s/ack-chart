@@ -2,7 +2,7 @@ apiVersion: v2
 name: ack-chart
 description: A Helm chart containing all ACK charts as sub-charts
 type: application
-version: 46.52.6
+version: 46.52.7
 appVersion: "0.0.0"
 dependencies:
   - name: acm-chart
@@ -27,7 +27,7 @@ dependencies:
     condition: apigatewayv2.enabled
   - name: applicationautoscaling-chart
     alias: applicationautoscaling
-    version: 1.1.1
+    version: 1.1.2
     repository: oci://public.ecr.aws/aws-controllers-k8s
     condition: applicationautoscaling.enabled
   - name: athena-chart
@@ -102,7 +102,7 @@ dependencies:
     condition: ecr.enabled
   - name: ecrpublic-chart
     alias: ecrpublic
-    version: 1.1.1
+    version: 1.1.2
     repository: oci://public.ecr.aws/aws-controllers-k8s
     condition: ecrpublic.enabled
   - name: ecs-chart
@@ -192,7 +192,7 @@ dependencies:
     condition: opensearchservice.enabled
   - name: organizations-chart
     alias: organizations
-    version: 1.1.1
+    version: 1.1.2
     repository: oci://public.ecr.aws/aws-controllers-k8s
     condition: organizations.enabled
   - name: pipes-chart
@@ -207,7 +207,7 @@ dependencies:
     condition: prometheusservice.enabled
   - name: ram-chart
     alias: ram
-    version: 1.1.1
+    version: 1.1.2
     repository: oci://public.ecr.aws/aws-controllers-k8s
     condition: ram.enabled
   - name: rds-chart
@@ -232,7 +232,7 @@ dependencies:
     condition: route53resolver.enabled
   - name: s3-chart
     alias: s3
-    version: 1.1.1
+    version: 1.1.2
     repository: oci://public.ecr.aws/aws-controllers-k8s
     condition: s3.enabled
   - name: s3control-chart
