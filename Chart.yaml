@@ -2,7 +2,7 @@ apiVersion: v2
 name: ack-chart
 description: A Helm chart containing all ACK charts as sub-charts
 type: application
-version: 46.52.4
+version: 46.52.5
 appVersion: "0.0.0"
 dependencies:
   - name: acm-chart
@@ -32,7 +32,7 @@ dependencies:
     condition: applicationautoscaling.enabled
   - name: athena-chart
     alias: athena
-    version: 1.1.1
+    version: 1.1.2
     repository: oci://public.ecr.aws/aws-controllers-k8s
     condition: athena.enabled
   - name: bedrock-chart
@@ -227,7 +227,7 @@ dependencies:
     condition: route53.enabled
   - name: route53resolver-chart
     alias: route53resolver
-    version: 1.1.1
+    version: 1.1.2
     repository: oci://public.ecr.aws/aws-controllers-k8s
     condition: route53resolver.enabled
   - name: s3-chart
