@@ -7,7 +7,7 @@ dependencies:
   version: 1.1.2
 - name: apigateway-chart
   repository: oci://public.ecr.aws/aws-controllers-k8s
-  version: 1.3.1
+  version: 1.3.2
 - name: apigatewayv2-chart
   repository: oci://public.ecr.aws/aws-controllers-k8s
   version: 1.1.2
@@ -130,7 +130,7 @@ dependencies:
   version: 1.1.2
 - name: route53-chart
   repository: oci://public.ecr.aws/aws-controllers-k8s
-  version: 1.1.1
+  version: 1.1.2
 - name: route53resolver-chart
   repository: oci://public.ecr.aws/aws-controllers-k8s
   version: 1.1.2
@@ -164,5 +164,5 @@ dependencies:
 - name: wafv2-chart
   repository: oci://public.ecr.aws/aws-controllers-k8s
   version: 1.1.2
-digest: sha256:859e19058e96658bf533b1d6b841760ebd9a79caa195debbe3a536a5a802edd3
-generated: "2025-11-13T01:42:16.484139823Z"
+digest: sha256:0c719a5ef9d97a9b5dc50d5df79a11d60c7a60625505c9123031702e20827d31
+generated: "2025-11-13T02:15:30.217887312Z"
