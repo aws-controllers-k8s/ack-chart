@@ -67,13 +67,13 @@ dependencies:
   version: 1.1.2
 - name: eks-chart
   repository: oci://public.ecr.aws/aws-controllers-k8s
-  version: 1.9.3
+  version: 1.9.4
 - name: elasticache-chart
   repository: oci://public.ecr.aws/aws-controllers-k8s
   version: 1.2.3
 - name: elbv2-chart
   repository: oci://public.ecr.aws/aws-controllers-k8s
-  version: 1.1.2
+  version: 1.1.3
 - name: emrcontainers-chart
   repository: oci://public.ecr.aws/aws-controllers-k8s
   version: 1.1.2
@@ -85,7 +85,7 @@ dependencies:
   version: 1.5.3
 - name: kafka-chart
   repository: oci://public.ecr.aws/aws-controllers-k8s
-  version: 1.2.1
+  version: 1.2.2
 - name: keyspaces-chart
   repository: oci://public.ecr.aws/aws-controllers-k8s
   version: 1.1.2
@@ -97,10 +97,10 @@ dependencies:
   version: 1.1.2
 - name: lambda-chart
   repository: oci://public.ecr.aws/aws-controllers-k8s
-  version: 1.9.1
+  version: 1.9.2
 - name: memorydb-chart
   repository: oci://public.ecr.aws/aws-controllers-k8s
-  version: 1.1.1
+  version: 1.1.2
 - name: mq-chart
   repository: oci://public.ecr.aws/aws-controllers-k8s
   version: 1.1.3
@@ -118,7 +118,7 @@ dependencies:
   version: 1.1.3
 - name: prometheusservice-chart
   repository: oci://public.ecr.aws/aws-controllers-k8s
-  version: 1.3.1
+  version: 1.3.2
 - name: ram-chart
   repository: oci://public.ecr.aws/aws-controllers-k8s
   version: 1.1.2
@@ -151,7 +151,7 @@ dependencies:
   version: 1.1.2
 - name: sfn-chart
   repository: oci://public.ecr.aws/aws-controllers-k8s
-  version: 1.1.1
+  version: 1.1.2
 - name: sns-chart
   repository: oci://public.ecr.aws/aws-controllers-k8s
   version: 1.2.3
@@ -164,5 +164,5 @@ dependencies:
 - name: wafv2-chart
   repository: oci://public.ecr.aws/aws-controllers-k8s
   version: 1.1.2
-digest: sha256:1d88a5d36b89cf6a2c6de7e8dc474b4e672691fb7ab700cd7a80620a2f172583
-generated: "2025-11-13T01:22:54.425858952Z"
+digest: sha256:9f20211f9195386534f0c55fd6ee8a2a04703b70e7b86ff675cec1d1a64912a6
+generated: "2025-11-13T01:32:55.507994838Z"
