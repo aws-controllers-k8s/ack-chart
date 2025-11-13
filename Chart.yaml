@@ -2,7 +2,7 @@ apiVersion: v2
 name: ack-chart
 description: A Helm chart containing all ACK charts as sub-charts
 type: application
-version: 46.52.14
+version: 46.52.15
 appVersion: "0.0.0"
 dependencies:
   - name: acm-chart
@@ -262,7 +262,7 @@ dependencies:
     condition: sfn.enabled
   - name: sns-chart
     alias: sns
-    version: 1.2.2
+    version: 1.2.3
     repository: oci://public.ecr.aws/aws-controllers-k8s
     condition: sns.enabled
   - name: sqs-chart
