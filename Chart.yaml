@@ -2,7 +2,7 @@ apiVersion: v2
 name: ack-chart
 description: A Helm chart containing all ACK charts as sub-charts
 type: application
-version: 46.57.0
+version: 46.58.0
 appVersion: "0.0.0"
 dependencies:
   - name: acm-chart
@@ -82,7 +82,7 @@ dependencies:
     condition: cognitoidentityprovider.enabled
   - name: documentdb-chart
     alias: documentdb
-    version: 1.1.2
+    version: 1.2.0
     repository: oci://public.ecr.aws/aws-controllers-k8s
     condition: documentdb.enabled
   - name: dynamodb-chart
@@ -92,7 +92,7 @@ dependencies:
     condition: dynamodb.enabled
   - name: ec2-chart
     alias: ec2
-    version: 1.7.1
+    version: 1.8.0
     repository: oci://public.ecr.aws/aws-controllers-k8s
     condition: ec2.enabled
   - name: ecr-chart
@@ -137,7 +137,7 @@ dependencies:
     condition: emrcontainers.enabled
   - name: eventbridge-chart
     alias: eventbridge
-    version: 1.1.2
+    version: 1.2.0
     repository: oci://public.ecr.aws/aws-controllers-k8s
     condition: eventbridge.enabled
   - name: iam-chart
@@ -162,7 +162,7 @@ dependencies:
     condition: kinesis.enabled
   - name: kms-chart
     alias: kms
-    version: 1.1.2
+    version: 1.2.0
     repository: oci://public.ecr.aws/aws-controllers-k8s
     condition: kms.enabled
   - name: lambda-chart
@@ -182,7 +182,7 @@ dependencies:
     condition: mq.enabled
   - name: networkfirewall-chart
     alias: networkfirewall
-    version: 1.1.2
+    version: 1.2.0
     repository: oci://public.ecr.aws/aws-controllers-k8s
     condition: networkfirewall.enabled
   - name: opensearchservice-chart
@@ -197,12 +197,12 @@ dependencies:
     condition: organizations.enabled
   - name: pipes-chart
     alias: pipes
-    version: 1.1.3
+    version: 1.2.0
     repository: oci://public.ecr.aws/aws-controllers-k8s
     condition: pipes.enabled
   - name: prometheusservice-chart
     alias: prometheusservice
-    version: 1.3.2
+    version: 1.4.0
     repository: oci://public.ecr.aws/aws-controllers-k8s
     condition: prometheusservice.enabled
   - name: ram-chart
@@ -222,7 +222,7 @@ dependencies:
     condition: recyclebin.enabled
   - name: route53-chart
     alias: route53
-    version: 1.1.2
+    version: 1.2.0
     repository: oci://public.ecr.aws/aws-controllers-k8s
     condition: route53.enabled
   - name: route53resolver-chart
@@ -237,7 +237,7 @@ dependencies:
     condition: s3.enabled
   - name: s3control-chart
     alias: s3control
-    version: 1.1.2
+    version: 1.2.0
     repository: oci://public.ecr.aws/aws-controllers-k8s
     condition: s3control.enabled
   - name: sagemaker-chart
