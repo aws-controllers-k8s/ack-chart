@@ -34,10 +34,10 @@ dependencies:
   version: 1.1.2
 - name: cloudwatch-chart
   repository: oci://public.ecr.aws/aws-controllers-k8s
-  version: 1.3.1
+  version: 1.4.0
 - name: cloudwatchlogs-chart
   repository: oci://public.ecr.aws/aws-controllers-k8s
-  version: 1.1.2
+  version: 1.2.0
 - name: codeartifact-chart
   repository: oci://public.ecr.aws/aws-controllers-k8s
   version: 1.2.0
@@ -49,7 +49,7 @@ dependencies:
   version: 1.1.2
 - name: dynamodb-chart
   repository: oci://public.ecr.aws/aws-controllers-k8s
-  version: 1.6.1
+  version: 1.7.0
 - name: ec2-chart
   repository: oci://public.ecr.aws/aws-controllers-k8s
   version: 1.7.1
@@ -61,7 +61,7 @@ dependencies:
   version: 1.2.0
 - name: ecs-chart
   repository: oci://public.ecr.aws/aws-controllers-k8s
-  version: 1.1.2
+  version: 1.2.0
 - name: efs-chart
   repository: oci://public.ecr.aws/aws-controllers-k8s
   version: 1.2.0
@@ -164,5 +164,5 @@ dependencies:
 - name: wafv2-chart
   repository: oci://public.ecr.aws/aws-controllers-k8s
   version: 1.1.2
-digest: sha256:4c1e6656512f8b3301c492e0d63ad942d3e65789d6e4151f5ce511e37f62ee45
-generated: "2025-11-29T03:35:00.444568707Z"
+digest: sha256:27985eca5f1b51bb7360aee8b39ebf11ab136403be4c3dc82d9736467f96d135
+generated: "2025-11-29T03:39:44.578494362Z"

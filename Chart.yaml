@@ -2,7 +2,7 @@ apiVersion: v2
 name: ack-chart
 description: A Helm chart containing all ACK charts as sub-charts
 type: application
-version: 46.56.0
+version: 46.57.0
 appVersion: "0.0.0"
 dependencies:
   - name: acm-chart
@@ -62,12 +62,12 @@ dependencies:
     condition: cloudtrail.enabled
   - name: cloudwatch-chart
     alias: cloudwatch
-    version: 1.3.1
+    version: 1.4.0
     repository: oci://public.ecr.aws/aws-controllers-k8s
     condition: cloudwatch.enabled
   - name: cloudwatchlogs-chart
     alias: cloudwatchlogs
-    version: 1.1.2
+    version: 1.2.0
     repository: oci://public.ecr.aws/aws-controllers-k8s
     condition: cloudwatchlogs.enabled
   - name: codeartifact-chart
@@ -87,7 +87,7 @@ dependencies:
     condition: documentdb.enabled
   - name: dynamodb-chart
     alias: dynamodb
-    version: 1.6.1
+    version: 1.7.0
     repository: oci://public.ecr.aws/aws-controllers-k8s
     condition: dynamodb.enabled
   - name: ec2-chart
@@ -107,7 +107,7 @@ dependencies:
     condition: ecrpublic.enabled
   - name: ecs-chart
     alias: ecs
-    version: 1.1.2
+    version: 1.2.0
     repository: oci://public.ecr.aws/aws-controllers-k8s
     condition: ecs.enabled
   - name: efs-chart
