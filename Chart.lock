@@ -4,7 +4,7 @@ dependencies:
   version: 1.1.2
 - name: acmpca-chart
   repository: oci://public.ecr.aws/aws-controllers-k8s
-  version: 1.1.2
+  version: 1.2.0
 - name: apigateway-chart
   repository: oci://public.ecr.aws/aws-controllers-k8s
   version: 1.3.2
@@ -40,7 +40,7 @@ dependencies:
   version: 1.1.2
 - name: codeartifact-chart
   repository: oci://public.ecr.aws/aws-controllers-k8s
-  version: 1.1.2
+  version: 1.2.0
 - name: cognitoidentityprovider-chart
   repository: oci://public.ecr.aws/aws-controllers-k8s
   version: 1.1.2
@@ -55,16 +55,16 @@ dependencies:
   version: 1.7.1
 - name: ecr-chart
   repository: oci://public.ecr.aws/aws-controllers-k8s
-  version: 1.3.3
+  version: 1.4.0
 - name: ecrpublic-chart
   repository: oci://public.ecr.aws/aws-controllers-k8s
-  version: 1.1.2
+  version: 1.2.0
 - name: ecs-chart
   repository: oci://public.ecr.aws/aws-controllers-k8s
   version: 1.1.2
 - name: efs-chart
   repository: oci://public.ecr.aws/aws-controllers-k8s
-  version: 1.1.2
+  version: 1.2.0
 - name: eks-chart
   repository: oci://public.ecr.aws/aws-controllers-k8s
   version: 1.9.4
@@ -164,5 +164,5 @@ dependencies:
 - name: wafv2-chart
   repository: oci://public.ecr.aws/aws-controllers-k8s
   version: 1.1.2
-digest: sha256:90411f54103671dec12d2e3db7a301c8a8ee90f8ea9ff9a799e956291acd3213
-generated: "2025-11-29T03:19:03.885279427Z"
+digest: sha256:cbec767249b2c45d295571a0e043b1f299f60bdabe918826435273cf358704d4
+generated: "2025-11-29T03:26:38.943309833Z"
