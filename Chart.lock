@@ -7,7 +7,7 @@ dependencies:
   version: 1.2.0
 - name: apigateway-chart
   repository: oci://public.ecr.aws/aws-controllers-k8s
-  version: 1.3.2
+  version: 1.4.0
 - name: apigatewayv2-chart
   repository: oci://public.ecr.aws/aws-controllers-k8s
   version: 1.2.0
@@ -25,10 +25,10 @@ dependencies:
   version: 1.1.0
 - name: bedrockagentcorecontrol-chart
   repository: oci://public.ecr.aws/aws-controllers-k8s
-  version: 1.0.1
+  version: 1.1.0
 - name: cloudfront-chart
   repository: oci://public.ecr.aws/aws-controllers-k8s
-  version: 1.2.2
+  version: 1.3.0
 - name: cloudtrail-chart
   repository: oci://public.ecr.aws/aws-controllers-k8s
   version: 1.2.0
@@ -70,34 +70,34 @@ dependencies:
   version: 1.10.0
 - name: elasticache-chart
   repository: oci://public.ecr.aws/aws-controllers-k8s
-  version: 1.2.4
+  version: 1.3.0
 - name: elbv2-chart
   repository: oci://public.ecr.aws/aws-controllers-k8s
   version: 1.1.3
 - name: emrcontainers-chart
   repository: oci://public.ecr.aws/aws-controllers-k8s
-  version: 1.1.2
+  version: 1.2.0
 - name: eventbridge-chart
   repository: oci://public.ecr.aws/aws-controllers-k8s
   version: 1.2.0
 - name: iam-chart
   repository: oci://public.ecr.aws/aws-controllers-k8s
-  version: 1.5.4
+  version: 1.6.0
 - name: kafka-chart
   repository: oci://public.ecr.aws/aws-controllers-k8s
   version: 1.2.2
 - name: keyspaces-chart
   repository: oci://public.ecr.aws/aws-controllers-k8s
-  version: 1.1.2
+  version: 1.2.0
 - name: kinesis-chart
   repository: oci://public.ecr.aws/aws-controllers-k8s
-  version: 1.1.2
+  version: 1.2.0
 - name: kms-chart
   repository: oci://public.ecr.aws/aws-controllers-k8s
   version: 1.2.0
 - name: lambda-chart
   repository: oci://public.ecr.aws/aws-controllers-k8s
-  version: 1.9.2
+  version: 1.10.0
 - name: memorydb-chart
   repository: oci://public.ecr.aws/aws-controllers-k8s
   version: 1.1.2
@@ -112,7 +112,7 @@ dependencies:
   version: 1.2.0
 - name: organizations-chart
   repository: oci://public.ecr.aws/aws-controllers-k8s
-  version: 1.1.2
+  version: 1.2.0
 - name: pipes-chart
   repository: oci://public.ecr.aws/aws-controllers-k8s
   version: 1.2.0
@@ -124,7 +124,7 @@ dependencies:
   version: 1.2.0
 - name: rds-chart
   repository: oci://public.ecr.aws/aws-controllers-k8s
-  version: 1.6.3
+  version: 1.7.0
 - name: recyclebin-chart
   repository: oci://public.ecr.aws/aws-controllers-k8s
   version: 1.2.0
@@ -133,7 +133,7 @@ dependencies:
   version: 1.2.0
 - name: route53resolver-chart
   repository: oci://public.ecr.aws/aws-controllers-k8s
-  version: 1.1.2
+  version: 1.2.0
 - name: s3-chart
   repository: oci://public.ecr.aws/aws-controllers-k8s
   version: 1.1.3
@@ -151,7 +151,7 @@ dependencies:
   version: 1.2.0
 - name: sfn-chart
   repository: oci://public.ecr.aws/aws-controllers-k8s
-  version: 1.1.2
+  version: 1.2.0
 - name: sns-chart
   repository: oci://public.ecr.aws/aws-controllers-k8s
   version: 1.3.0
@@ -164,5 +164,5 @@ dependencies:
 - name: wafv2-chart
   repository: oci://public.ecr.aws/aws-controllers-k8s
   version: 1.2.0
-digest: sha256:fd6286c564f0384a7b3ab23bbab0dd7c1fc871dc4f31eb306cdaf9e20873879f
-generated: "2025-11-29T04:25:00.533642083Z"
+digest: sha256:4f8677eef235311c7c583e93f3240bbcf5c9c49785d53933ce3536b138ad5796
+generated: "2025-11-29T04:41:58.33993885Z"
