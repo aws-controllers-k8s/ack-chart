@@ -31,7 +31,7 @@ dependencies:
   version: 1.2.2
 - name: cloudtrail-chart
   repository: oci://public.ecr.aws/aws-controllers-k8s
-  version: 1.1.2
+  version: 1.2.0
 - name: cloudwatch-chart
   repository: oci://public.ecr.aws/aws-controllers-k8s
   version: 1.4.0
@@ -121,13 +121,13 @@ dependencies:
   version: 1.4.0
 - name: ram-chart
   repository: oci://public.ecr.aws/aws-controllers-k8s
-  version: 1.1.2
+  version: 1.2.0
 - name: rds-chart
   repository: oci://public.ecr.aws/aws-controllers-k8s
   version: 1.6.3
 - name: recyclebin-chart
   repository: oci://public.ecr.aws/aws-controllers-k8s
-  version: 1.1.2
+  version: 1.2.0
 - name: route53-chart
   repository: oci://public.ecr.aws/aws-controllers-k8s
   version: 1.2.0
@@ -148,7 +148,7 @@ dependencies:
   version: 1.1.2
 - name: ses-chart
   repository: oci://public.ecr.aws/aws-controllers-k8s
-  version: 1.1.2
+  version: 1.2.0
 - name: sfn-chart
   repository: oci://public.ecr.aws/aws-controllers-k8s
   version: 1.1.2
@@ -160,9 +160,9 @@ dependencies:
   version: 1.2.2
 - name: ssm-chart
   repository: oci://public.ecr.aws/aws-controllers-k8s
-  version: 1.1.2
+  version: 1.2.0
 - name: wafv2-chart
   repository: oci://public.ecr.aws/aws-controllers-k8s
-  version: 1.1.2
-digest: sha256:be783967bd9c223cdf8051804fcd765051b25e8eac0e1712bb3fd3d9955c4211
-generated: "2025-11-29T03:55:34.886288516Z"
+  version: 1.2.0
+digest: sha256:d1559f2d78bc902e3defd68f5b26dadb7f946a40bfa7c5a3aa4c1253e118b8f5
+generated: "2025-11-29T04:01:42.14085098Z"
