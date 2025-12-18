@@ -2,7 +2,7 @@ apiVersion: v2
 name: ack-chart
 description: A Helm chart containing all ACK charts as sub-charts
 type: application
-version: 46.68.0
+version: 46.68.1
 appVersion: "0.0.0"
 dependencies:
   - name: acm-chart
@@ -82,7 +82,7 @@ dependencies:
     condition: cognitoidentityprovider.enabled
   - name: documentdb-chart
     alias: documentdb
-    version: 1.2.0
+    version: 1.2.1
     repository: oci://public.ecr.aws/aws-controllers-k8s
     condition: documentdb.enabled
   - name: dynamodb-chart
