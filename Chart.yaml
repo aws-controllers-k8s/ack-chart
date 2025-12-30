@@ -2,7 +2,7 @@ apiVersion: v2
 name: ack-chart
 description: A Helm chart containing all ACK charts as sub-charts
 type: application
-version: 46.70.1
+version: 46.70.2
 appVersion: "0.0.0"
 dependencies:
   - name: acm-chart
@@ -232,7 +232,7 @@ dependencies:
     condition: route53resolver.enabled
   - name: s3-chart
     alias: s3
-    version: 1.2.0
+    version: 1.2.1
     repository: oci://public.ecr.aws/aws-controllers-k8s
     condition: s3.enabled
   - name: s3control-chart
