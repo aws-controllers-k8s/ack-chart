@@ -91,7 +91,7 @@ dependencies:
   version: 1.2.0
 - name: kinesis-chart
   repository: oci://public.ecr.aws/aws-controllers-k8s
-  version: 1.2.0
+  version: 1.2.1
 - name: kms-chart
   repository: oci://public.ecr.aws/aws-controllers-k8s
   version: 1.2.0
@@ -124,7 +124,7 @@ dependencies:
   version: 1.2.0
 - name: rds-chart
   repository: oci://public.ecr.aws/aws-controllers-k8s
-  version: 1.7.2
+  version: 1.7.3
 - name: recyclebin-chart
   repository: oci://public.ecr.aws/aws-controllers-k8s
   version: 1.2.0
@@ -164,5 +164,5 @@ dependencies:
 - name: wafv2-chart
   repository: oci://public.ecr.aws/aws-controllers-k8s
   version: 1.2.0
-digest: sha256:758baec78185d178a2a260bce31675a87009d1fdeb71b68c8dcc0ec5c6155471
-generated: "2026-01-07T19:45:05.484104609Z"
+digest: sha256:807fe3930abe116c81d77868f373a9d506a3ade2aa828cc807696fb36da8aca2
+generated: "2026-01-07T19:48:03.930982029Z"
