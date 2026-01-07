@@ -2,7 +2,7 @@ apiVersion: v2
 name: ack-chart
 description: A Helm chart containing all ACK charts as sub-charts
 type: application
-version: 46.72.8
+version: 46.72.9
 appVersion: "0.0.0"
 dependencies:
   - name: acm-chart
@@ -202,7 +202,7 @@ dependencies:
     condition: pipes.enabled
   - name: prometheusservice-chart
     alias: prometheusservice
-    version: 1.4.0
+    version: 1.4.1
     repository: oci://public.ecr.aws/aws-controllers-k8s
     condition: prometheusservice.enabled
   - name: ram-chart
@@ -217,7 +217,7 @@ dependencies:
     condition: rds.enabled
   - name: recyclebin-chart
     alias: recyclebin
-    version: 1.2.0
+    version: 1.2.1
     repository: oci://public.ecr.aws/aws-controllers-k8s
     condition: recyclebin.enabled
   - name: route53-chart

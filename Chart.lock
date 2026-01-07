@@ -118,7 +118,7 @@ dependencies:
   version: 1.2.0
 - name: prometheusservice-chart
   repository: oci://public.ecr.aws/aws-controllers-k8s
-  version: 1.4.0
+  version: 1.4.1
 - name: ram-chart
   repository: oci://public.ecr.aws/aws-controllers-k8s
   version: 1.2.0
@@ -127,7 +127,7 @@ dependencies:
   version: 1.7.3
 - name: recyclebin-chart
   repository: oci://public.ecr.aws/aws-controllers-k8s
-  version: 1.2.0
+  version: 1.2.1
 - name: route53-chart
   repository: oci://public.ecr.aws/aws-controllers-k8s
   version: 1.2.0
@@ -164,5 +164,5 @@ dependencies:
 - name: wafv2-chart
   repository: oci://public.ecr.aws/aws-controllers-k8s
   version: 1.2.0
-digest: sha256:66c611c6714f0decdb6050d6d7e297d02f9661ebfea38be10b3b0ce6f75ef370
-generated: "2026-01-07T19:51:02.311843292Z"
+digest: sha256:cc9ef6c6afc75d587d8689c6abcd7ef33e057b5de4827aa81c491960c2acd8ec
+generated: "2026-01-07T19:54:00.726772282Z"
