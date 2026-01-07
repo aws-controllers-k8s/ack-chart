@@ -182,7 +182,7 @@ dependencies:
     condition: mq.enabled
   - name: networkfirewall-chart
     alias: networkfirewall
-    version: 1.2.0
+    version: 1.2.1
     repository: oci://public.ecr.aws/aws-controllers-k8s
     condition: networkfirewall.enabled
   - name: opensearchservice-chart
@@ -267,7 +267,7 @@ dependencies:
     condition: sns.enabled
   - name: sqs-chart
     alias: sqs
-    version: 1.4.0
+    version: 1.4.1
     repository: oci://public.ecr.aws/aws-controllers-k8s
     condition: sqs.enabled
   - name: ssm-chart
