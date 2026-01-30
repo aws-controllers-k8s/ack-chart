@@ -136,7 +136,7 @@ dependencies:
   version: 1.2.1
 - name: s3-chart
   repository: oci://public.ecr.aws/aws-controllers-k8s
-  version: 1.2.2
+  version: 1.3.0
 - name: s3control-chart
   repository: oci://public.ecr.aws/aws-controllers-k8s
   version: 1.2.1
@@ -164,5 +164,5 @@ dependencies:
 - name: wafv2-chart
   repository: oci://public.ecr.aws/aws-controllers-k8s
   version: 1.2.1
-digest: sha256:19241b18d96c309ccd058f8d12c4b71fef3f4c71f6c3c9720d72050c77ed27f7
-generated: "2026-01-29T18:53:09.273075554Z"
+digest: sha256:3c2e3f2635f6da600b75898bca84c65bb7b48e97b3b823d4f309640f63e4df20
+generated: "2026-01-30T19:57:08.258805768Z"
