@@ -2,7 +2,7 @@ apiVersion: v2
 name: ack-chart
 description: A Helm chart containing all ACK charts as sub-charts
 type: application
-version: 46.76.0
+version: 46.76.1
 appVersion: "0.0.0"
 dependencies:
   - name: acm-chart
@@ -117,7 +117,7 @@ dependencies:
     condition: efs.enabled
   - name: eks-chart
     alias: eks
-    version: 1.11.1
+    version: 1.11.2
     repository: oci://public.ecr.aws/aws-controllers-k8s
     condition: eks.enabled
   - name: elasticache-chart
