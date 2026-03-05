@@ -46,7 +46,7 @@ dependencies:
   version: 1.2.1
 - name: documentdb-chart
   repository: oci://public.ecr.aws/aws-controllers-k8s
-  version: 1.2.2
+  version: 1.3.0
 - name: dynamodb-chart
   repository: oci://public.ecr.aws/aws-controllers-k8s
   version: 1.7.1
@@ -164,5 +164,5 @@ dependencies:
 - name: wafv2-chart
   repository: oci://public.ecr.aws/aws-controllers-k8s
   version: 1.2.1
-digest: sha256:2f9f46ca2377effbf41526f7f94e57ab49e778913ca81c1fe7734e5da26f7094
-generated: "2026-03-03T23:09:51.456011495Z"
+digest: sha256:1bec31e1973d37255ce2b31836d2fec0a61ab3b8efe2177f79ac43059852e43a
+generated: "2026-03-05T19:18:32.640459419Z"
