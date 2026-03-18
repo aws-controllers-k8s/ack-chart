@@ -97,7 +97,7 @@ dependencies:
   version: 1.2.2
 - name: lambda-chart
   repository: oci://public.ecr.aws/aws-controllers-k8s
-  version: 1.10.2
+  version: 1.11.0
 - name: memorydb-chart
   repository: oci://public.ecr.aws/aws-controllers-k8s
   version: 1.2.2
@@ -164,5 +164,5 @@ dependencies:
 - name: wafv2-chart
   repository: oci://public.ecr.aws/aws-controllers-k8s
   version: 1.2.2
-digest: sha256:db3ad565681ae6853f04b6a836fc6dd0ebd8dce4e0132d0ffede2cac82c551ac
-generated: "2026-03-13T22:15:02.800571441Z"
+digest: sha256:073b6257a85d1926b5edad29551437359b7c9be6f9f065dfa0a75eec1899c4b0
+generated: "2026-03-18T21:46:37.879615407Z"
