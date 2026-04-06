@@ -130,7 +130,7 @@ dependencies:
   version: 1.2.2
 - name: route53-chart
   repository: oci://public.ecr.aws/aws-controllers-k8s
-  version: 1.3.0
+  version: 1.3.1
 - name: route53resolver-chart
   repository: oci://public.ecr.aws/aws-controllers-k8s
   version: 1.2.2
@@ -164,5 +164,5 @@ dependencies:
 - name: wafv2-chart
   repository: oci://public.ecr.aws/aws-controllers-k8s
   version: 1.2.2
-digest: sha256:152555d9b3ee04d3778d5caa98163a17fe3b226e4966defb48e74c41dc385055
-generated: "2026-04-03T01:12:46.199199378Z"
+digest: sha256:641e38ec340c568641fdbf8783f14d70369c47fa3db5fdcd702213d432eb77e3
+generated: "2026-04-06T18:19:36.530999884Z"
