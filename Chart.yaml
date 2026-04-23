@@ -2,7 +2,7 @@ apiVersion: v2
 name: ack-chart
 description: A Helm chart containing all ACK charts as sub-charts
 type: application
-version: 46.86.1
+version: 46.86.2
 appVersion: "0.0.0"
 dependencies:
   - name: acm-chart
@@ -167,7 +167,7 @@ dependencies:
     condition: kms.enabled
   - name: lambda-chart
     alias: lambda
-    version: 1.12.1
+    version: 1.12.2
     repository: oci://public.ecr.aws/aws-controllers-k8s
     condition: lambda.enabled
   - name: memorydb-chart
