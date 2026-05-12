@@ -121,7 +121,7 @@ dependencies:
   version: 1.4.3
 - name: ram-chart
   repository: oci://public.ecr.aws/aws-controllers-k8s
-  version: 1.2.3
+  version: 1.2.4
 - name: rds-chart
   repository: oci://public.ecr.aws/aws-controllers-k8s
   version: 1.7.11
@@ -164,5 +164,5 @@ dependencies:
 - name: wafv2-chart
   repository: oci://public.ecr.aws/aws-controllers-k8s
   version: 1.3.2
-digest: sha256:4a5847f00cf0acf530157e9eda1fc0989d934beab8b554976bef2cd46a5c0038
-generated: "2026-05-11T20:59:03.703816898Z"
+digest: sha256:4dca5cbeaed4e13d9e3b0c9a837d2d27f7d7fa9977211a448b0b6e674e9cbf5b
+generated: "2026-05-12T18:59:22.709087314Z"
