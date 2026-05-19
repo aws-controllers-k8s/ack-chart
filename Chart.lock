@@ -67,7 +67,7 @@ dependencies:
   version: 1.2.3
 - name: eks-chart
   repository: oci://public.ecr.aws/aws-controllers-k8s
-  version: 1.13.1
+  version: 1.14.0
 - name: elasticache-chart
   repository: oci://public.ecr.aws/aws-controllers-k8s
   version: 1.3.5
@@ -79,7 +79,7 @@ dependencies:
   version: 1.3.3
 - name: eventbridge-chart
   repository: oci://public.ecr.aws/aws-controllers-k8s
-  version: 1.2.3
+  version: 1.3.0
 - name: iam-chart
   repository: oci://public.ecr.aws/aws-controllers-k8s
   version: 1.6.4
@@ -106,7 +106,7 @@ dependencies:
   version: 1.2.3
 - name: networkfirewall-chart
   repository: oci://public.ecr.aws/aws-controllers-k8s
-  version: 1.2.3
+  version: 1.3.0
 - name: opensearchservice-chart
   repository: oci://public.ecr.aws/aws-controllers-k8s
   version: 1.3.0
@@ -130,7 +130,7 @@ dependencies:
   version: 1.2.3
 - name: route53-chart
   repository: oci://public.ecr.aws/aws-controllers-k8s
-  version: 1.3.3
+  version: 1.4.0
 - name: route53resolver-chart
   repository: oci://public.ecr.aws/aws-controllers-k8s
   version: 1.2.3
@@ -164,5 +164,5 @@ dependencies:
 - name: wafv2-chart
   repository: oci://public.ecr.aws/aws-controllers-k8s
   version: 1.3.2
-digest: sha256:ba775d8f4c1e7bf7b59989c34515f8d97c0784b7094a124522d78945b51befb9
-generated: "2026-05-15T21:08:32.32509557Z"
+digest: sha256:e1507be15ef4e4950be97b60d5c462c1df4da2ef7ff5d02473717b61deeeb19d
+generated: "2026-05-19T20:39:18.829621017Z"
