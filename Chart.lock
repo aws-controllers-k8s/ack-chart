@@ -7,10 +7,10 @@ dependencies:
   version: 1.3.0
 - name: apigateway-chart
   repository: oci://public.ecr.aws/aws-controllers-k8s
-  version: 1.5.0
+  version: 1.6.0
 - name: apigatewayv2-chart
   repository: oci://public.ecr.aws/aws-controllers-k8s
-  version: 1.3.0
+  version: 1.3.1
 - name: applicationautoscaling-chart
   repository: oci://public.ecr.aws/aws-controllers-k8s
   version: 1.3.0
@@ -25,7 +25,7 @@ dependencies:
   version: 1.2.0
 - name: bedrockagentcorecontrol-chart
   repository: oci://public.ecr.aws/aws-controllers-k8s
-  version: 1.8.0
+  version: 1.9.0
 - name: cloudfront-chart
   repository: oci://public.ecr.aws/aws-controllers-k8s
   version: 1.5.0
@@ -34,7 +34,7 @@ dependencies:
   version: 1.3.0
 - name: cloudwatch-chart
   repository: oci://public.ecr.aws/aws-controllers-k8s
-  version: 1.5.0
+  version: 1.5.1
 - name: cloudwatchlogs-chart
   repository: oci://public.ecr.aws/aws-controllers-k8s
   version: 1.3.0
@@ -52,7 +52,7 @@ dependencies:
   version: 1.9.0
 - name: ec2-chart
   repository: oci://public.ecr.aws/aws-controllers-k8s
-  version: 1.15.0
+  version: 1.15.1
 - name: ecr-chart
   repository: oci://public.ecr.aws/aws-controllers-k8s
   version: 1.6.1
@@ -79,7 +79,7 @@ dependencies:
   version: 1.4.0
 - name: eventbridge-chart
   repository: oci://public.ecr.aws/aws-controllers-k8s
-  version: 1.3.0
+  version: 1.3.1
 - name: iam-chart
   repository: oci://public.ecr.aws/aws-controllers-k8s
   version: 1.7.1
@@ -121,7 +121,7 @@ dependencies:
   version: 1.5.0
 - name: ram-chart
   repository: oci://public.ecr.aws/aws-controllers-k8s
-  version: 1.3.0
+  version: 1.3.1
 - name: rds-chart
   repository: oci://public.ecr.aws/aws-controllers-k8s
   version: 1.9.3
@@ -151,10 +151,10 @@ dependencies:
   version: 1.3.0
 - name: sfn-chart
   repository: oci://public.ecr.aws/aws-controllers-k8s
-  version: 1.4.0
+  version: 1.4.1
 - name: sns-chart
   repository: oci://public.ecr.aws/aws-controllers-k8s
-  version: 1.5.1
+  version: 1.5.2
 - name: sqs-chart
   repository: oci://public.ecr.aws/aws-controllers-k8s
   version: 1.5.2
@@ -164,5 +164,5 @@ dependencies:
 - name: wafv2-chart
   repository: oci://public.ecr.aws/aws-controllers-k8s
   version: 1.4.1
-digest: sha256:c0492036ee25b07a3ad53e2de12eb27aab19a5a729296761ed8a62e82d657153
-generated: "2026-06-22T17:23:52.862640295Z"
+digest: sha256:0eacd82f8970bd9f3767d9b1a80f374ad969b069fb9782399b6c3968892e7351
+generated: "2026-06-22T20:01:20.984028915Z"
