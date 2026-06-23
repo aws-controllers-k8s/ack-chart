@@ -130,13 +130,13 @@ dependencies:
   version: 1.3.0
 - name: route53-chart
   repository: oci://public.ecr.aws/aws-controllers-k8s
-  version: 1.4.2
+  version: 1.4.3
 - name: route53resolver-chart
   repository: oci://public.ecr.aws/aws-controllers-k8s
   version: 1.6.0
 - name: s3-chart
   repository: oci://public.ecr.aws/aws-controllers-k8s
-  version: 1.6.0
+  version: 1.6.1
 - name: s3control-chart
   repository: oci://public.ecr.aws/aws-controllers-k8s
   version: 1.3.0
@@ -145,24 +145,24 @@ dependencies:
   version: 1.8.0
 - name: secretsmanager-chart
   repository: oci://public.ecr.aws/aws-controllers-k8s
-  version: 1.3.0
+  version: 1.3.1
 - name: ses-chart
   repository: oci://public.ecr.aws/aws-controllers-k8s
   version: 1.3.0
 - name: sfn-chart
   repository: oci://public.ecr.aws/aws-controllers-k8s
-  version: 1.4.1
+  version: 1.4.2
 - name: sns-chart
   repository: oci://public.ecr.aws/aws-controllers-k8s
-  version: 1.5.2
+  version: 1.5.3
 - name: sqs-chart
   repository: oci://public.ecr.aws/aws-controllers-k8s
-  version: 1.5.2
+  version: 1.5.3
 - name: ssm-chart
   repository: oci://public.ecr.aws/aws-controllers-k8s
   version: 1.4.1
 - name: wafv2-chart
   repository: oci://public.ecr.aws/aws-controllers-k8s
   version: 1.4.2
-digest: sha256:8dd51823efe4be2c2103437a6eab7e3fbf47a2d9dfc1f2f68ae069fcc9fbee0c
-generated: "2026-06-23T00:04:48.452905317Z"
+digest: sha256:1b8617faa29246c500c0c3878ea47ea4a5fc4e2593414fa7225c746253f604a5
+generated: "2026-06-23T00:09:02.585179899Z"
