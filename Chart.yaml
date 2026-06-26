@@ -2,7 +2,7 @@ apiVersion: v2
 name: ack-chart
 description: A Helm chart containing all ACK charts as sub-charts
 type: application
-version: 46.121.0
+version: 46.122.0
 appVersion: "0.0.0"
 dependencies:
   - name: acm-chart
@@ -147,7 +147,7 @@ dependencies:
     condition: iam.enabled
   - name: kafka-chart
     alias: kafka
-    version: 1.7.0
+    version: 1.8.0
     repository: oci://public.ecr.aws/aws-controllers-k8s
     condition: kafka.enabled
   - name: keyspaces-chart
@@ -227,7 +227,7 @@ dependencies:
     condition: route53.enabled
   - name: route53resolver-chart
     alias: route53resolver
-    version: 1.6.1
+    version: 1.7.0
     repository: oci://public.ecr.aws/aws-controllers-k8s
     condition: route53resolver.enabled
   - name: s3-chart
