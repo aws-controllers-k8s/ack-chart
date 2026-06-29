@@ -72,6 +72,8 @@ memorydb:
   enabled: false
 mq:
   enabled: false
+mwaa:
+  enabled: false
 networkfirewall:
   enabled: false
 opensearchservice:
