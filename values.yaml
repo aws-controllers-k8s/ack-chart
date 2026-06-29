@@ -10,6 +10,8 @@ applicationautoscaling:
   enabled: false
 athena:
   enabled: false
+autoscaling:
+  enabled: false
 bedrock:
   enabled: false
 bedrockagent:
@@ -52,6 +54,8 @@ emrcontainers:
   enabled: false
 eventbridge:
   enabled: false
+glue:
+  enabled: false
 iam:
   enabled: false
 kafka:
@@ -91,6 +95,8 @@ route53resolver:
 s3:
   enabled: false
 s3control:
+  enabled: false
+s3files:
   enabled: false
 sagemaker:
   enabled: false
