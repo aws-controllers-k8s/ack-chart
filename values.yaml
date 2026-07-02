@@ -12,6 +12,8 @@ athena:
   enabled: false
 autoscaling:
   enabled: false
+backup:
+  enabled: false
 bedrock:
   enabled: false
 bedrockagent:
@@ -52,6 +54,8 @@ elbv2:
   enabled: false
 emrcontainers:
   enabled: false
+emrserverless:
+  enabled: false
 eventbridge:
   enabled: false
 glue:
@@ -83,6 +87,8 @@ organizations:
 pipes:
   enabled: false
 prometheusservice:
+  enabled: false
+quicksight:
   enabled: false
 ram:
   enabled: false
