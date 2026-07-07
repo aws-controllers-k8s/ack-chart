@@ -34,6 +34,8 @@ cognitoidentityprovider:
   enabled: false
 documentdb:
   enabled: false
+dsql:
+  enabled: false
 dynamodb:
   enabled: false
 ec2:
