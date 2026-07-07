@@ -82,6 +82,8 @@ mwaa:
   enabled: false
 networkfirewall:
   enabled: false
+opensearchserverless:
+  enabled: false
 opensearchservice:
   enabled: false
 organizations:
