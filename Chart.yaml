@@ -2,7 +2,7 @@ apiVersion: v2
 name: ack-chart
 description: A Helm chart containing all ACK charts as sub-charts
 type: application
-version: 46.129.2
+version: 46.129.3
 appVersion: "0.0.0"
 dependencies:
   - name: acm-chart
@@ -162,7 +162,7 @@ dependencies:
     condition: eventbridge.enabled
   - name: glue-chart
     alias: glue
-    version: 1.0.0
+    version: 1.0.1
     repository: oci://public.ecr.aws/aws-controllers-k8s
     condition: glue.enabled
   - name: iam-chart
