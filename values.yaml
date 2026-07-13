@@ -110,6 +110,10 @@ s3control:
   enabled: false
 s3files:
   enabled: false
+s3tables:
+  enabled: false
+s3vectors:
+  enabled: false
 sagemaker:
   enabled: false
 secretsmanager:

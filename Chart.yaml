@@ -2,7 +2,7 @@ apiVersion: v2
 name: ack-chart
 description: A Helm chart containing all ACK charts as sub-charts
 type: application
-version: 46.130.0
+version: 46.131.0
 appVersion: "0.0.0"
 dependencies:
   - name: acm-chart
@@ -285,6 +285,16 @@ dependencies:
     version: 1.0.1
     repository: oci://public.ecr.aws/aws-controllers-k8s
     condition: s3files.enabled
+  - name: s3tables-chart
+    alias: s3tables
+    version: 1.0.0
+    repository: oci://public.ecr.aws/aws-controllers-k8s
+    condition: s3tables.enabled
+  - name: s3vectors-chart
+    alias: s3vectors
+    version: 1.0.0
+    repository: oci://public.ecr.aws/aws-controllers-k8s
+    condition: s3vectors.enabled
   - name: sagemaker-chart
     alias: sagemaker
     version: 1.8.3

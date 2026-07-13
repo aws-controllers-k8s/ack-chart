@@ -167,6 +167,12 @@ dependencies:
 - name: s3files-chart
   repository: oci://public.ecr.aws/aws-controllers-k8s
   version: 1.0.1
+- name: s3tables-chart
+  repository: oci://public.ecr.aws/aws-controllers-k8s
+  version: 1.0.0
+- name: s3vectors-chart
+  repository: oci://public.ecr.aws/aws-controllers-k8s
+  version: 1.0.0
 - name: sagemaker-chart
   repository: oci://public.ecr.aws/aws-controllers-k8s
   version: 1.8.3
@@ -191,5 +197,5 @@ dependencies:
 - name: wafv2-chart
   repository: oci://public.ecr.aws/aws-controllers-k8s
   version: 1.4.3
-digest: sha256:18f4a8d3aa208153ef4530b7d17b23ede75af3a7c6e7824f500b644be6e843fd
-generated: "2026-07-13T19:15:20.962510897Z"
+digest: sha256:efeaa7f17c7c384df2c5459e76b2d46f3243699b2e5f5391792c6dca3ff20da8
+generated: "2026-07-13T22:52:30.254088305Z"
