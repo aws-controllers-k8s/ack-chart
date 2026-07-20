@@ -196,6 +196,6 @@ dependencies:
   version: 1.4.4
 - name: wafv2-chart
   repository: oci://public.ecr.aws/aws-controllers-k8s
-  version: 1.4.3
-digest: sha256:964b6182229df23725eeecef74e4fe5fe9e7e5ff5296c0d31f5014db3ab56c9c
-generated: "2026-07-20T22:23:30.406398703Z"
+  version: 1.4.4
+digest: sha256:5604d084b7147de37c40e1b5d3f98496d9359b3197a71cd80847da7c5ced376e
+generated: "2026-07-20T23:19:19.952867231Z"
