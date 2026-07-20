@@ -34,7 +34,7 @@ dependencies:
   version: 1.11.0
 - name: cloudfront-chart
   repository: oci://public.ecr.aws/aws-controllers-k8s
-  version: 1.5.2
+  version: 1.6.0
 - name: cloudtrail-chart
   repository: oci://public.ecr.aws/aws-controllers-k8s
   version: 1.3.2
@@ -197,5 +197,5 @@ dependencies:
 - name: wafv2-chart
   repository: oci://public.ecr.aws/aws-controllers-k8s
   version: 1.4.3
-digest: sha256:ee1dac47f71b4a89010c07023ddbbdc78ba3ceae948565fdc622a992706a2427
-generated: "2026-07-20T19:52:56.616780703Z"
+digest: sha256:964b6182229df23725eeecef74e4fe5fe9e7e5ff5296c0d31f5014db3ab56c9c
+generated: "2026-07-20T22:23:30.406398703Z"
