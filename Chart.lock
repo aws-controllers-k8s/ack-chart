@@ -76,7 +76,7 @@ dependencies:
   version: 1.4.1
 - name: eks-chart
   repository: oci://public.ecr.aws/aws-controllers-k8s
-  version: 1.16.2
+  version: 1.16.3
 - name: elasticache-chart
   repository: oci://public.ecr.aws/aws-controllers-k8s
   version: 1.5.2
@@ -197,5 +197,5 @@ dependencies:
 - name: wafv2-chart
   repository: oci://public.ecr.aws/aws-controllers-k8s
   version: 1.4.4
-digest: sha256:5604d084b7147de37c40e1b5d3f98496d9359b3197a71cd80847da7c5ced376e
-generated: "2026-07-20T23:19:19.952867231Z"
+digest: sha256:b8fef5d17a3996f0e2d2bf28c1c4ec534ced4ab7f7120296f1ccef25d03818d9
+generated: "2026-07-21T23:18:49.80550115Z"
