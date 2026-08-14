@@ -52,7 +52,7 @@ dependencies:
   version: 1.4.1
 - name: documentdb-chart
   repository: oci://public.ecr.aws/aws-controllers-k8s
-  version: 1.5.1
+  version: 1.6.0
 - name: dsql-chart
   repository: oci://public.ecr.aws/aws-controllers-k8s
   version: 1.1.1
@@ -197,5 +197,5 @@ dependencies:
 - name: wafv2-chart
   repository: oci://public.ecr.aws/aws-controllers-k8s
   version: 1.5.1
-digest: sha256:6b6940a89e39c020086f3ebab938e2ce97bbe72bf69f4465417708ef7cf8770f
-generated: "2026-08-14T22:09:22.043999793Z"
+digest: sha256:727b2a8a9a3994d8799f4b2807e5d26f20d03f8cd8b5380c0583aece0e6e5523
+generated: "2026-08-14T22:14:24.552960139Z"
