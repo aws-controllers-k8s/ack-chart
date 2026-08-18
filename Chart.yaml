@@ -2,7 +2,7 @@ apiVersion: v2
 name: ack-chart
 description: A Helm chart containing all ACK charts as sub-charts
 type: application
-version: 46.155.0
+version: 46.156.0
 appVersion: "0.0.0"
 dependencies:
   - name: acm-chart
@@ -57,7 +57,7 @@ dependencies:
     condition: bedrockagent.enabled
   - name: bedrockagentcorecontrol-chart
     alias: bedrockagentcorecontrol
-    version: 1.13.0
+    version: 1.14.0
     repository: oci://public.ecr.aws/aws-controllers-k8s
     condition: bedrockagentcorecontrol.enabled
   - name: cloudfront-chart

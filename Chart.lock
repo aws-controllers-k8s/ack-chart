@@ -31,7 +31,7 @@ dependencies:
   version: 1.3.1
 - name: bedrockagentcorecontrol-chart
   repository: oci://public.ecr.aws/aws-controllers-k8s
-  version: 1.13.0
+  version: 1.14.0
 - name: cloudfront-chart
   repository: oci://public.ecr.aws/aws-controllers-k8s
   version: 1.7.1
@@ -197,5 +197,5 @@ dependencies:
 - name: wafv2-chart
   repository: oci://public.ecr.aws/aws-controllers-k8s
   version: 1.5.1
-digest: sha256:3027167936e46faf5727cba3a1de939bb16d67485908006e9a5c80f16f4d54dc
-generated: "2026-08-17T23:32:52.50923684Z"
+digest: sha256:f5a936e8b8f344bd42339cfb83e9ddda1d2425ad085bd5c4ae9283233e598681
+generated: "2026-08-18T23:21:40.902490476Z"
