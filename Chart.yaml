@@ -2,7 +2,7 @@ apiVersion: v2
 name: ack-chart
 description: A Helm chart containing all ACK charts as sub-charts
 type: application
-version: 46.159.0
+version: 46.159.1
 appVersion: "0.0.0"
 dependencies:
   - name: acm-chart
@@ -72,7 +72,7 @@ dependencies:
     condition: cloudtrail.enabled
   - name: cloudwatch-chart
     alias: cloudwatch
-    version: 1.8.1
+    version: 1.8.2
     repository: oci://public.ecr.aws/aws-controllers-k8s
     condition: cloudwatch.enabled
   - name: cloudwatchlogs-chart
