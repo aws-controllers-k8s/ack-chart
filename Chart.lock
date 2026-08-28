@@ -7,7 +7,7 @@ dependencies:
   version: 1.5.0
 - name: apigateway-chart
   repository: oci://public.ecr.aws/aws-controllers-k8s
-  version: 1.8.1
+  version: 1.9.0
 - name: apigatewayv2-chart
   repository: oci://public.ecr.aws/aws-controllers-k8s
   version: 1.5.0
@@ -34,7 +34,7 @@ dependencies:
   version: 1.15.0
 - name: cloudfront-chart
   repository: oci://public.ecr.aws/aws-controllers-k8s
-  version: 1.7.1
+  version: 1.8.0
 - name: cloudtrail-chart
   repository: oci://public.ecr.aws/aws-controllers-k8s
   version: 1.7.0
@@ -139,7 +139,7 @@ dependencies:
   version: 1.6.0
 - name: prometheusservice-chart
   repository: oci://public.ecr.aws/aws-controllers-k8s
-  version: 1.6.1
+  version: 1.7.0
 - name: quicksight-chart
   repository: oci://public.ecr.aws/aws-controllers-k8s
   version: 1.1.1
@@ -197,5 +197,5 @@ dependencies:
 - name: wafv2-chart
   repository: oci://public.ecr.aws/aws-controllers-k8s
   version: 1.6.0
-digest: sha256:99f5535dcdfe07c3de6c18f7762fa64481f76908894e8f9c8c2b54a651aa394d
-generated: "2026-08-28T20:22:45.611626784Z"
+digest: sha256:e0e9d8d673e77a7cbc1ed52bccda0fdbf04467793305c848bd25ac3bdc3ccba0
+generated: "2026-08-28T20:44:45.57028639Z"
