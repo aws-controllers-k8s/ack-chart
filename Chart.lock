@@ -121,7 +121,7 @@ dependencies:
   version: 1.6.0
 - name: mwaa-chart
   repository: oci://public.ecr.aws/aws-controllers-k8s
-  version: 1.1.1
+  version: 1.2.0
 - name: networkfirewall-chart
   repository: oci://public.ecr.aws/aws-controllers-k8s
   version: 1.5.0
@@ -148,7 +148,7 @@ dependencies:
   version: 1.5.0
 - name: rds-chart
   repository: oci://public.ecr.aws/aws-controllers-k8s
-  version: 1.11.1
+  version: 1.12.0
 - name: recyclebin-chart
   repository: oci://public.ecr.aws/aws-controllers-k8s
   version: 1.5.0
@@ -197,5 +197,5 @@ dependencies:
 - name: wafv2-chart
   repository: oci://public.ecr.aws/aws-controllers-k8s
   version: 1.6.0
-digest: sha256:f2714e2aef780969032d768ff6552126a453aadaf5e64a127853cef543f2daa4
-generated: "2026-08-28T21:05:29.407722248Z"
+digest: sha256:22098159386847d8bdea306d05fc8198fe1bcfe14c754a71ba22bde66460eaec
+generated: "2026-08-28T21:33:21.503800817Z"
