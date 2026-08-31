@@ -43,7 +43,7 @@ dependencies:
   version: 1.9.0
 - name: cloudwatchlogs-chart
   repository: oci://public.ecr.aws/aws-controllers-k8s
-  version: 1.5.0
+  version: 1.6.0
 - name: codeartifact-chart
   repository: oci://public.ecr.aws/aws-controllers-k8s
   version: 1.7.0
@@ -197,5 +197,5 @@ dependencies:
 - name: wafv2-chart
   repository: oci://public.ecr.aws/aws-controllers-k8s
   version: 1.6.0
-digest: sha256:2621b28153e1dd98ff2d177dc850e5d02732b1b44a05038a1b3af06cde1bf995
-generated: "2026-08-28T22:48:26.39500109Z"
+digest: sha256:e523444f738b4fb48059cf62bc84150a66e8bff50ae023983c5da4b377bb2e80
+generated: "2026-08-31T22:55:48.349949954Z"
