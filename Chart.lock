@@ -28,7 +28,7 @@ dependencies:
   version: 1.4.0
 - name: bedrockagent-chart
   repository: oci://public.ecr.aws/aws-controllers-k8s
-  version: 1.4.0
+  version: 1.4.1
 - name: bedrockagentcorecontrol-chart
   repository: oci://public.ecr.aws/aws-controllers-k8s
   version: 1.15.0
@@ -76,7 +76,7 @@ dependencies:
   version: 1.6.0
 - name: eks-chart
   repository: oci://public.ecr.aws/aws-controllers-k8s
-  version: 1.22.0
+  version: 1.23.0
 - name: elasticache-chart
   repository: oci://public.ecr.aws/aws-controllers-k8s
   version: 1.9.0
@@ -94,7 +94,7 @@ dependencies:
   version: 1.7.0
 - name: glue-chart
   repository: oci://public.ecr.aws/aws-controllers-k8s
-  version: 1.2.0
+  version: 1.2.1
 - name: iam-chart
   repository: oci://public.ecr.aws/aws-controllers-k8s
   version: 1.9.0
@@ -187,7 +187,7 @@ dependencies:
   version: 1.6.0
 - name: sns-chart
   repository: oci://public.ecr.aws/aws-controllers-k8s
-  version: 1.10.0
+  version: 1.10.1
 - name: sqs-chart
   repository: oci://public.ecr.aws/aws-controllers-k8s
   version: 1.7.0
@@ -197,5 +197,5 @@ dependencies:
 - name: wafv2-chart
   repository: oci://public.ecr.aws/aws-controllers-k8s
   version: 1.6.0
-digest: sha256:1e6e772880d8bc4cb13240b28c2b759515c5ad6323f356e40a0adc2bcc75bdda
-generated: "2026-09-09T20:20:34.264721302Z"
+digest: sha256:2977963dcdc3f3e7b30f280f48bbd064ba827a18063408b2e7743f2a4e4dcae8
+generated: "2026-09-09T21:15:32.141180917Z"
