@@ -58,7 +58,7 @@ dependencies:
   version: 1.2.0
 - name: dynamodb-chart
   repository: oci://public.ecr.aws/aws-controllers-k8s
-  version: 1.12.0
+  version: 1.12.1
 - name: ec2-chart
   repository: oci://public.ecr.aws/aws-controllers-k8s
   version: 1.21.0
@@ -197,5 +197,5 @@ dependencies:
 - name: wafv2-chart
   repository: oci://public.ecr.aws/aws-controllers-k8s
   version: 1.6.0
-digest: sha256:96c130a8c6076c6ad9adc7e613b8f66af80787e8423eba5cd1ce7a5f341f07a9
-generated: "2026-09-11T22:11:14.263803162Z"
+digest: sha256:0c3dfee04a5b048dcc90de176b05353b5d106ade6aea2e2d86995e2887ac895c
+generated: "2026-09-12T01:09:47.480795739Z"
