@@ -16,7 +16,7 @@ dependencies:
   version: 1.7.0
 - name: athena-chart
   repository: oci://public.ecr.aws/aws-controllers-k8s
-  version: 1.8.0
+  version: 1.8.1
 - name: autoscaling-chart
   repository: oci://public.ecr.aws/aws-controllers-k8s
   version: 1.3.1
@@ -61,7 +61,7 @@ dependencies:
   version: 1.12.1
 - name: ec2-chart
   repository: oci://public.ecr.aws/aws-controllers-k8s
-  version: 1.21.0
+  version: 1.21.1
 - name: ecr-chart
   repository: oci://public.ecr.aws/aws-controllers-k8s
   version: 1.9.0
@@ -91,7 +91,7 @@ dependencies:
   version: 1.2.0
 - name: eventbridge-chart
   repository: oci://public.ecr.aws/aws-controllers-k8s
-  version: 1.7.0
+  version: 1.7.1
 - name: glue-chart
   repository: oci://public.ecr.aws/aws-controllers-k8s
   version: 1.2.1
@@ -197,5 +197,5 @@ dependencies:
 - name: wafv2-chart
   repository: oci://public.ecr.aws/aws-controllers-k8s
   version: 1.6.1
-digest: sha256:f3fe400dd0efe8c27da26e0d60bb8cdb6f1a9c11aa45d5643673d8cb92872cf9
-generated: "2026-09-14T20:18:40.499673943Z"
+digest: sha256:e1d91355c584c7b30e92d3467d23a5baef2d145d49942e5f66d9ee39807193e1
+generated: "2026-09-14T20:27:20.686508342Z"
