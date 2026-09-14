@@ -19,7 +19,7 @@ dependencies:
   version: 1.8.0
 - name: autoscaling-chart
   repository: oci://public.ecr.aws/aws-controllers-k8s
-  version: 1.3.0
+  version: 1.3.1
 - name: backup-chart
   repository: oci://public.ecr.aws/aws-controllers-k8s
   version: 1.2.0
@@ -40,7 +40,7 @@ dependencies:
   version: 1.7.0
 - name: cloudwatch-chart
   repository: oci://public.ecr.aws/aws-controllers-k8s
-  version: 1.9.0
+  version: 1.9.1
 - name: cloudwatchlogs-chart
   repository: oci://public.ecr.aws/aws-controllers-k8s
   version: 1.6.1
@@ -196,6 +196,6 @@ dependencies:
   version: 1.6.0
 - name: wafv2-chart
   repository: oci://public.ecr.aws/aws-controllers-k8s
-  version: 1.6.0
-digest: sha256:0c3dfee04a5b048dcc90de176b05353b5d106ade6aea2e2d86995e2887ac895c
-generated: "2026-09-12T01:09:47.480795739Z"
+  version: 1.6.1
+digest: sha256:f3fe400dd0efe8c27da26e0d60bb8cdb6f1a9c11aa45d5643673d8cb92872cf9
+generated: "2026-09-14T20:18:40.499673943Z"
