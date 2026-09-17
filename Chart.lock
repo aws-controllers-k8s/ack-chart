@@ -127,7 +127,7 @@ dependencies:
   version: 1.5.0
 - name: opensearchserverless-chart
   repository: oci://public.ecr.aws/aws-controllers-k8s
-  version: 1.2.0
+  version: 1.3.0
 - name: opensearchservice-chart
   repository: oci://public.ecr.aws/aws-controllers-k8s
   version: 1.6.1
@@ -197,5 +197,5 @@ dependencies:
 - name: wafv2-chart
   repository: oci://public.ecr.aws/aws-controllers-k8s
   version: 1.6.1
-digest: sha256:ddb3dc6e094d25bf1fc2562d295510931d1131e7d5bf5eb9bcc12c50215ee09c
-generated: "2026-09-17T16:38:50.419214241Z"
+digest: sha256:d9879a467964382920017aa0d2ff4de4de4e1b8fd481de1f7a32b1e74dab95f7
+generated: "2026-09-17T21:59:03.067011129Z"
