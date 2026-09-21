@@ -115,7 +115,7 @@ dependencies:
   version: 1.17.3
 - name: memorydb-chart
   repository: oci://public.ecr.aws/aws-controllers-k8s
-  version: 1.7.0
+  version: 1.7.1
 - name: mq-chart
   repository: oci://public.ecr.aws/aws-controllers-k8s
   version: 1.6.1
@@ -148,7 +148,7 @@ dependencies:
   version: 1.5.2
 - name: rds-chart
   repository: oci://public.ecr.aws/aws-controllers-k8s
-  version: 1.12.0
+  version: 1.12.1
 - name: recyclebin-chart
   repository: oci://public.ecr.aws/aws-controllers-k8s
   version: 1.5.1
@@ -197,5 +197,5 @@ dependencies:
 - name: wafv2-chart
   repository: oci://public.ecr.aws/aws-controllers-k8s
   version: 1.6.2
-digest: sha256:fdc44b692a3daff6cedd1655bb77a7a8e420f0f70aa6b9166a024fbfa52c67fa
-generated: "2026-09-18T16:36:13.342650382Z"
+digest: sha256:b7797655ffb42556214c7c526f84cd45663f6fc99495e2fda0bbc7a6d2843efd
+generated: "2026-09-21T19:36:21.173303342Z"
