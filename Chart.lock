@@ -130,7 +130,7 @@ dependencies:
   version: 1.4.0
 - name: opensearchservice-chart
   repository: oci://public.ecr.aws/aws-controllers-k8s
-  version: 1.6.2
+  version: 1.7.0
 - name: organizations-chart
   repository: oci://public.ecr.aws/aws-controllers-k8s
   version: 1.5.1
@@ -197,5 +197,5 @@ dependencies:
 - name: wafv2-chart
   repository: oci://public.ecr.aws/aws-controllers-k8s
   version: 1.6.3
-digest: sha256:a897874ef45ae7b37b741be4c664d276e18f0bff9d59c71f5dc7e842ad9202e9
-generated: "2026-09-23T19:11:20.163703712Z"
+digest: sha256:0eac2b9095b45912526f19987386a86d471fe6757bc81f51cb6f671917147677
+generated: "2026-09-25T16:51:06.558957278Z"
