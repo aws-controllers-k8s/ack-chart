@@ -109,7 +109,7 @@ dependencies:
   version: 1.5.1
 - name: kms-chart
   repository: oci://public.ecr.aws/aws-controllers-k8s
-  version: 1.5.1
+  version: 1.5.2
 - name: lambda-chart
   repository: oci://public.ecr.aws/aws-controllers-k8s
   version: 1.17.3
@@ -197,5 +197,5 @@ dependencies:
 - name: wafv2-chart
   repository: oci://public.ecr.aws/aws-controllers-k8s
   version: 1.6.3
-digest: sha256:1a1e45f6bc2d8d5bd80fdff5aa39f93dbae6dd161e6537ecf7cd6594806cbc81
-generated: "2026-10-06T21:27:42.481004949Z"
+digest: sha256:9d00e349e4b3c76d628870f9b01471b76a4ce00b3e518e3f1fafbca3a3de24bb
+generated: "2026-10-06T21:55:38.307080739Z"
