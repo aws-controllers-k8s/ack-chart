@@ -121,7 +121,7 @@ dependencies:
   version: 1.7.0
 - name: mwaa-chart
   repository: oci://public.ecr.aws/aws-controllers-k8s
-  version: 1.2.1
+  version: 1.3.0
 - name: networkfirewall-chart
   repository: oci://public.ecr.aws/aws-controllers-k8s
   version: 1.6.0
@@ -197,5 +197,5 @@ dependencies:
 - name: wafv2-chart
   repository: oci://public.ecr.aws/aws-controllers-k8s
   version: 1.7.0
-digest: sha256:b95f2b2b48e5b44f4a09c8b06f332cd270fd1bd7ee8245881c1571056debe3c6
-generated: "2026-10-09T00:55:47.923129957Z"
+digest: sha256:a672781838e5f6cce331f1309ec68e1ffa534bb9cf1951a220c6132a9fa71c03
+generated: "2026-10-09T02:10:21.457601731Z"
