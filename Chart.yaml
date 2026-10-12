@@ -2,7 +2,7 @@ apiVersion: v2
 name: ack-chart
 description: A Helm chart containing all ACK charts as sub-charts
 type: application
-version: 46.192.0
+version: 46.192.1
 appVersion: "0.0.0"
 dependencies:
   - name: acm-chart
@@ -17,12 +17,12 @@ dependencies:
     condition: acmpca.enabled
   - name: apigateway-chart
     alias: apigateway
-    version: 1.10.0
+    version: 1.10.1
     repository: oci://public.ecr.aws/aws-controllers-k8s
     condition: apigateway.enabled
   - name: apigatewayv2-chart
     alias: apigatewayv2
-    version: 1.7.0
+    version: 1.7.1
     repository: oci://public.ecr.aws/aws-controllers-k8s
     condition: apigatewayv2.enabled
   - name: applicationautoscaling-chart
@@ -92,7 +92,7 @@ dependencies:
     condition: cognitoidentityprovider.enabled
   - name: documentdb-chart
     alias: documentdb
-    version: 1.8.0
+    version: 1.8.1
     repository: oci://public.ecr.aws/aws-controllers-k8s
     condition: documentdb.enabled
   - name: dsql-chart
@@ -122,7 +122,7 @@ dependencies:
     condition: ecrpublic.enabled
   - name: ecs-chart
     alias: ecs
-    version: 1.8.0
+    version: 1.8.1
     repository: oci://public.ecr.aws/aws-controllers-k8s
     condition: ecs.enabled
   - name: efs-chart
@@ -137,7 +137,7 @@ dependencies:
     condition: eks.enabled
   - name: elasticache-chart
     alias: elasticache
-    version: 1.10.0
+    version: 1.10.1
     repository: oci://public.ecr.aws/aws-controllers-k8s
     condition: elasticache.enabled
   - name: elbv2-chart
@@ -192,7 +192,7 @@ dependencies:
     condition: kms.enabled
   - name: lambda-chart
     alias: lambda
-    version: 1.18.0
+    version: 1.18.1
     repository: oci://public.ecr.aws/aws-controllers-k8s
     condition: lambda.enabled
   - name: memorydb-chart
@@ -227,7 +227,7 @@ dependencies:
     condition: opensearchservice.enabled
   - name: organizations-chart
     alias: organizations
-    version: 1.6.0
+    version: 1.6.1
     repository: oci://public.ecr.aws/aws-controllers-k8s
     condition: organizations.enabled
   - name: pipes-chart
@@ -237,12 +237,12 @@ dependencies:
     condition: pipes.enabled
   - name: prometheusservice-chart
     alias: prometheusservice
-    version: 1.8.0
+    version: 1.8.1
     repository: oci://public.ecr.aws/aws-controllers-k8s
     condition: prometheusservice.enabled
   - name: quicksight-chart
     alias: quicksight
-    version: 1.2.0
+    version: 1.2.1
     repository: oci://public.ecr.aws/aws-controllers-k8s
     condition: quicksight.enabled
   - name: ram-chart
@@ -257,7 +257,7 @@ dependencies:
     condition: rds.enabled
   - name: recyclebin-chart
     alias: recyclebin
-    version: 1.6.0
+    version: 1.6.1
     repository: oci://public.ecr.aws/aws-controllers-k8s
     condition: recyclebin.enabled
   - name: route53-chart
@@ -312,7 +312,7 @@ dependencies:
     condition: ses.enabled
   - name: sfn-chart
     alias: sfn
-    version: 1.8.0
+    version: 1.8.1
     repository: oci://public.ecr.aws/aws-controllers-k8s
     condition: sfn.enabled
   - name: sns-chart
@@ -322,7 +322,7 @@ dependencies:
     condition: sns.enabled
   - name: sqs-chart
     alias: sqs
-    version: 1.8.0
+    version: 1.8.1
     repository: oci://public.ecr.aws/aws-controllers-k8s
     condition: sqs.enabled
   - name: ssm-chart
