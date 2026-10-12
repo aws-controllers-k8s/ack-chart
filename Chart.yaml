@@ -2,7 +2,7 @@ apiVersion: v2
 name: ack-chart
 description: A Helm chart containing all ACK charts as sub-charts
 type: application
-version: 46.192.7
+version: 46.192.8
 appVersion: "0.0.0"
 dependencies:
   - name: acm-chart
@@ -27,7 +27,7 @@ dependencies:
     condition: apigatewayv2.enabled
   - name: applicationautoscaling-chart
     alias: applicationautoscaling
-    version: 1.8.0
+    version: 1.8.1
     repository: oci://public.ecr.aws/aws-controllers-k8s
     condition: applicationautoscaling.enabled
   - name: athena-chart
@@ -127,7 +127,7 @@ dependencies:
     condition: ecs.enabled
   - name: efs-chart
     alias: efs
-    version: 1.7.0
+    version: 1.7.1
     repository: oci://public.ecr.aws/aws-controllers-k8s
     condition: efs.enabled
   - name: eks-chart
@@ -142,7 +142,7 @@ dependencies:
     condition: elasticache.enabled
   - name: elbv2-chart
     alias: elbv2
-    version: 1.8.0
+    version: 1.8.1
     repository: oci://public.ecr.aws/aws-controllers-k8s
     condition: elbv2.enabled
   - name: emrcontainers-chart
@@ -252,7 +252,7 @@ dependencies:
     condition: ram.enabled
   - name: rds-chart
     alias: rds
-    version: 1.13.0
+    version: 1.13.1
     repository: oci://public.ecr.aws/aws-controllers-k8s
     condition: rds.enabled
   - name: recyclebin-chart
@@ -327,7 +327,7 @@ dependencies:
     condition: sqs.enabled
   - name: ssm-chart
     alias: ssm
-    version: 1.7.0
+    version: 1.7.1
     repository: oci://public.ecr.aws/aws-controllers-k8s
     condition: ssm.enabled
   - name: wafv2-chart
