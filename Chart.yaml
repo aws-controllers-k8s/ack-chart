@@ -2,12 +2,12 @@ apiVersion: v2
 name: ack-chart
 description: A Helm chart containing all ACK charts as sub-charts
 type: application
-version: 46.197.0
+version: 46.198.0
 appVersion: "0.0.0"
 dependencies:
   - name: acm-chart
     alias: acm
-    version: 1.10.2
+    version: 1.11.0
     repository: oci://public.ecr.aws/aws-controllers-k8s
     condition: acm.enabled
   - name: acmpca-chart
@@ -27,7 +27,7 @@ dependencies:
     condition: apigatewayv2.enabled
   - name: applicationautoscaling-chart
     alias: applicationautoscaling
-    version: 1.8.2
+    version: 1.9.0
     repository: oci://public.ecr.aws/aws-controllers-k8s
     condition: applicationautoscaling.enabled
   - name: athena-chart
@@ -92,7 +92,7 @@ dependencies:
     condition: cognitoidentityprovider.enabled
   - name: documentdb-chart
     alias: documentdb
-    version: 1.8.2
+    version: 1.9.0
     repository: oci://public.ecr.aws/aws-controllers-k8s
     condition: documentdb.enabled
   - name: dsql-chart
@@ -137,7 +137,7 @@ dependencies:
     condition: eks.enabled
   - name: elasticache-chart
     alias: elasticache
-    version: 1.10.2
+    version: 1.11.0
     repository: oci://public.ecr.aws/aws-controllers-k8s
     condition: elasticache.enabled
   - name: elbv2-chart
@@ -147,7 +147,7 @@ dependencies:
     condition: elbv2.enabled
   - name: emrcontainers-chart
     alias: emrcontainers
-    version: 1.8.1
+    version: 1.9.0
     repository: oci://public.ecr.aws/aws-controllers-k8s
     condition: emrcontainers.enabled
   - name: emrserverless-chart
@@ -167,7 +167,7 @@ dependencies:
     condition: glue.enabled
   - name: iam-chart
     alias: iam
-    version: 1.10.1
+    version: 1.11.0
     repository: oci://public.ecr.aws/aws-controllers-k8s
     condition: iam.enabled
   - name: kafka-chart
@@ -177,7 +177,7 @@ dependencies:
     condition: kafka.enabled
   - name: keyspaces-chart
     alias: keyspaces
-    version: 1.7.1
+    version: 1.8.0
     repository: oci://public.ecr.aws/aws-controllers-k8s
     condition: keyspaces.enabled
   - name: kinesis-chart
@@ -187,7 +187,7 @@ dependencies:
     condition: kinesis.enabled
   - name: kms-chart
     alias: kms
-    version: 1.6.1
+    version: 1.7.0
     repository: oci://public.ecr.aws/aws-controllers-k8s
     condition: kms.enabled
   - name: lambda-chart
@@ -202,7 +202,7 @@ dependencies:
     condition: memorydb.enabled
   - name: mq-chart
     alias: mq
-    version: 1.7.1
+    version: 1.8.0
     repository: oci://public.ecr.aws/aws-controllers-k8s
     condition: mq.enabled
   - name: mwaa-chart
@@ -212,12 +212,12 @@ dependencies:
     condition: mwaa.enabled
   - name: networkfirewall-chart
     alias: networkfirewall
-    version: 1.6.1
+    version: 1.7.0
     repository: oci://public.ecr.aws/aws-controllers-k8s
     condition: networkfirewall.enabled
   - name: opensearchserverless-chart
     alias: opensearchserverless
-    version: 1.5.1
+    version: 1.6.0
     repository: oci://public.ecr.aws/aws-controllers-k8s
     condition: opensearchserverless.enabled
   - name: opensearchservice-chart
@@ -227,7 +227,7 @@ dependencies:
     condition: opensearchservice.enabled
   - name: organizations-chart
     alias: organizations
-    version: 1.6.2
+    version: 1.7.0
     repository: oci://public.ecr.aws/aws-controllers-k8s
     condition: organizations.enabled
   - name: pipes-chart
@@ -237,7 +237,7 @@ dependencies:
     condition: pipes.enabled
   - name: prometheusservice-chart
     alias: prometheusservice
-    version: 1.8.2
+    version: 1.9.0
     repository: oci://public.ecr.aws/aws-controllers-k8s
     condition: prometheusservice.enabled
   - name: quicksight-chart
@@ -302,12 +302,12 @@ dependencies:
     condition: sagemaker.enabled
   - name: secretsmanager-chart
     alias: secretsmanager
-    version: 1.7.1
+    version: 1.8.0
     repository: oci://public.ecr.aws/aws-controllers-k8s
     condition: secretsmanager.enabled
   - name: ses-chart
     alias: ses
-    version: 1.6.1
+    version: 1.7.0
     repository: oci://public.ecr.aws/aws-controllers-k8s
     condition: ses.enabled
   - name: sfn-chart
