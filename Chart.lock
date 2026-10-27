@@ -175,7 +175,7 @@ dependencies:
   version: 1.4.0
 - name: sagemaker-chart
   repository: oci://public.ecr.aws/aws-controllers-k8s
-  version: 1.11.1
+  version: 1.12.0
 - name: secretsmanager-chart
   repository: oci://public.ecr.aws/aws-controllers-k8s
   version: 1.8.0
@@ -197,5 +197,5 @@ dependencies:
 - name: wafv2-chart
   repository: oci://public.ecr.aws/aws-controllers-k8s
   version: 1.8.0
-digest: sha256:dca40ffccba130875d158277ec488225d265a553672da70e3b1a5cfe73e1d3fa
-generated: "2026-10-24T00:09:42.052930804Z"
+digest: sha256:8a0ba228f17f0388ebb592d637da17dcac9d3e1c97e7bd588e77357bb2d01d6d
+generated: "2026-10-27T00:02:06.10697804Z"
