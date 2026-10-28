@@ -94,7 +94,7 @@ dependencies:
   version: 1.9.0
 - name: glue-chart
   repository: oci://public.ecr.aws/aws-controllers-k8s
-  version: 1.5.0
+  version: 1.5.1
 - name: iam-chart
   repository: oci://public.ecr.aws/aws-controllers-k8s
   version: 1.11.0
@@ -163,7 +163,7 @@ dependencies:
   version: 1.15.0
 - name: s3control-chart
   repository: oci://public.ecr.aws/aws-controllers-k8s
-  version: 1.8.0
+  version: 1.9.0
 - name: s3files-chart
   repository: oci://public.ecr.aws/aws-controllers-k8s
   version: 1.4.0
@@ -197,5 +197,5 @@ dependencies:
 - name: wafv2-chart
   repository: oci://public.ecr.aws/aws-controllers-k8s
   version: 1.8.0
-digest: sha256:845351265075780f2ab8696a7b5a80f59105423d434b37d89aa55297dbe66ffe
-generated: "2026-10-28T17:04:07.251482883Z"
+digest: sha256:d498d612f00857df329ab9a66558af9e7971c1e8f964eaeb5f7658cd8db201c4
+generated: "2026-10-28T19:38:19.643014493Z"
