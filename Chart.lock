@@ -91,7 +91,7 @@ dependencies:
   version: 1.4.0
 - name: eventbridge-chart
   repository: oci://public.ecr.aws/aws-controllers-k8s
-  version: 1.9.0
+  version: 1.9.1
 - name: glue-chart
   repository: oci://public.ecr.aws/aws-controllers-k8s
   version: 1.5.1
@@ -197,5 +197,5 @@ dependencies:
 - name: wafv2-chart
   repository: oci://public.ecr.aws/aws-controllers-k8s
   version: 1.8.0
-digest: sha256:55794cc21bd40fef3d87275e93f4ffc2e3e40735cd0cecdef85e9aea89b92181
-generated: "2026-10-29T17:28:00.538645292Z"
+digest: sha256:65cdc9af3d813985e831b4b1cc209e5d63649ecf0364a2ebbf84b381ddb2b329
+generated: "2026-10-29T19:26:12.798272912Z"
