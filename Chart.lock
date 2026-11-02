@@ -85,7 +85,7 @@ dependencies:
   version: 1.9.0
 - name: emrcontainers-chart
   repository: oci://public.ecr.aws/aws-controllers-k8s
-  version: 1.9.0
+  version: 1.9.1
 - name: emrserverless-chart
   repository: oci://public.ecr.aws/aws-controllers-k8s
   version: 1.4.0
@@ -197,5 +197,5 @@ dependencies:
 - name: wafv2-chart
   repository: oci://public.ecr.aws/aws-controllers-k8s
   version: 1.8.0
-digest: sha256:2593981a36482f5e7d2bbc481b2c367b319d8dd9990cf9219c20d03151c89797
-generated: "2026-11-02T22:08:05.071206517Z"
+digest: sha256:eeaed9e966b609146ed32b5fd4be8e2c73497ddf8b6f3e8aa849ed7dac13cd95
+generated: "2026-11-02T22:22:30.566322334Z"
