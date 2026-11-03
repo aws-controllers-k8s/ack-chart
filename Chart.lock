@@ -148,7 +148,7 @@ dependencies:
   version: 1.7.0
 - name: rds-chart
   repository: oci://public.ecr.aws/aws-controllers-k8s
-  version: 1.14.1
+  version: 1.14.2
 - name: recyclebin-chart
   repository: oci://public.ecr.aws/aws-controllers-k8s
   version: 1.7.1
@@ -197,5 +197,5 @@ dependencies:
 - name: wafv2-chart
   repository: oci://public.ecr.aws/aws-controllers-k8s
   version: 1.8.0
-digest: sha256:2ab821e9ca94b72a85d7872d7633e6fcaf15a02415e4366f3ed2274ef9186b30
-generated: "2026-11-02T23:00:36.848904078Z"
+digest: sha256:53815498f3b6228d62ce1a0a57f0caaf8589bba62339e58b94a9a84ed214fb62
+generated: "2026-11-03T00:46:36.560041906Z"
