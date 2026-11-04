@@ -79,7 +79,7 @@ dependencies:
   version: 1.26.0
 - name: elasticache-chart
   repository: oci://public.ecr.aws/aws-controllers-k8s
-  version: 1.11.1
+  version: 1.12.0
 - name: elbv2-chart
   repository: oci://public.ecr.aws/aws-controllers-k8s
   version: 1.9.0
@@ -197,5 +197,5 @@ dependencies:
 - name: wafv2-chart
   repository: oci://public.ecr.aws/aws-controllers-k8s
   version: 1.8.1
-digest: sha256:ab2df5bbf9b51cf700cb943580a525606227e98d7f8a9eb46317ce03114022c6
-generated: "2026-11-03T22:27:25.567316515Z"
+digest: sha256:6545b95a4e5f8581651efe9b4597450047e71b87da2fb0fc8a22f0721226dcdf
+generated: "2026-11-04T00:25:48.608028099Z"
